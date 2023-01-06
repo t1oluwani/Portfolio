@@ -1,0 +1,116 @@
+/* Navbar container */
+nav {
+    background-color: black;
+    font-family: Arial;
+    margin-left: -8px;
+    position: fixed;
+    overflow: auto;
+    width: 100%; 
+    top: 0; 
+}
+
+/* Links inside the navbar */
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.links a:hover {
+    background-color: grey;
+}
+
+.links a{
+    padding: 25px 24px;
+    float: left;
+}
+
+.icons a{
+    padding: 25px 15px;
+    float: right;
+}
+
+
+/* Home */
+.homepage {
+    padding: 150px 0 400px 100px;
+    background-color: lightblue;
+}
+
+.name {
+    color: #333; 
+    font-family: Arial;
+    font-size: 50px;
+}
+
+.shortdesc {
+    color: #333;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.minibio {
+    color: #333;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.homepage button {
+    color: #333;
+    background-color: lightgray;
+    font-family: Arial;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+
+
+
+/* About */
+
+.aboutpage {
+    padding: 0 0 400px 0;
+}
+
+.aboutpage img {
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+}
+
+/* Skills */
+
+.skillspage {
+    padding: 0 0 400px 0;
+}
+
+.skillspage img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+/* Projects */
+
+.projectpage {
+    padding: 0 0 400px 0;
+}
+
+/* Contact */
+
+.contactpage {
+    padding: 0 0 400px 0;
+}
+
+.contactpage img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
