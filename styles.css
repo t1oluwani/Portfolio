@@ -1,67 +1,100 @@
-/* Navbar container */
-nav {
-    background-color: black;
-    font-family: Arial;
-    margin-left: -8px;
-    position: fixed;
-    overflow: auto;
-    width: 100%; 
-    top: 0; 
+/* Variables */
+:root {
+    --night-bg-color: #030839;
+    --night-txt-color: lightblue;
+    --day-bg-color: tan;
+    --day-txt-color: black;
 }
 
-/* Links inside the navbar */
-nav a {
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
+
+
+
+/* Whole Page */
+html {
+    background-color: var(--night-bg-color);
+    color: var(--night-txt-color);
 }
 
-.links a:hover {
-    background-color: grey;
+
+
+
+/* Hamburger Menu drop-down */
+.hamburger_menu {
+    display: inline-block;
+    cursor: pointer;
 }
 
-.links a{
-    padding: 25px 24px;
-    float: left;
+.topbar {
+    top: 20px;
+    right: 25px;
 }
 
-.icons a{
-    padding: 25px 15px;
-    float: right;
+.midbar {
+    top: 30px;
+    right: 25px;
 }
+
+.botbar {
+    top: 40px;
+    right: 25px;
+}
+  
+.topbar, .midbar, .botbar {
+    width: 35px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--night-txt-color);
+    margin: 5px 0;
+    transition: 0.4s;
+    position: absolute;
+}
+  
+  /* Rotate first bar */
+  .turn .topbar {
+    transform: translate(0, 10px) rotate(45deg);
+}
+  
+  /* Fade out the second bar */
+  .turn .midbar {
+    opacity: 0;
+}
+  
+  /* Rotate last bar */
+  .turn .botbar {
+    transform: translate(0, -10px) rotate(-45deg);
+}
+
 
 
 /* Home */
 .homepage {
-    padding: 150px 0 400px 100px;
-    background-color: lightblue;
+    padding: 150px 0 450px 250px;
 }
 
 .name {
-    color: #333; 
     font-family: Arial;
     font-size: 50px;
 }
 
 .shortdesc {
-    color: #333;
     font-family: Arial;
     font-size: 25px;
 }
 
 .minibio {
-    color: #333;
     font-family: Arial;
     font-size: 15px;
     padding: 10px 0;
 }
 
 .homepage button {
-    color: #333;
-    background-color: lightgray;
+    color: var(--night-txt-color);
+    border-radius: 10px;
+    background-color: var(--night-bg-color);
     font-family: Arial;
     padding: 10px 30px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -79,6 +112,14 @@ nav a {
     padding: 10px;
 }
 
+.icons a{
+    padding: 25px 15px;
+    float: right;
+}
+
+
+
+
 /* Skills */
 
 .skillspage {
@@ -91,13 +132,27 @@ nav a {
     padding: 10px;
 }
 
+
+
+
 /* Projects */
 
 .projectpage {
     padding: 0 0 400px 0;
 }
 
-/* Contact */
+
+
+
+/* Experiences */
+
+.experiencepage {
+    padding: 0 0 400px 0;
+}
+
+
+
+/* Contact Me */
 
 .contactpage {
     padding: 0 0 400px 0;
@@ -108,6 +163,9 @@ nav a {
     width: 50px;
     padding: 10px;
 }
+
+
+
 
 /* Footer */
 
