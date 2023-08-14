@@ -9,12 +9,24 @@
 
 
 
-/* Whole Page */
+/* Main Styling */
 html {
     background-color: var(--night-bg-color);
     color: var(--night-txt-color);
 }
 
+.sectionHead {
+    padding: 0px 200px;
+}
+
+.opener {
+    font-size: 20px;
+}
+
+.headliner {
+    font-size: 40px;
+    margin: 10px 75px 50px;
+}
 
 
 
@@ -44,7 +56,7 @@ html {
     height: 5px;
     border-radius: 5px;
     background-color: var(--night-txt-color);
-    margin: 5px 0;
+    margin: 5px 0px;
     transition: 0.4s;
     position: absolute;
 }
@@ -107,14 +119,37 @@ html {
 }
 
 .aboutpage img {
+    float: left;
     width: 400px;
     height: 600px;
-    padding: 10px;
+    padding: 10px 175px;
 }
 
-.icons a{
-    padding: 25px 15px;
-    float: right;
+.aboutinfo {
+    padding: 10px 150px;
+}
+
+.aboutinfo p {
+    font-size: 20px;
+}
+
+.icons {
+    font-size: 25px;
+    padding: 0 0 0px 750px;
+}
+
+.resume {
+    padding: 5px 15px;
+    margin: 0 0 0 225px;
+    color: var(--night-bg-color);
+    background-color: var(--night-txt-color);
+    border-radius: 15px;
+
+}
+
+.aboutpage li {
+    display: inline-block;
+    padding: 20px 15px;
 }
 
 
@@ -123,13 +158,22 @@ html {
 /* Skills */
 
 .skillspage {
-    padding: 0 0 400px 0;
+    padding: 100px 0 400px 0;
 }
 
 .skillspage img {
     height: 50px;
     width: 50px;
     padding: 10px;
+}
+
+.skillspage ul {
+    margin: 100px;
+}
+
+.skillspage li {
+    display: inline-block;
+    padding: 15px 40px;
 }
 
 
@@ -139,6 +183,11 @@ html {
 
 .projectpage {
     padding: 0 0 400px 0;
+}
+
+.projectpage li {
+    display: inline-block;
+    padding: 25px;
 }
 
 
