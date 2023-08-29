@@ -7,7 +7,7 @@
 - implement css and style page
 - implement owl carousel
 - have see all option that displays all
-- make full (implement web framework)
+- make full stack (implement web framework)
 
 
 ## Features
@@ -16,10 +16,8 @@
 - Layout: home -> about me -> skills (featured, see all) -> projects (owl carousel) -> experience (vertical timeline) -> contact me
 - socials icon under about me section
 - three line menu brings page down that has [Home, About, Skills, Projects, Experience, and Contact me]
-- projects: view live nad git repo
-
-
-
+- projects: view live and git repo
+ 
 
 ## How to Install
 ...
