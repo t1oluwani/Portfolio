@@ -12,11 +12,12 @@
 
 ## Features
 - night(dark blue, light blue) and day (beige and black)
-- name does the wakanda to english glithc translation thingy
+- name does the wakanda to english glitchy translation thingy
 - Layout: home -> about me -> skills (featured, see all) -> projects (owl carousel) -> experience (vertical timeline) -> contact me
 - socials icon under about me section
 - three line menu brings page down that has [Home, About, Skills, Projects, Experience, and Contact me]
 - projects: view live and git repo
+- 
  
 
 ## How to Install
