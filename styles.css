@@ -6,9 +6,6 @@
     --day-txt-color: black;
 }
 
-
-
-
 /* Main Styling */
 html {
     background-color: var(--night-bg-color);
@@ -75,6 +72,9 @@ html {
   .turn .botbar {
     transform: translate(0, -10px) rotate(-45deg);
 }
+
+/* Sass */
+/* .collapse ul{height: 100vh;}  */
 
 
 
