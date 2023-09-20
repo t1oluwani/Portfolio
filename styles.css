@@ -7,7 +7,7 @@
 }
 
 /* Main Styling */
-html {
+.Portfolio, html {
     background-color: var(--night-bg-color);
     color: var(--night-txt-color);
 }
