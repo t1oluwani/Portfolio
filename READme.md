@@ -1,0 +1,31 @@
+## Personal Portfolio
+
+**Proposal:** ....
+
+## Current Tasks
+- complete skeleton part (html)
+- implement css and style page
+- implement owl carousel
+- have see all option that displays all
+- make full stack (implement web framework)
+
+
+## Features
+- night(dark blue, light blue) and day (beige and black)
+- name does the wakanda to english glitchy translation thingy
+- Layout: home -> about me -> skills (featured, see all) -> projects (owl carousel) -> experience (vertical timeline) -> contact me
+- socials icon under about me section
+- three line menu brings page down that has [Home, About, Skills, Projects, Experience, and Contact me]
+- projects: view live and git repo
+- 
+ 
+
+## How to Install
+...
+
+## How to Use
+...
+
+## Citations
+- Owl Carousel:
+- Hamburger menu turning into x
