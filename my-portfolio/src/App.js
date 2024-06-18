@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import myCalendly from './assets/contact/Calendly.png';
+import myEmail from './assets/contact/Email.png';
+import myPicture from './assets/picsofme/option1.png';
+import myResume from './assets/resume/Tioluwani\'s Resume.pdf';
+import HTML from './assets/skills/HTML.png';
+import CSS from './assets/skills/CSS.png';  
+import JavaScript from './assets/skills/JavaScript.png';
+import Racket from './assets/skills/Racket.png';
+import Java from './assets/skills/Java.png';
+import JSON from './assets/skills/JSON.png';
+import C from './assets/skills/C.png';
+import Cpp from './assets/skills/C++.png';
+import VsCode from './assets/skills/VsCode.png';
+import IntelliJ from './assets/skills/IntelliJ_IDEA.png';
+import Windows from './assets/skills/Windows.png';
+import M365 from './assets/skills/M365.png';
+import Python from './assets/skills/Python.png';
+// import { turnToX } from './scripts/hamburger';
+
 
 function App() {
   return (
     <div className="Portfolio">
       <head>
         <title>Tioluwani Akinloye's Portfolio</title>
-        {/* Add Icon Library */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        />
-        {/* Bootstrap */}
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-          crossOrigin="anonymous"
-        />
-        {/* CSS */}
-        <link rel="stylesheet" href="styles.css" />
       </head>
 
       <body>
@@ -117,7 +121,7 @@ function App() {
               </ul>
 
               {/* Resume Link */}
-              <a href="assets/resume/Tioluwani's Resume.pdf" target="_blank" className="resume">Resume</a>
+              <a href={myResume} target="_blank" className="resume">Resume</a>
             </div>
           </div>
         </section>
@@ -135,91 +139,91 @@ function App() {
             {/* HTML Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="HTML" src="assets/skills/HTML.png"/>
+                <img alt="HTML" src={HTML}/>
                 <p>HTML</p>
               </div>
             </li>
             {/* CSS Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="CSS" src="assets/skills/CSS.png"/>
+                <img alt="CSS" src={CSS}/>
                 <p>CSS</p>
               </div>
             </li>
             {/* JavaScript Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="Javascript" src="assets/skills/JavaScript.png"/>
+                <img alt="Javascript" src={JavaScript}/>
                 <p>Javascript</p>
               </div>
             </li>
             {/* Racket Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="Racket" src="assets/skills/Racket.png"/>
+                <img alt="Racket" src={Racket}/>
                 <p>Racket</p>
               </div>
             </li>
             {/* Java Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="Java" src="assets/skills/Java.png"/>
+                <img alt="Java" src={Java}/>
                 <p>Java</p>
               </div>
             </li>
             {/* JSON Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="JSON" src="assets/skills/JSON.png"/>
+                <img alt="JSON" src={JSON}/>
                 <p>JSON</p>
               </div>
             </li>
             {/* C Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="C" src="assets/skills/C.png"/>
+                <img alt="C" src={C}/>
                 <p>C</p>
               </div>
             </li>
             {/* C++ Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="C++" src="assets/skills/C++.png"/>
+                <img alt="C++" src={Cpp}/>
                 <p>C++</p>
               </div>
             </li>
             {/* VS Code Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="VsCode" src="assets/skills/VsCode.png"/>
+                <img alt="VsCode" src={VsCode}/>
                 <p>VS Code</p>
               </div>
             </li>
             {/* IntelliJ IDEA Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="IntelliJ" src="assets/skills/IntelliJ_IDEA.png"/>
+                <img alt="IntelliJ" src={IntelliJ}/>
                 <p>IntelliJ IDEA</p>
               </div>
             </li>
             {/* Windows Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="Windows" src="assets/skills/Windows.png"/>
+                <img alt="Windows" src={Windows}/>
                 <p>Windows</p>
               </div>
             </li>
             {/* Microsoft 365 Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="M365" src="assets/skills/M365.png"/>
+                <img alt="M365" src={M365}/>
                 <p>M365</p>
               </div>
             </li>
             {/* Python Logo and Name */}
             <li>
               <div class="itemContainer">
-                <img alt="Python" src="assets/skills/Python.png"/>
+                <img alt="Python" src={Python}/>
                 <p>Python</p>
               </div>
             </li>
@@ -341,7 +345,7 @@ function App() {
 
         <div class="sectionBody">
           {/* Email  */}
-          <img alt="" src="assets/contact/Email.png"/>
+          <img alt="" src={myEmail}/>
           <a rel="noopener" href="mailto:akinloyetioluwani@gmail.com" target="_blank"
             class="contactLink">akinloyetioluwani@gmail.com</a>
           <p>You could email me directly</p>
@@ -349,7 +353,7 @@ function App() {
           <h1>OR</h1>
 
           {/* Calendly  */}
-          <img alt="" src="assets/contact/Calendly.png"/>
+          <img alt="" src={myCalendly}/>
           <a rel="noopener" href="https://calendly.com/akinloyetioluwani" target="_blank"
             class="contactLink">Calendly</a>
           <p>Schedule a virtual meeting with me </p>
@@ -383,15 +387,6 @@ function App() {
         </footer>
 
       </body>
-
-      {/* Load JavaScript */}
-      <script src="main.js"></script>
-      {/* Load Bootstrap JavaScript */}
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossOrigin="anonymous"
-      ></script>
     </div>
   );
 }

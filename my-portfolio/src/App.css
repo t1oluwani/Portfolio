@@ -1,38 +1,223 @@
-.App {
+/* Variables */
+:root {
+  --night-bg-color: #030839;
+  --night-txt-color: lightblue;
+  --day-bg-color: tan;
+  --day-txt-color: black;
+}
+
+/* Main Styling */
+.Portfolio, html {
+  background-color: var(--night-bg-color);
+  color: var(--night-txt-color);
+}
+
+.sectionHead {
+  padding: 0px 200px;
+}
+
+.opener {
+  font-size: 20px;
+}
+
+.headliner {
+  font-size: 40px;
+  margin: 10px 75px 50px;
+}
+
+
+
+/* Hamburger Menu drop-down */
+.hamburger_menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.topbar {
+  top: 20px;
+  right: 25px;
+}
+
+.midbar {
+  top: 30px;
+  right: 25px;
+}
+
+.botbar {
+  top: 40px;
+  right: 25px;
+}
+
+.topbar, .midbar, .botbar {
+  width: 35px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--night-txt-color);
+  margin: 5px 0px;
+  transition: 0.4s;
+  position: absolute;
+}
+
+/* Rotate first bar */
+.turn .topbar {
+  transform: translate(0, 10px) rotate(45deg);
+}
+
+/* Fade out the second bar */
+.turn .midbar {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.turn .botbar {
+  transform: translate(0, -10px) rotate(-45deg);
+}
+
+/* Sass */
+/* .collapse ul{height: 100vh;}  */
+
+
+
+/* Home */
+.homepage {
+  padding: 150px 0 450px 250px;
+}
+
+.name {
+  font-family: Arial;
+  font-size: 50px;
+}
+
+.shortdesc {
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.minibio {
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.homepage button {
+  color: var(--night-txt-color);
+  border-radius: 10px;
+  background-color: var(--night-bg-color);
+  font-family: Arial;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+
+
+/* About */
+
+.aboutpage {
+  padding: 0 0 400px 0;
+}
+
+.aboutpage img {
+  float: left;
+  width: 400px;
+  height: 600px;
+  padding: 10px 175px;
+}
+
+.aboutinfo {
+  padding: 10px 150px;
+}
+
+.aboutinfo p {
+  font-size: 20px;
+}
+
+.icons {
+  font-size: 25px;
+  padding: 0 0 0px 750px;
+}
+
+.resume {
+  padding: 5px 15px;
+  margin: 0 0 0 225px;
+  color: var(--night-bg-color);
+  background-color: var(--night-txt-color);
+  border-radius: 15px;
+
+}
+
+.aboutpage li {
+  display: inline-block;
+  padding: 20px 15px;
+}
+
+
+
+
+/* Skills */
+
+.skillspage {
+  padding: 100px 0 400px 0;
+}
+
+.skillspage img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+.skillspage ul {
+  margin: 100px;
+}
+
+.skillspage li {
+  display: inline-block;
+  padding: 15px 40px;
+}
+
+
+
+
+/* Projects */
+
+.projectpage {
+  padding: 0 0 400px 0;
+}
+
+.projectpage li {
+  display: inline-block;
+  padding: 25px;
+}
+
+
+
+
+/* Experiences */
+
+.experiencepage {
+  padding: 0 0 400px 0;
+}
+
+
+
+/* Contact Me */
+
+.contactpage {
+  padding: 0 0 400px 0;
+}
+
+.contactpage img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+
+
+
+/* Footer */
+
+footer {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
