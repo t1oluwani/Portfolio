@@ -1,21 +1,7 @@
 import './App.css';
-import myCalendly from './assets/contact/Calendly.png';
-import myEmail from './assets/contact/Email.png';
 import myPicture from './assets/picsofme/option1.png';
-import myResume from './assets/resume/Tioluwani\'s Resume.pdf';
-import HTML from './assets/skills/HTML.png';
-import CSS from './assets/skills/CSS.png';  
-import JavaScript from './assets/skills/JavaScript.png';
-import Racket from './assets/skills/Racket.png';
-import Java from './assets/skills/Java.png';
-import JSON from './assets/skills/JSON.png';
-import C from './assets/skills/C.png';
-import Cpp from './assets/skills/C++.png';
-import VsCode from './assets/skills/VsCode.png';
-import IntelliJ from './assets/skills/IntelliJ_IDEA.png';
-import Windows from './assets/skills/Windows.png';
-import M365 from './assets/skills/M365.png';
-import Python from './assets/skills/Python.png';
+import myResume from './assets/resume/Tioluwani_Akinloye_Resume.pdf';
+import {HTML, CSS, JavaScript, Racket, Java, JSON, C, Cpp, VsCode, IntelliJ, Windows, M365, Python, Calendly, Email} from './assets/logos';
 // import { turnToX } from './scripts/hamburger';
 
 
@@ -345,7 +331,7 @@ function App() {
 
         <div class="sectionBody">
           {/* Email  */}
-          <img alt="" src={myEmail}/>
+          <img alt="" src={Email}/>
           <a rel="noopener" href="mailto:akinloyetioluwani@gmail.com" target="_blank"
             class="contactLink">akinloyetioluwani@gmail.com</a>
           <p>You could email me directly</p>
@@ -353,7 +339,7 @@ function App() {
           <h1>OR</h1>
 
           {/* Calendly  */}
-          <img alt="" src={myCalendly}/>
+          <img alt="" src={Calendly}/>
           <a rel="noopener" href="https://calendly.com/akinloyetioluwani" target="_blank"
             class="contactLink">Calendly</a>
           <p>Schedule a virtual meeting with me </p>
