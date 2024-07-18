@@ -1,5 +1,6 @@
 import './App.css';
-import myPicture from './assets/picsofme/option1.png';
+import myPicture from './assets/picsofme/option2.jpg';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import myResume from './assets/resume/Tioluwani_Akinloye_Resume.pdf';
 import {HTML, CSS, JavaScript, Racket, Java, JSON, C, Cpp, VsCode, IntelliJ, Windows, M365, Python, Calendly, Email} from './assets/logos';
 // import { turnToX } from './scripts/hamburger';
@@ -15,26 +16,26 @@ function App() {
       <body>
         <div>
           {/* Navbar */}
-          <div className="navbar collapse bg-dark navbar-dark fixed-top" id="navmenu">
-            <ul className="links navbar-nav mx-auto">
-              <li><a className="nav-link" href="#home">Home</a></li>
-              <li><a className="nav-link" href="#about">About</a></li>
-              <li><a className="nav-link" href="#skills">Skills</a></li>
-              <li><a className="nav-link" href="#projects">Projects</a></li>
-              <li><a className="nav-link" href="#experiences">Experiences</a></li>
-              <li><a className="nav-link" href="#contactme">Contact Me</a></li>
+          <div className="navmenu" id="navmenu">
+            <ul className="nav-links">
+              <li><a className="" href="#home">Home</a></li>
+              <li><a className="" href="#about">About</a></li>
+              <li><a className="" href="#skills">Skills</a></li>
+              <li><a className="" href="#projects">Projects</a></li>
+              <li><a className="" href="#experiences">Experiences</a></li>
+              <li><a className="" href="#contactme">Contact Me</a></li>
             </ul>
           </div>
 
           {/* Hamburger menu */}
-          <button className="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-            <div className="hamburger_menu">
+          {/* <button className="" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> */}
+            {/* <div className="hamburger_menu"> */}
             {/* <div className="hamburger_menu" onClick={() => turnToX(this)}> */}
-              <div className="topbar"></div>
-              <div className="midbar"></div>
-              <div className="botbar"></div>
-            </div>
-          </button>
+              {/* <div className="topbar"></div> */}
+              {/* <div className="midbar"></div> */}
+              {/* <div className="botbar"></div> */}
+            {/* </div> */}
+          {/* </button> */}
         </div>
 
         {/* Home Section */}
@@ -65,49 +66,31 @@ function App() {
             <h2 className="headliner">ABOUT ME</h2>
           </div>
           <div className="sectionBody">
+          <img alt="" class="photo" src={myPicture}></img>
             {/* Full Bio */}
             <div className="aboutinfo">
               <p className="bio">
-                Hi there! My name is Tioluwani Akinloye, but I normally go by
-                Favour. I am a computer
-                science student at the University of Alberta. I was born and
-                raised in Nigeria, and have
-                always been fascinated by the potential of technology to change
-                people's lives for the better.
-                <br></br>
-                In my studies, I have developed a passion for artificial
-                intelligence and machine learning,
-                and I am excited to continue exploring these areas as I progress
-                in my degree. In my free
-                time, I enjoy staying active by playing soccer and working out. I
-                also love reading books
-                and manga, and have a wide range of musical tastes. I am even
-                trying to teach myself how to
-                play the piano!
-                <br></br>
-                Aside from my academic and personal interests, I am also deeply
-                committed to using my skills
-                and knowledge to make a positive impact in the world. I believe
-                that computer science has the
-                power to solve some of the world's most pressing problems, and I
-                am excited to be a part of
-                that process
+                Hi there! My name is Tioluwani Akinloye, but I normally go by Favour. I am an Honors Computing science student at the University of Alberta. I was born and raised in Nigeria, and have always been fascinated by the potential of technology to change people's lives for the better.
+                <br></br><br></br>
+                I have developed a strong passion for software development and the application of artificial intelligence and machine learning in advancing this field. I am eager to continue exploring these areas as I progress in my degree. In my free time, I stay active by playing soccer and working out. I also enjoy reading novels and manga, and I have a diverse taste in music and currently, I am even trying to teach myself the piano.
+                <br></br><br></br>
+                Aside from my academic and personal interests, I am also deeply committed to using my skills and knowledge to make a positive impact in the world. I believe that computer science has the power to solve some of the world's most pressing problems, and I am eager to see how I can become a part of that process.
               </p>
 
               {/* Add social media icons */}
               <ul class="icons">
+                <li><a rel="noopener" href="https://www.linkedin.com/in/tioluwani-akinloye-255a481b7/"
+                  target="_blank" class="fa-brands fa-linkedin"></a></li>
+                <li><a rel="noopener" href="https://github.com/t1oluwani" 
+                  target="_blank" class="fa-brands fa-github"></a></li>
                 <li><a rel="noopener" href="mailto:akinloyetioluwani@gmail.com" 
                   target="_blank" class="fa-regular fa-envelope"></a></li>
                 <li><a rel="noopener" href="https://www.instagram.com/favour_ak1n"
                   target="_blank" class="fa-brands fa-instagram"></a></li>
-                <li><a rel="noopener" href="https://github.com/t1oluwani" 
-                  target="_blank" class="fa-brands fa-github"></a></li>
-                <li><a rel="noopener" href="https://www.linkedin.com/in/tioluwani-akinloye-255a481b7/"
-                  target="_blank" class="fa-brands fa-linkedin"></a></li>
+                <li><a rel="noopener" className="resume" href={myResume}
+                  target="_blank" class="fa-regular fa-file">Resume</a></li>   
+                
               </ul>
-
-              {/* Resume Link */}
-              <a href={myResume} target="_blank" className="resume">Resume</a>
             </div>
           </div>
         </section>
@@ -122,123 +105,172 @@ function App() {
 
         <div class="sectionBody">
           <ul class="skillsGrid">
-            {/* HTML Logo and Name */}
+            {/* HTML */}
             <li>
               <div class="itemContainer">
                 <img alt="HTML" src={HTML}/>
                 <p>HTML</p>
               </div>
             </li>
-            {/* CSS Logo and Name */}
+            {/* CSS */}
             <li>
               <div class="itemContainer">
                 <img alt="CSS" src={CSS}/>
                 <p>CSS</p>
               </div>
             </li>
-            {/* JavaScript Logo and Name */}
+            {/* JavaScript */}
             <li>
               <div class="itemContainer">
                 <img alt="Javascript" src={JavaScript}/>
                 <p>Javascript</p>
               </div>
             </li>
-            {/* Racket Logo and Name */}
+            {/* TypeScript */}
+            <li>
+              <div class="itemContainer">
+                <img alt="Typescript" src={JavaScript}/>
+                <p>Typescript</p>
+              </div>
+            </li>
+            {/* Racket */}
             <li>
               <div class="itemContainer">
                 <img alt="Racket" src={Racket}/>
                 <p>Racket</p>
               </div>
             </li>
-            {/* Java Logo and Name */}
+            {/* Java */}
             <li>
               <div class="itemContainer">
                 <img alt="Java" src={Java}/>
                 <p>Java</p>
               </div>
             </li>
-            {/* JSON Logo and Name */}
+            {/* JSON */}
             <li>
               <div class="itemContainer">
                 <img alt="JSON" src={JSON}/>
                 <p>JSON</p>
               </div>
             </li>
-            {/* C Logo and Name */}
+            {/* C */}
             <li>
               <div class="itemContainer">
                 <img alt="C" src={C}/>
                 <p>C</p>
               </div>
             </li>
-            {/* C++ Logo and Name */}
+            {/* C++ */}
             <li>
               <div class="itemContainer">
                 <img alt="C++" src={Cpp}/>
                 <p>C++</p>
               </div>
             </li>
-            {/* VS Code Logo and Name */}
+            {/* VS Code */}
             <li>
               <div class="itemContainer">
                 <img alt="VsCode" src={VsCode}/>
                 <p>VS Code</p>
               </div>
             </li>
-            {/* IntelliJ IDEA Logo and Name */}
+            {/* IntelliJ IDEA */}
             <li>
               <div class="itemContainer">
                 <img alt="IntelliJ" src={IntelliJ}/>
                 <p>IntelliJ IDEA</p>
               </div>
             </li>
-            {/* Windows Logo and Name */}
-            <li>
-              <div class="itemContainer">
-                <img alt="Windows" src={Windows}/>
-                <p>Windows</p>
-              </div>
-            </li>
-            {/* Microsoft 365 Logo and Name */}
-            <li>
-              <div class="itemContainer">
-                <img alt="M365" src={M365}/>
-                <p>M365</p>
-              </div>
-            </li>
-            {/* Python Logo and Name */}
+            {/* Python */}
             <li>
               <div class="itemContainer">
                 <img alt="Python" src={Python}/>
                 <p>Python</p>
               </div>
             </li>
-            {/* TODO */}
+            {/* PHP */}
             <li>
               <div class="itemContainer">
-                <img alt="todo" src=""/>
-                <p>TODO</p>
+                <img alt="PHP" src=""/>
+                <p>PHP</p>
               </div>
             </li>
-            {/* TODO */}
+            {/* NodeJs */}
             <li>
               <div class="itemContainer">
-                <img alt="todo" src=""/>
-                <p>TODO</p>
+                <img alt="NodeJs" src=""/>
+                <p>NodeJs</p>
               </div>
             </li>
-            {/* TODO */}
+            {/* Laravel */}
             <li>
               <div class="itemContainer">
-                <img alt="todo" src=""/>
-                <p>TODO</p>
+                <img alt="Laravel" src=""/>
+                <p>Laravel</p>
               </div>
             </li>
-            {/* TODO */}
+            {/* Django */}
             <li>
               <div class="itemContainer">
-                <img alt="todo" src=""/>
-                <p>TODO</p>
+                <img alt="Django" src=""/>
+                <p>Django</p>
+              </div>
+            </li>
+            {/* ReactJS */}
+            <li>
+              <div class="itemContainer">
+                <img alt="ReactJS" src=""/>
+                <p>ReactJS</p>
+              </div>
+            </li>
+            {/* Linux */}
+            <li>
+              <div class="itemContainer">
+                <img alt="Linux" src=""/>
+                <p>Linux</p>
+              </div>
+            </li>
+            {/* Insomnia */}
+            <li>
+              <div class="itemContainer">
+                <img alt="Insomnia" src=""/>
+                <p>Insomnia</p>
+              </div>
+            </li>
+            {/* Powershell */}
+            <li>
+              <div class="itemContainer">
+                <img alt="Powershell" src=""/>
+                <p>Powershell</p>
+              </div>
+            </li>
+            {/* ExpressJs */}
+            <li>
+              <div class="itemContainer">
+                <img alt="ExpressJs" src=""/>
+                <p>ExpressJs</p>
+              </div>
+            </li>
+            {/* MATLAB */}
+            <li>
+              <div class="itemContainer">
+                <img alt="MATLAB" src=""/>
+                <p>MATLAB</p>
+              </div>
+            </li>
+            {/* PyTorch */}
+            <li>
+              <div class="itemContainer">
+                <img alt="PyTorch" src=""/>
+                <p>PyTorch</p>
+              </div>
+            </li>
+            {/* RStudio */}
+            <li>
+              <div class="itemContainer">
+                <img alt="RStudio" src=""/>
+                <p>RStudio</p>
               </div>
             </li>
           </ul>
@@ -290,6 +322,33 @@ function App() {
               <li>
                 <img alt=""/>
                 <h3>Stool (Study Tool)</h3>
+                <a>View Live</a>
+                <a>Github Repo</a>
+              </li>
+
+              <li>
+                <img alt=""/>
+                <h3>Sprint</h3>
+                <a>View Live</a>
+                <a>Github Repo</a>
+              </li>
+
+              <li>
+                <img alt=""/>
+                <h3>Web Project</h3>
+                <a>View Live</a>
+                <a>Github Repo</a>
+              </li>
+              <li>
+                <img alt=""/>
+                <h3>RESTful API</h3>
+                <a>View Live</a>
+                <a>Github Repo</a>
+              </li>
+
+              <li>
+                <img alt=""/>
+                <h3>Star Wars (3rd Party API)</h3>
                 <a>View Live</a>
                 <a>Github Repo</a>
               </li>

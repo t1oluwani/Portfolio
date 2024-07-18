@@ -25,6 +25,7 @@
   margin: 10px 75px 50px;
 }
 
+/* Navigation Bar */
 
 
 /* Hamburger Menu drop-down */
@@ -123,6 +124,7 @@
   width: 400px;
   height: 600px;
   padding: 10px 175px;
+  border-radius: 500px;
 }
 
 .aboutinfo {
@@ -130,12 +132,18 @@
 }
 
 .aboutinfo p {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .icons {
-  font-size: 25px;
-  padding: 0 0 0px 750px;
+  display: flex;
+  justify-content: space-between; 
+  padding: 25px 100px 0px 100px;
+}
+
+.icons a {
+  font-size: 35px;
+  color: inherit;
 }
 
 .resume {
@@ -143,8 +151,17 @@
   margin: 0 0 0 225px;
   color: var(--night-bg-color);
   background-color: var(--night-txt-color);
-  border-radius: 15px;
+  text-transform: none; /* Prevents automatic uppercase */
 
+}
+
+.icons a, .resume {
+  text-decoration: none; /* Removes the underline */
+}
+
+.icons a:hover,
+.resume:hover {
+  color: #007bff;
 }
 
 .aboutpage li {
@@ -187,7 +204,7 @@
 
 .projectpage li {
   display: inline-block;
-  padding: 25px;
+  padding: 50px 100px;
 }
 
 
@@ -212,6 +229,7 @@
   width: 50px;
   padding: 10px;
 }
+
 
 
 
