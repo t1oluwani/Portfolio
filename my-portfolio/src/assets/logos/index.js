@@ -13,6 +13,20 @@ import M365 from './M365.png';
 import Python from './Python.png';
 import Calendly from './Calendly.png';
 import Email from './Email.png';
+import Django from './Django.png';
+import React from './React.png';
+import Node from './NodeJs.png';
+import Laravel from './Laravel.png';
+import Linux from './Linux.png';
+import Matlab from './Matlab.png';
+import PHP from './PHP.png';
+import PowerShell from './PowerShell.png';
+import R from './R.png';
+import TypeScript from './TypeScript.png';
+import Insomnia from './Insomnia.png';
+import Pytorch from './Pytorch.png';
+import Express from './Expressjs.png';
+import Git from './Git.png';
 
 export {
   HTML,
@@ -30,4 +44,18 @@ export {
   Python,
   Calendly,
   Email,
+  Django,
+  React,
+  Node,
+  Laravel,
+  Linux,
+  Matlab,
+  PHP,
+  PowerShell,
+  R,
+  TypeScript,
+  Insomnia,
+  Pytorch,
+  Express,
+  Git,
 };

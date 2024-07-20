@@ -1,0 +1,13 @@
+/* Glow Cursor Effect */
+.glow-cursor {
+    position: fixed;
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 75%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    mix-blend-mode: overlay;
+    pointer-events: none; /* Allows mouse interactions with underlying elements */
+  }
+  
