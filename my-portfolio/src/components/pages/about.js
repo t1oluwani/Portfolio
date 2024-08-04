@@ -1,7 +1,7 @@
-import './about.css';
+import '../styling/about.css';
 
-import myPicture from '../assets/picsofme/option2.jpg';
-import myResume from '../assets/resume/Tioluwani_Akinloye_Resume.pdf';
+import myPicture from '../../assets/picsofme/option2.jpg';
+import myResume from '../../assets/resume/Tioluwani_Akinloye_Resume.pdf';
 
 const AboutPage = () => {
     return (

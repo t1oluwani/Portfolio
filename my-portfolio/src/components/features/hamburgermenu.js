@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './hamburgermenu.css'; 
+import '../styling/hamburgermenu.css'; 
 
 const HamburgerMenu = () => {
   const [isTurned, setIsTurned] = useState(false);

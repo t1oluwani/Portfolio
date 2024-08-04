@@ -1,6 +1,6 @@
-import './contact.css';
+import '../styling/contact.css';
 
-import { Calendly, Email } from '../assets/logos';
+import { Calendly, Email } from '../../assets/logos';
 
 const ContactPage = () => {
     return (

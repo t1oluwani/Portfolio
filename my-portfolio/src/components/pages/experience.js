@@ -1,4 +1,4 @@
-import './experience.css';
+import '../styling/experience.css';
 
 const ExperiencePage = () => {
     return (

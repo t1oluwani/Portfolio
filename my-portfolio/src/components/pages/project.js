@@ -1,4 +1,4 @@
-import './project.css';
+import '../styling/project.css';
 
 const ProjectPage = () => {
     return (
@@ -89,7 +89,7 @@ const ProjectPage = () => {
                 <h3>RESTful API</h3>
                 <p>This is a simple deployed REST API built using Node.js, Express.js for managing employee data. It allows you to perform CRUD (Create, Read, Update, Delete) operations on employee records stored in a MongoDB database. Additionally, it provides API documentation using the OpenAPI specification.</p>
                 <h5>Skills:</h5>
-                <p>JavaScript, NodeJS, ExpressJS, CRUD, Insomnia, Cybera Instances, API Deployement, MongoDB</p>
+                <p>JavaScript, NodeJS, ExpressJS, CRUD, Insomnia, Cybera Instances, API Deployement, MongoDB, Mongoose</p>
                 <a href="">View Live </a>
                 <a href="https://github.com/t1oluwani/restfulAPI">Github Repo</a>
               </li>
@@ -97,9 +97,10 @@ const ProjectPage = () => {
               <li>
                 <img alt=""/>
                 <h3>Star Wars (3rd Party API)</h3>
-                <p>...</p>
+                <p>This project is a web application that I used to gain experience in both creating an API and using a 3rd party API, it allows users to submit a form with their favorite Star Wars character information and retrieve character details from the Star Wars API (SWAPI). The backend is built with Node.js and Express, and MongoDB is used to store form submissions.</p>
                 <h5>Skills:</h5>
-                <p>JavaScript, NodeJS, ExpressJS, CRUD, Insomnia, Third Party API, MongoDB, HTML, CSS</p>
+                <p>JavaScript, NodeJS, ExpressJS, CRUD, Insomnia, Third Party API, MongoDB, Mongoose, HTML, CSS, Fetch API
+                SWAPI (Star Wars API)</p>
                 <a href="">View Live  </a>
                 <a href="">Github Repo</a>
               </li>

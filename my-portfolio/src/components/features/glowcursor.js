@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './glowcursor.css';
+import '../styling/glowcursor.css';
 
 const GlowCursor = () => {
   const cursorRef = useRef(null);

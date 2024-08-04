@@ -1,11 +1,11 @@
-import './skills.css';
+import '../styling/skills.css';
 
 import 
 {
     HTML, CSS, JavaScript, Racket, Java, JSON, C, Cpp, VsCode, IntelliJ, Windows, M365, Python, Django, 
     React, Node, Laravel, Linux, Matlab, PHP, PowerShell, R, TypeScript, Insomnia, Pytorch, Express, Git,
 } 
-from '../assets/logos';
+from '../../assets/logos';
 
 const SkillsPage = () => {
     return (

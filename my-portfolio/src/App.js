@@ -1,14 +1,14 @@
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import HomePage from './components/home';
-import AboutPage from './components/about';
-import SkillsPage from './components/skills';
-import ProjectPage from './components/project';
-import ExperiencePage from './components/experience';
-import ContactPage from './components/contact';
+import HomePage from './components/pages/home';
+import AboutPage from './components/pages/about';
+import SkillsPage from './components/pages/skills';
+import ProjectPage from './components/pages/project';
+import ExperiencePage from './components/pages/experience';
+import ContactPage from './components/pages/contact';
 
-import GlowCursor from './components/glowcursor';
+import GlowCursor from './components/features/glowcursor';
 import NavigationBar from './components/navbar';
 
 

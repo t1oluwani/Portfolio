@@ -1,5 +1,5 @@
-import './navbar.css';
-import HamburgerMenu from './hamburgermenu';
+import './styling/navbar.css';
+import HamburgerMenu from './features/hamburgermenu';
 
 const NavigationBar = () => {
     return (
