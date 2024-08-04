@@ -1,0 +1,36 @@
+
+.experiencepage {
+    padding: 0 0 400px 0;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .timeline-container {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .timeline-container.education {
+    left: 0;
+  }
+  
+  .timeline-container.experience {
+    left: 50%;
+  }
+  
+  .content {
+    padding: 20px 30px;
+    background-color: var(--night-txt-color);
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+  
+  .content h2, .content p {
+    color: var(--night-bg-color);
+  }
+  

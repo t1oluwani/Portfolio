@@ -1,0 +1,55 @@
+.aboutpage {
+    padding: 0 0 400px 0;
+  }
+  
+  .aboutpage img {
+    float: left;
+    width: 350px;
+    height: auto;
+    margin: 10px 175px;
+    border-radius: 5%;
+    border: 5px solid var(--night-txt-color);
+  }
+  
+  .aboutinfo {
+    padding: 10px 150px;
+  }
+  
+  .aboutinfo p {
+    font-size: 19px;
+    color: var(--night-txt-color);
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-between; 
+    padding: 25px 100px 0px 100px;
+  }
+  
+  .icons a {
+    font-size: 35px;
+    color: inherit;
+  }
+  
+  .resume {
+    padding: 5px 15px;
+    margin: 0 0 0 225px;
+    color: var(--night-bg-color);
+    background-color: var(--night-txt-color);
+    text-transform: none; /* Prevents automatic uppercase */
+  
+  }
+  
+  .icons a, .resume {
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  .icons a:hover,
+  .resume:hover {
+    color: #007bff;
+  }
+  
+  .aboutpage li {
+    display: inline-block;
+    padding: 20px 15px;
+  }

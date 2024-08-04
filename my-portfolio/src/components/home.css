@@ -1,0 +1,30 @@
+/* Home */
+.homepage {
+    padding: 150px 0 450px 250px;
+  }
+  
+  .name {
+    font-family: Arial;
+    font-size: 50px;
+  }
+  
+  .shortdesc {
+    font-family: Arial;
+    font-size: 25px;
+  }
+  
+  .minibio {
+    font-family: Arial;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  
+  .homepage button {
+    color: var(--night-txt-color);
+    border-radius: 10px;
+    background-color: var(--night-bg-color);
+    font-family: Arial;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }

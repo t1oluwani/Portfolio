@@ -1,0 +1,19 @@
+.projectpage {
+    padding: 0 0 400px 0;
+  }
+  
+  .projectpage li {
+    display: inline-block;
+    padding: 50px 100px;
+  }
+  .projectList {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 40%;
+  }
+  
+  .projects {
+    color: var(--night-txt-color);
+  }
+  
+  

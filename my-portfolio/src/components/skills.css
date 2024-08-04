@@ -1,0 +1,32 @@
+.skillspage {
+    padding: 100px 0 400px 0;
+  }
+  
+  .skillspage img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+  
+  .skillspage ul {
+    margin: 100px;
+  }
+  
+  .skillspage li {
+    flex: 20%;
+    display: flex;
+    justify-content: center; 
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .skillsCategory h3 {
+    text-align: center;
+  }
+  
+  .skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
