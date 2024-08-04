@@ -40,7 +40,7 @@ const ProjectPage = () => {
                 <h3>Word Games</h3>
                 <p>...</p>
                 <h5>Skills:</h5>
-                <p>...</p>
+                <p>Python, Object Oriented Programming, Polymorphism</p>
                 <a href="">View Live </a>
                 <a href="https://github.com/t1oluwani/Word-Games-App">Github Repo</a>
               </li>
@@ -74,16 +74,7 @@ const ProjectPage = () => {
                 <a href="">View Live </a>
                 <a href="https://github.com/KneadTeam/Sprint">Github Repo</a>
               </li>
-
-              <li>
-                <img alt=""/>
-                <h3>Web Project</h3>
-                <p>...</p>
-                <h5>Skills:</h5>
-                <p>...</p>
-                <a href="">View Live </a>
-                <a href="">Github Repo</a>
-              </li>
+              
               <li>
                 <img alt=""/>
                 <h3>RESTful API</h3>
@@ -102,6 +93,26 @@ const ProjectPage = () => {
                 <p>JavaScript, NodeJS, ExpressJS, CRUD, Insomnia, Third Party API, MongoDB, Mongoose, HTML, CSS, Fetch API
                 SWAPI (Star Wars API)</p>
                 <a href="">View Live  </a>
+                <a href="">Github Repo</a>
+              </li>
+
+              <li>
+                <img alt=""/>
+                <h3>Web Project</h3>
+                <p>...</p>
+                <h5>Skills:</h5>
+                <p>...</p>
+                <a href="">View Live </a>
+                <a href="">Github Repo</a>
+              </li>
+
+              <li>
+                <img alt=""/>
+                <h3>Fitness Tracker (Mobile)</h3>
+                <p>...</p>
+                <h5>Skills:</h5>
+                <p>...</p>
+                <a href="">View Live </a>
                 <a href="">Github Repo</a>
               </li>
 
