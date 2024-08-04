@@ -9,12 +9,10 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div>
-      <div className={`hamburger_menu ${isTurned ? 'turn' : ''}`} onClick={handleClick}>
-        <div className="topbar"></div>
-        <div className="midbar"></div>
-        <div className="botbar"></div>
-      </div>
+    <div className={`hamburger_menu ${isTurned ? 'turn' : ''}`} onClick={handleClick}>
+      <div className="topbar"></div>
+      <div className="midbar"></div>
+      <div className="botbar"></div>
     </div>
   );
 };
