@@ -37,6 +37,22 @@ function App() {
           <p>&copy; TIOLUWANI AKINLOYE 2022</p>
         </footer>
 
+      <div className= "blur1" />
+      <div className= "blur2" />
+      <div className= "blur3" />
+      <div className= "blur4" />
+      <div className= "blur5" />
+      <div className= "blur6" />
+      <div className= "blur7" />
+      <div className= "blur8" />
+      <div className= "blur9" />
+      <div className= "blur10" />
+      <div className= "blur11" />
+      <div className= "blur12" />
+      <div className= "blur13" />
+      <div className= "blur14" />
+      <div className= "blur15" />
+
       </body>
     </div>
   );

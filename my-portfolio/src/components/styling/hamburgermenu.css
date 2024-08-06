@@ -20,13 +20,13 @@
   }
   
   .topbar, .midbar, .botbar {
+    position: fixed;
     width: 35px;
     height: 5px;
     border-radius: 5px;
     background-color: var(--night-txt-color);
     margin: 5px 0px;
     transition: 0.4s;
-    position: absolute;
   }
   
   /* Rotate first bar */

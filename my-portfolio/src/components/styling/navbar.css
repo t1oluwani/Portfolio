@@ -1,0 +1,28 @@
+.navmenu {
+  overflow: hidden;
+  position: fixed;
+  right: 400px;
+}
+
+.nav-links {  
+  list-style-type: none;
+  font-size: 18px;
+  display: flex;
+}
+
+.nav-links li a {
+  display: block;
+  color: var(--night-txt-color);
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}

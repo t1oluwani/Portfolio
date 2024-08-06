@@ -3,7 +3,7 @@ import '../styling/home.css';
 const HomePage = () => {
     return (
         <section id="home" className="homepage">
-          <div>
+          <div className='homebubble'>
             {/* Name */}
             <h1 className="name">Tioluwani <br /> God's Favour <br /> Akinloye</h1>
             {/* Short Description */}
