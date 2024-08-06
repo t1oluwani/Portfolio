@@ -1,0 +1,26 @@
+/* section {
+    position: relative;
+    z-index: 1;
+  } */
+
+  .topLeftBlur, .bottomRightBlur{
+    position: absolute;
+    
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    background: rgba(25, 55, 109, 0.7);
+    /* background: rgba(18, 55, 125, 0.7); */
+    filter: blur(100px);
+    z-index: 0;
+}
+  
+  .topLeftBlur {
+    top: -15vw;
+    left: -10vw;
+  }
+  
+  .bottomRightBlur {
+    top: 15vw;
+    right: -15vw;
+  }

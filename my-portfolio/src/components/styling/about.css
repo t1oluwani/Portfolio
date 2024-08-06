@@ -53,3 +53,7 @@
     display: inline-block;
     padding: 20px 15px;
   }
+
+  .aboutpage {
+    z-index: 0;
+  }
