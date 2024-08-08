@@ -3,6 +3,10 @@
   --night-bg-color: #020527;
   /* --night-bg-color: #030839; */
   --night-txt-color: lightblue;
+  --night-glow-color: rgba(25, 55, 109, 1);
+  /* --night-glow-color: rgba(18, 55, 125, 0.7); */
+  /* --night-glow-color: rgb(43, 70, 117); */
+
   --day-bg-color: tan;
   --day-txt-color: black;
 }
@@ -27,5 +31,9 @@
 .headliner {
   font-size: 40px;
   margin: 10px 75px 50px;
+}
+
+.hidden {
+  display: none;
 }
 

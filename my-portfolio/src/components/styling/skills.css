@@ -1,32 +1,97 @@
 .skillspage {
-    padding: 100px 0 400px 0;
-  }
-  
-  .skillspage img {
-    height: 50px;
-    width: 50px;
-    padding: 10px;
-  }
-  
-  .skillspage ul {
-    margin: 100px;
-  }
-  
-  .skillspage li {
-    flex: 20%;
-    display: flex;
-    justify-content: center; 
-    padding: 15px;
-    box-sizing: border-box;
-  }
-  
-  .skillsCategory h3 {
-    text-align: center;
-  }
-  
-  .skillsGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
+  padding: 100px 0 400px 0;
+}
+
+.skillspage img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+.skillspage ul {
+  margin: 100px;
+}
+
+.skillspage li {
+  flex: 20%;
+  display: flex;
+  justify-content: center; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.skillspage {
+  z-index: 1;
+}
+
+.skillSlider__container{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.skillsCategory h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.skillsCategory {
+  width: 1150px;
+  z-index: 1;
+}
+
+.skillsGrid {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+
+/* Left and Right Arrows */
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  top: 172rem;
+}
+
+.arrow.left {
+  left: 15rem;
+  z-index: 2;
+}
+
+.arrow.right {
+  right: 15rem;
+  z-index: 2;
+}
+
+/* Indicators */
+.indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.indicator {
+  cursor: pointer;
+  height: 10px;
+  border: none;
+  border-radius: 100%;
+  background-color: var(--night-txt-color);
+  margin: 0 5px;
+  z-index: 1;
+}
+
+.indicating {
+  cursor: pointer;
+  height: 10px;
+  border: none;
+  border-radius: 100%;
+  background-color: rgb(86, 86, 86);
+  margin: 0 5px;
+  z-index: 1;
+}

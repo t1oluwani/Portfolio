@@ -17,7 +17,7 @@ const HomePage = () => {
               the languages I am proficient in, and how to reach me.
             </p>
             {/* Leads to About Page */}
-            <button>Get Started</button>
+            <a href='#about'><button>Get Started</button></a>
           </div>
         </section>
     )

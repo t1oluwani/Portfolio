@@ -1,59 +1,82 @@
 .aboutpage {
-    padding: 0 0 400px 0;
-  }
-  
-  .aboutpage img {
-    float: left;
-    width: 350px;
-    height: auto;
-    margin: 10px 175px;
-    border-radius: 5%;
-    border: 5px solid var(--night-txt-color);
-  }
-  
-  .aboutinfo {
-    padding: 10px 150px;
-  }
-  
-  .aboutinfo p {
-    font-size: 19px;
-    color: var(--night-txt-color);
-  }
-  
-  .icons {
-    display: flex;
-    justify-content: space-between; 
-    padding: 25px 100px 0px 100px;
-  }
-  
-  .icons a {
-    font-size: 35px;
-    color: inherit;
-  }
-  
-  .resume {
-    padding: 5px 15px;
-    margin: 0 0 0 225px;
-    color: var(--night-bg-color);
-    background-color: var(--night-txt-color);
-    text-transform: none; /* Prevents automatic uppercase */
-  
-  }
-  
-  .icons a, .resume {
-    text-decoration: none; /* Removes the underline */
-  }
-  
-  .icons a:hover,
-  .resume:hover {
-    color: #007bff;
-  }
-  
-  .aboutpage li {
-    display: inline-block;
-    padding: 20px 15px;
-  }
+  padding: 0 0 400px 0;
+}
 
-  .aboutpage {
-    z-index: 0;
+.aboutpage img {
+  position: relative;
+  float: left;
+  width: 350px;
+  height: auto;
+  margin: 10px 175px;
+  border-radius: 5%;
+  border: 5px solid var(--night-txt-color);
+  z-index: 2;
+
+  animation: glowing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.aboutinfo {
+  padding: 10px 150px;
+}
+
+.aboutinfo p {
+  font-size: 19px;
+  color: var(--night-txt-color);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between; 
+  padding: 25px 100px 0px 100px;
+}
+
+.icons a {
+  font-size: 35px;
+  color: inherit;
+}
+
+.resume {
+  padding: 5px 15px;
+  margin: 0 0 0 225px;
+  color: var(--night-bg-color);
+  background-color: var(--night-txt-color);  
+}
+
+.icons a, .resume {
+  text-decoration: none; /* Removes the underline */
+}
+
+.icons a:hover,
+.resume:hover {
+  color: #007bff;
+}
+
+.aboutpage li {
+  display: inline-block;
+  padding: 20px 15px;
+  z-index: 1;
+}
+
+.bio {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 150px 50px rgb(15, 65, 118); 
   }
+  50% {
+    box-shadow: 0 0 30px 10px rgb(16, 99, 188);
+
+  }
+  100% {
+    box-shadow: 0 0 150px 50px rgb(15, 65, 118); 
+  }
+}
+
+
+
