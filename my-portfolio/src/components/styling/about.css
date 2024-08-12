@@ -12,10 +12,20 @@
   border: 5px solid var(--night-txt-color);
   z-index: 2;
 
-  animation: glowing;
+  /* box-shadow: 0 0 150px 50px rgb(15, 65, 118); */
+  box-shadow: 0 0 30px 10wpx rgb(0, 123, 255);
+  transition: ease-in-out 0.3s;
+
+
+  /* animation: glowing;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
+}
+
+.aboutpage img:hover {
+  /* box-shadow: 0 0 30px 10px rgb(0, 123, 255); */
+  box-shadow: 0 0 150px 50px rgb(15, 65, 118);
 }
 
 .aboutinfo {
@@ -65,18 +75,17 @@
   z-index: 1;
 }
 
-@keyframes glowing {
+/* @keyframes glowing {
   0% {
     box-shadow: 0 0 150px 50px rgb(15, 65, 118); 
   }
   50% {
     box-shadow: 0 0 30px 10px rgb(0, 123, 255);
-
   }
   100% {
     box-shadow: 0 0 150px 50px rgb(15, 65, 118); 
   }
-}
+} */
 
 
 
