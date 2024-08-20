@@ -8,7 +8,6 @@
 
   .projects li {
     list-style-type: none;
-    padding: 0;
   }
 
   .projects a {
@@ -35,14 +34,30 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 
     border-radius: 5%;
     box-sizing: border-box;
     font-size: 18px;
-    padding: 10px;
+    padding: 50px;
 
+  }
+
+  .projectButtons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+   
+  }
+
+  .viewbtn {
+    border-radius: 40px;
+    border: 2px solid var(--night-txt-color);
+    padding: 2.5px 10px;
+    cursor: pointer;
   }
 
   
