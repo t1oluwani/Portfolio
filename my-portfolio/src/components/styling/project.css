@@ -1,19 +1,49 @@
 .projectpage {
     padding: 0 0 400px 0;
   }
-  
-  .projectpage li {
-    display: inline-block;
-    padding: 50px 100px;
-  }
-  .projectList {
-    display: flex;
-    flex-wrap: wrap; 
-    width: 40%;
-  }
-  
+   
   .projects {
     color: var(--night-txt-color);
   }
+
+  .projects li {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .projects a {
+    text-decoration: none;
+  }
+
+  .projects a:visited {
+    color: inherit;
+  }
+
+  .projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .projectItem {
+    background-color: rgb(20, 68, 90);
+    margin: 25px;
+    width: 400px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 5%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 10px;
+
+  }
+
   
-  
+

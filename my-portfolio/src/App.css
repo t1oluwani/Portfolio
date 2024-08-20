@@ -37,3 +37,20 @@
   display: none;
 }
 
+/* Web Scroller */
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: none; 
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px; 
+  background-color: var(--night-txt-color); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+}
