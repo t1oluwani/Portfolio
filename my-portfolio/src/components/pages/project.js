@@ -1,120 +1,145 @@
 import '../styling/project.css';
 
+import test from '../../assets/projects/project1.jpg'
+
 const ProjectPage = () => {
-    return (
-        <section id="projects" class="projectpage">
-        <div class="sectionHead">
-          {/* Title  */}
-          <span class="opener">Here are some of my</span>
-          <h2 class="headliner">RECENT PROJECTS</h2>
-        </div>
+  return (
+    <section id="projects" class="projectpage">
+      <div class="sectionHead">
+        {/* Title  */}
+        <span class="opener">Here are some of my</span>
+        <h2 class="headliner">RECENT PROJECTS</h2>
+      </div>
 
-        <div class="sectionBody">
-          <div class="projects">
-            {/* Implement as Owl Carousel */}
+      <div class="sectionBody">
+        <div class="projects">
+          {/* Implement as Owl Carousel */}
 
-            <ul class="projectList">
+          <ul class="projectList">
 
-              <li class="projectItem">
-                <img alt=""/>
-                {/* <h3>Budget App</h3> */}
-                <p>This application uses Object Oriented Programming in Java to help provide an overview of an individuals money flow and to assist them in managing it by setting budgets.</p>
-                {/* <h5>Skills:</h5>
-                <p>Java, Object-Oriented Programming, Intellij, Application Development, JUNIT testing, Test driven development, JSON Persistence</p> */}
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="https://github.com/t1oluwani/Budget-App">Github Repo &gt;</a>
-                </div>
-              </li>
+            <li class="projectItem budget">
+              <img alt="" />
+              <h3>Budget App</h3>
+              <p>This application uses Object Oriented Programming in Java to help provide an overview of an individual's money flow and to assist them in managing it by setting budgets.</p>
+              <ul class="skillList">
+                <li>Java</li>
+                <li>Object-Oriented-Programming</li>
+                <li>Intellij</li>
+                <li>Application Development</li>
+                <li>JUNIT-Testing</li>
+                <li>Test-Driven-Developement</li>
+                <li>JSON</li>
+                <li>Persistence</li>
+              </ul>
+              <div class="projectButtons">
+                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://github.com/t1oluwani/Budget-App" target='blank'>Github Repo &gt;</a>
+              </div>
+            </li>
+            
+            <li class="projectItem rest">
+              <img alt="" />
+              <h3>RESTful API</h3>
+              <p>This is a deployed RESTful API for managing employee data. It allows you to perform CRUD (Create, Read, Update, Delete) operations on employee records.</p>
+              <ul class="skillList">
+                <li>JavaScript</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li>CRUD</li>
+                <li>Insomnia</li>
+                <li>Cybera</li>
+                <li>Ubuntu</li>
+                <li>API-Deployment</li>
+              </ul>
+              <div class="projectButtons">
+                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://github.com/t1oluwani/restfulAPI" target='blank'>Github Repo &gt;</a>
+              </div>
+            </li>
 
-              <li class="projectItem">
-                <img alt=""/>
-                {/* <h3>Froggsite</h3> */}
-                <p>This website is a fun way to display my web-dev skills with HTML and CSS and my knowledge of applications and client-side scripting with Javascript. </p>
-                {/* <h5>Skills:</h5>
-                <p>HTML, CSS, Javascript, Web Development</p> */}
+            <li class="projectItem sprint">
+              <img alt="" />
+              <h3>Sprint</h3>
+              <p>This is a versatile web application designed to streamline Agile and Scrum managing by facilitating efficient tracking and organization of user stories.</p>
+              <ul class="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>UI/UX</li>
+                <li>Sprint Methodologies</li>
+                <li>Agile Methodologies</li>
+              </ul>
+              <div class="projectButtons">
+                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://github.com/KneadTeam/Sprint" target='blank'>Github Repo &gt;</a>
+              </div>
+            </li>
 
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="https://github.com/t1oluwani/Frogg-site">Github Repo &gt;</a>
-                </div>
-              </li>
+            <li class="projectItem frogg">
+              <img alt="" />
+              <h3>Froggsite</h3>
+              <p>This website is a fun way to display my web-dev skills with HTML and CSS and my knowledge of applications and client-side scripting with Javascript.</p>
+              <ul class="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>UI/UX Principles</li>
+                <li>Website Developement</li>
+                <li>DOM Manipulation</li>
+                <li>Event-Handling</li>
+                <li>Animations</li>
+                <li>HTML5 Canvas</li>
+              </ul>
+              <div class="projectButtons">
+                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://github.com/t1oluwani/Frogg-site" target='blank'>Github Repo &gt;</a>
+              </div>
+            </li>
 
-              <li class="projectItem">
-                <img alt=""/>
-                {/* <h3>Word Games</h3> */}
-                <p>...</p>
-                {/* <h5>Skills:</h5>
-                <p>Python, Object Oriented Programming, Polymorphism</p> */}
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="https://github.com/t1oluwani/Word-Games-App">Github Repo &gt;</a>
-                </div>
-              </li>
+            <li class="projectItem wordgames">
+              <img alt="" />
+              <h3>Word Games</h3>
+              <p>This project features word-guessing games implemented in Python; it offers two popular variants: Hangman and Wordle which use and extend from the same abstract class</p>
+              <ul class="skillList">
+                <li>Python</li>
+                <li>Polymorphism</li>
+                <li>Abstraction</li>
+                <li>Object-Oriented-Programming</li>
+              </ul>
+              <div class="projectButtons">
+                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://github.com/t1oluwani/Word-Games-App" target='blank'>Github Repo &gt;</a>
+              </div>
+            </li>
 
-              {/* <li class="projectItem">
-                <img alt=""/>
-                <h3>Study Circle</h3>
-                <p>a web application dedicated to connecting University of Alberta students with compatible study groups. Our app is designed to facilitate seamless collaboration, enhance academic success, and cater to the unique needs of the UAlberta community.</p>
-                <h5>Skills:</h5>
-                // <p>Python, Django</p>
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="https://github.com/StudyCircleorg/StudyCircle">Github Repo &gt;</a>
-                </div>
-              </li>
+            <li class="projectItem starwars">
+              <img alt="" />
+              <h3>Star Wars Form</h3>
+              <p>This web application provided experience in creating an API and using a 3rd party API, it allows users to submit and retrieve Star Wars related information.</p>
+              <ul class="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li>CRUD</li>
+                <li>Insomnia</li>
+                <li>SWAPI (Star Wars API)</li>
+              </ul>
+              <div class="projectButtons">
+                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="" target='blank'>Github Repo &gt;</a>
+              </div>
+            </li>
 
-              <li class="projectItem">
-                <img alt=""/>
-                <h3>Stool (Study Tool)</h3>
-                <p>Introducing Stool, a sophisticated Chrome browser extension designed to enhance your video-watching experience on YouTube. With Stool, effortlessly transcribe the content of any YouTube video, seamlessly highlighted in real-time as the video progresses. Elevate your learning or content consumption by posing inquiries directly to OpenAI, tailored to the specifics of the video you're watching. Experience a new level of interaction and accessibility with Stool, transforming your browsing into an enriched, knowledge-driven journey.</p>
-                <h5>Skills:</h5>
-                <p>Javascript, Dockerfile, CSS, HTML, Typescript, NodeJS, OpenAI</p>
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="https://github.com/team-Diversity/stool">Github Repo &gt;</a>
-                </div>
-              </li> */}
+            {/* Working On */}
 
-              <li class="projectItem">
-                <img alt=""/>
-                {/* <h3>Sprint</h3> */}
-                <p>This is a versatile web application designed to streamline Agile and Scrum managing by facilitating efficient tracking and organization of user stories.</p>
-                {/* <h5>Skills:</h5>
-                <p>HTML, CSS, Python, Javascript, UI/UX, Sprint/Agile Methodologies</p> */}
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="https://github.com/KneadTeam/Sprint">Github Repo &gt;</a>
-                </div>
-              </li>
-              
-              <li class="projectItem">
-                <img alt=""/>
-                {/* <h3>RESTful API</h3> */}
-                <p>This is a deployed RESTful API for managing employee data. It allows you to perform CRUD (Create, Read, Update, Delete) operations on employee records. </p>
-                {/* <h5>Skills:</h5>
-                <p>JavaScript, NodeJS, ExpressJS, CRUD, Insomnia, Cybera Instances, API Deployement, MongoDB, Mongoose</p> */}
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="https://github.com/t1oluwani/restfulAPI">Github Repo &gt;</a>
-                </div>
-              </li>
-
-              <li class="projectItem">
-                <img alt=""/>
-                {/* <h3>Star Wars (3rd Party API)</h3> */}
-                <p>This web application provided experience in creating an API and using a 3rd party API, it allows users to submit and retreive star wars related information.</p>
-                {/* <h5>Skills:</h5> */}
-                {/* <p>JavaScript, NodeJS, ExpressJS, CRUD, Insomnia, Third Party API, MongoDB, Mongoose, HTML, CSS, Fetch API, SWAPI (Star Wars API)</p> */}
-                <div class="projectButtons">
-                  <a class="viewbtn" href="">View Live &gt;</a>
-                  <a class="viewbtn" href="">Github Repo &gt;</a>
-                </div>
-              </li>
-
-              {/* Working On */}
-
-              {/* <li class="projectItem">
+            {/* <li class="projectItem">
                 <img alt=""/>
                 <h3>BearMaps</h3>
                 <p>...</p>
@@ -154,20 +179,44 @@ const ProjectPage = () => {
                 <a class="viewbtn" href="">Github Repo</a>
               </li> */}
 
-            </ul>
+            {/* Low Contribution Group Project  */}
 
-            {/* <!-- Virtual Assistant -->
+            {/* <li class="projectItem">
+                <img alt=""/>
+                <h3>Study Circle</h3>
+                <p>a web application dedicated to connecting University of Alberta students with compatible study groups. Our app is designed to facilitate seamless collaboration, enhance academic success, and cater to the unique needs of the UAlberta community.</p>
+                // <p>Python, Django</p>
+                <div class="projectButtons">
+                  <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                  <a class="viewbtn" href="https://github.com/StudyCircleorg/StudyCircle" target='blank'>Github Repo &gt;</a>
+                </div>
+              </li>
+
+              <li class="projectItem">
+                <img alt=""/>
+                <h3>Stool (Study Tool)</h3>
+                <p>Introducing Stool, a sophisticated Chrome browser extension designed to enhance your video-watching experience on YouTube. With Stool, effortlessly transcribe the content of any YouTube video, seamlessly highlighted in real-time as the video progresses. Elevate your learning or content consumption by posing inquiries directly to OpenAI, tailored to the specifics of the video you're watching. Experience a new level of interaction and accessibility with Stool, transforming your browsing into an enriched, knowledge-driven journey.</p>
+                <p>Javascript, Dockerfile, CSS, HTML, Typescript, NodeJS, OpenAI</p>
+                <div class="projectButtons">
+                  <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                  <a class="viewbtn" href="https://github.com/team-Diversity/stool" target='blank'>Github Repo &gt;</a>
+                </div>
+              </li> */}
+
+          </ul>
+
+          {/* <!-- Virtual Assistant -->
             <!-- Tic-tac-toe -->
             <!-- Pong -->
             <!-- Moderate Paint -->
             <!-- Photo Editor Lite -->
             <!-- Snake -->
             <!-- etc --> */}
-          </div>
         </div>
+      </div>
 
-      </section>
-    )
+    </section>
+  )
 };
 
 export default ProjectPage;

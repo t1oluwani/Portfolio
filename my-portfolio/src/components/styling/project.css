@@ -1,64 +1,165 @@
 .projectpage {
-    padding: 0 0 400px 0;
-  }
-   
-  .projects {
-    color: var(--night-txt-color);
-  }
+  padding: 0 0 400px 0;
+}
 
-  .projects li {
-    list-style-type: none;
-  }
+.projects {
+  /* color: var(--night-txt-color); */
+  color: white;
+}
 
-  .projects a {
-    text-decoration: none;
-  }
+.projects li {
+  list-style-type: none;
+}
 
-  .projects a:visited {
-    color: inherit;
-  }
+.projects a {
+  text-decoration: none;
+}
 
-  .projectList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    max-width: 90%;
-  }
+.projects h3 {
+  font-size: 30px;
+  margin: 0;
+}
 
-  .projectItem {
-    background-color: rgb(20, 68, 90);
-    margin: 25px;
-    width: 400px;
-    height: 250px;
+.projects a:visited {
+  color: inherit;
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 90%;
+}
 
-    border-radius: 5%;
-    box-sizing: border-box;
-    font-size: 18px;
-    padding: 50px;
+.projectItem {
+  background-color: rgb(21, 28, 95);
+  /* background-color: rgb(7, 40, 56); */
+  /* background-color: var(--night-glow-color); */
+  margin: 25px;
+  width: 400px;
+  height: 250px;
 
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-  .projectButtons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+  border-radius: 5%;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 50px;
+}
 
-   
-  }
+.projectButtons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 
-  .viewbtn {
-    border-radius: 40px;
-    border: 2px solid var(--night-txt-color);
-    padding: 2.5px 10px;
-    cursor: pointer;
-  }
+.viewbtn {
+  border-radius: 40px;
+  border: 2px solid cyan;
+  padding: 2.5px 10px;
+  cursor: pointer;
+}
 
-  
+.skillList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 120%;
+  margin: 10px;
+  padding: 0;
+}
 
+.skillList li {
+  font-size: 14px;
+  padding: 0px 5px;
+  margin: 3px 5px;
+  border: 1px solid var(--night-txt-color);
+  /* background-color: white; */
+  color: var(--night-txt-color);
+  border-radius: 12px;
+}
+
+.projectItem h3,
+.projectItem li {
+  display: block;
+}
+.projectItem p,
+.projectItem a {
+  display: none;
+}
+
+.projectItem:hover h3,
+.projectItem:hover li {
+  display: none;
+}
+.projectItem:hover p,
+.projectItem:hover a {
+  display: block;
+}
+
+.projectItem.budget {
+  background-image: url('../../assets/projects/project1.jpg');
+  background-size: cover;
+}
+
+.projectItem.budget:hover {
+  background-image: none;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+
+.projectItem.rest {
+  background-image: url('../../assets/projects/project2.png');
+  background-size: cover; 
+}
+.projectItem.rest:hover {
+  background-image: none;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.projectItem.sprint {
+  background-image: url('../../assets/projects/project3.png');
+  background-size: cover; 
+}
+.projectItem.sprint:hover {
+  background-image: none;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+ .projectItem.frogg {
+  background-image: url('../../assets/projects/project4.png');
+  background-size: cover; 
+}
+.projectItem.frogg:hover {
+  background-image: none;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.projectItem.wordgames {
+  background-image: url('../../assets/projects/project5.png');
+  background-size: cover; 
+}
+.projectItem.wordgames:hover {
+  background-image: none;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.projectItem.starwars {
+  background-image: url('../../assets/projects/project6.png');
+  background-size: cover; 
+}
+.projectItem.starwars:hover {
+  background-image: none;
+  transform: scale(1.1);
+  transition: background-size 0.5s; 
+} 
