@@ -19,6 +19,11 @@
 .projects h3 {
   font-size: 30px;
   margin: 0;
+  /* text-shadow:
+    -1px -1px 0 var(--night-txt-color),  
+    1px -1px 0 var(--night-txt-color),
+    -1px 1px 0 var(--night-txt-color),
+    1px 1px 0 var(--night-txt-color);  */
 }
 
 .projects a:visited {
@@ -80,9 +85,11 @@
   font-weight: 500;
   padding: 0px 5px;
   margin: 3px 5px;
-  border: 1px solid var(--night-txt-color);
+  /* border: 2px solid var(--night-txt-color); */
+  border: 1px solid white;
   /* background-color: white; */
-  color: var(--night-txt-color);
+  /* color: var(--night-txt-color); */
+  color: white;
   border-radius: 12px;
 }
 

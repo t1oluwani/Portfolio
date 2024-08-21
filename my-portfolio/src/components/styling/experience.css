@@ -15,15 +15,16 @@
     width: 50%;
   }
   
-  .timeline-container.education {
+  .content.education {
     left: 0;
   }
   
-  .timeline-container.experience {
+  .content.experience {
     left: 50%;
   }
   
   .content {
+    position: relative;
     padding: 20px 30px;
     background-color: var(--night-txt-color);
     border-radius: 25px;
