@@ -32,7 +32,7 @@ const ProjectPage = () => {
                 <li>Persistence</li>
               </ul>
               <div class="projectButtons">
-                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                {/* <a class="viewbtn" href="" target='blank'>View Live &gt;</a> */}
                 <a class="viewbtn" href="https://github.com/t1oluwani/Budget-App" target='blank'>Github Repo &gt;</a>
               </div>
             </li>
@@ -54,7 +54,7 @@ const ProjectPage = () => {
                 <li>API-Deployment</li>
               </ul>
               <div class="projectButtons">
-                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="http://[2605:fd00:4:1001:f816:3eff:fe13:b269]/employees" target='blank'>View Live &gt;</a>
                 <a class="viewbtn" href="https://github.com/t1oluwani/restfulAPI" target='blank'>Github Repo &gt;</a>
               </div>
             </li>
@@ -73,7 +73,7 @@ const ProjectPage = () => {
                 <li>Agile Methodologies</li>
               </ul>
               <div class="projectButtons">
-                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://kneadteam.github.io/Sprint/" target='blank'>View Live &gt;</a>
                 <a class="viewbtn" href="https://github.com/KneadTeam/Sprint" target='blank'>Github Repo &gt;</a>
               </div>
             </li>
@@ -94,7 +94,7 @@ const ProjectPage = () => {
                 <li>HTML5 Canvas</li>
               </ul>
               <div class="projectButtons">
-                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://t1oluwani.github.io/Frogg-site/" target='blank'>View Live &gt;</a>
                 <a class="viewbtn" href="https://github.com/t1oluwani/Frogg-site" target='blank'>Github Repo &gt;</a>
               </div>
             </li>
@@ -110,7 +110,7 @@ const ProjectPage = () => {
                 <li>Object-Oriented-Programming</li>
               </ul>
               <div class="projectButtons">
-                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                {/* <a class="viewbtn" href="" target='blank'>View Live &gt;</a> */}
                 <a class="viewbtn" href="https://github.com/t1oluwani/Word-Games-App" target='blank'>Github Repo &gt;</a>
               </div>
             </li>
@@ -133,7 +133,7 @@ const ProjectPage = () => {
               </ul>
               <div class="projectButtons">
                 <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
-                <a class="viewbtn" href="" target='blank'>Github Repo &gt;</a>
+                <a class="viewbtn" href="https://github.com/t1oluwani/StarWarsAPI" target='blank'>Github Repo &gt;</a>
               </div>
             </li>
 

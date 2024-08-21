@@ -13,6 +13,7 @@
 
 .projects a {
   text-decoration: none;
+  color: white;
 }
 
 .projects h3 {
@@ -21,7 +22,7 @@
 }
 
 .projects a:visited {
-  color: inherit;
+  color: white;
 }
 
 .projectList {
@@ -76,6 +77,7 @@
 
 .skillList li {
   font-size: 14px;
+  font-weight: 500;
   padding: 0px 5px;
   margin: 3px 5px;
   border: 1px solid var(--night-txt-color);
@@ -161,5 +163,5 @@
 .projectItem.starwars:hover {
   background-image: none;
   transform: scale(1.1);
-  transition: background-size 0.5s; 
+  transition: transform 0.5s; 
 } 
