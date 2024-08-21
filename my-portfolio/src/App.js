@@ -17,9 +17,6 @@ import NavigationBar from './components/navbar';
 function App() {
   return (
     <div className="Portfolio">
-      <head>
-        <title>Tioluwani Akinloye's Portfolio</title>
-      </head>
 
       <body>
         <Blur />
