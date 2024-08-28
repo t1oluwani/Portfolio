@@ -32,10 +32,8 @@ function App() {
 
         {/* Copyright Footer */}
         <footer>
-          <p>&copy; TIOLUWANI AKINLOYE 2022</p>
+          <p>&copy; TIOLUWANI AKINLOYE 2024</p>
         </footer>
-
-      
 
       </body>
     </div>

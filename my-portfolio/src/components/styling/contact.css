@@ -1,56 +1,80 @@
 .contactpage {
-    padding: 0 0 400px 0;
-  }
-  
-  .contactpage .sectionBody {
-    text-align: center;
-  }
-  
-  .contactpage img {
-    height: 50px;
-    width: 50px;
-    padding: 10px;
-  }
-  
-  .contactLink {
-    color: var(--night-txt-color);
-    text-decoration: none;
-  }
-  
-  .contactLink:hover {
-    text-decoration: underline;
-  }
-  
-  /* Contact Form Styling */
-  #contactForm {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  #contactForm input, #contactForm textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  #contactForm button {
-    background-color: var(--night-txt-color);
-    color: var(--night-bg-color);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  #contactForm button:hover {
-    color: white;
-  }
-  
-  
-  /* Footer */
-  
-  footer {
-    text-align: center;
-  }
+  padding: 0 0 400px 0;
+}
+
+.contactpage img {
+  height: auto;
+  width: 50px;
+  padding: 10px;
+}
+
+.contactpage .sectionBody {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.contactOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contactLabel {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contactLink {
+  color: var(--night-txt-color);
+  text-decoration: none;
+}
+.contactLink:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form Styling */
+.contactForm {
+  max-width: 650px;
+  margin: 0;
+  padding: 20px;
+
+  border-radius: 20px;
+  background-color: rgba(126, 160, 189, 0.7);
+}
+
+.contactForm h2 {
+  color: var(--night-txt-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contactForm input, .contactForm textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid lightsteelblue;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+}
+
+.contactForm :placeholder-shown {
+
+}
+
+
+.contactForm button {
+  background-color: var(--night-txt-color);
+  color: var(--night-bg-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contactForm button:hover {
+}
