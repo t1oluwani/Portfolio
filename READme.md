@@ -7,6 +7,7 @@
 - replace about me pic
 - navbar -> sidebar
 - general spacing
+- turn torch off bottom left (=o) (o=)
 - fonts
 - general animations
 - readme
