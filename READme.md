@@ -3,7 +3,7 @@
 **Proposal:** ....
 
 ## Current Tasks
-- contact me page
+- redo skills page
 - replace about me pic
 - navbar -> sidebar
 - general spacing
