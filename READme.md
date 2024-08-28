@@ -11,6 +11,7 @@
 - general animations
 - readme
 - deploy
+- alter projects to fit better
 
 
 ## Features
