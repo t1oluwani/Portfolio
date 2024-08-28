@@ -5,6 +5,7 @@
 ## Current Tasks
 - deploy
 - contact me page
+- replace about me pic
 - navbar -> sidebar
 - general animations
 - general spacing
