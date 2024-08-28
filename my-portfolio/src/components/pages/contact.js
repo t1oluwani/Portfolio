@@ -14,8 +14,9 @@ const ContactPage = () => {
       <div class="sectionBody">
 
         <div className='contactOptions'>
+
           <div className='emailOption'>
-            <p>You can email me directly:</p>
+            <h3>You can email me directly:</h3>
             <a rel="noopener" href="mailto:akinloyetioluwani@gmail.com" target="_blank" class="contactLink">
               <label class="contactLabel">
                 <img alt="Email Logo" src={Email} />
@@ -24,10 +25,10 @@ const ContactPage = () => {
             </a>
           </div>
 
-          <h1>OR</h1>
+          <h1></h1>
 
           <div className='calendlyOption'>
-            <p>Schedule a virtual meeting with me:</p>
+            <h3>Schedule a virtual meeting with me:</h3>
             <a rel="noopener" href="https://calendly.com/akinloyetioluwani" target="_blank" class="contactLink">
               <label class="contactLabel">
                 <img alt="Calendly Logo" src={Calendly} />
@@ -35,10 +36,13 @@ const ContactPage = () => {
               </label>
             </a>
           </div>
+
         </div>
 
+        <h1>OR</h1>
+
         <div className='contactForm'>
-          <h2>Contact Form</h2>
+          <h2>Fill this Contact Form</h2>
           <form id="contactForm" action method>
             <input type="text" id="nameInput" class="nameInput" required placeholder="Input Name*" />
             <input type="tel" id="phoneInput" class="phoneInput" required placeholder="Input Number*" />

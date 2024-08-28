@@ -11,21 +11,29 @@
 .contactpage .sectionBody {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  gap: 100px;
+  gap: 50px;
 }
 
 .contactOptions {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 20px;
+  gap: 30px;
+}
+
+.emailOption, .calendlyOption {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(70, 130, 180, 0.4);
 }
 
 .contactLabel {
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  padding-right: 15px;
+  gap: 5px;
 }
 
 .contactLink {
@@ -62,19 +70,15 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
 }
 
-.contactForm :placeholder-shown {
-
-}
-
-
 .contactForm button {
   background-color: var(--night-txt-color);
   color: var(--night-bg-color);
   padding: 10px 20px;
+  margin-top: 10px;
+
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
 
-.contactForm button:hover {
+  font-size: 16px;
 }
