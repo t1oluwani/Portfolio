@@ -17,7 +17,7 @@ const TimelineEvent = ({event}) => {
       <p className="location">{event.location}</p>
       <h2 className="organization">{event.organization}</h2>
       <h3 className="title">{event.title}</h3>
-      <p className="details">{event.details}</p>
+      {event.details && <p className="details">{event.details}</p>}      
       <div className="skills">
         {sortedSkills.map((skill, idx) => (
           <span className="skill" key={idx}>{skill}</span>

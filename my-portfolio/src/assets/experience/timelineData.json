@@ -4,7 +4,7 @@
     "start": "2017-09-01",
     "end": "2020-06-30",
     "organization": "Harry Ainlay Composite High School",
-    "title": "High School Diploma with Honours & IB Diploma",
+    "title": "High School and IB Diploma (Honours)",
     "location": "Edmonton AB, Canada",
     "details": "",
     "skills": [
@@ -70,7 +70,7 @@
     "organization": "STEM Montessori Academy of Canada",
     "title": "Online STEM Facilitator",
     "location": "Toronto ON, Canada · Remote",
-    "details": "Virtual Coding Instructor for HTML/CSS, Python, and Math",
+    "details": "At STEM Montessori, I developed and taught six coding courses covering Python and HTML/CSS for students aged 10-18. I facilitated beginner to advanced levels, delivered engaging 1-hour lectures, and fostered active learning and interpersonal connections among 100 students.",
     "skills": [
       "Mathematics",
       "Markup Languages",
@@ -89,7 +89,7 @@
     "organization": "Knead Technologies",
     "title": "Student Software Developer",
     "location": "Calgary AB, Canada · Remote",
-    "details": "Full Stack Developer; fixed bugs, tested and developed new features for the recipient portal account",
+    "details": "As a Student Developer at Knead Technologies, I designed an intuitive dashboard and developed features using ReactJS, PHP (Laravel), Apache, and MySQL, all within a Docker environment. I collaborated with a team of six in Agile Sprints, conducted E2E testing with Cypress, and unit testing with PHPUnit. Additionally, I created comprehensive documentation for the codebase and user resources.",
     "skills": [
       "PHP",
       "Laravel",
