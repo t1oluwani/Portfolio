@@ -1,0 +1,62 @@
+[
+  {
+    "category": "education",
+    "start": "Sep 2017",
+    "end": "Jun 2020",
+    "organization": "Harry Ainlay Composite High School",
+    "title": "High School Diploma with Honours & IB Diploma",
+    "location": "Edmonton, Alberta, Canada",
+    "details": "Distinguised Service Award, Honors Award, IB Diploma Programme",
+    "skills": "Client Side Scripting, Leadership, CSS, Design, Japanese, English, HTML, JavaScript, Markup Languages, Critical Thinking"
+  },
+  {
+    "category": "education",
+    "start": "Sep 2020",
+    "end": "Apr 2022",
+    "organization": "The University of British Columbia",
+    "title": "BS, Combined Major in Science",
+    "location": "Vancouver, British Columbia, Canada",
+    "details": "",
+    "skills": "R, JSON, OOP, Version Control, C, Racket, GitHub, Java, Data Structures, Git, C++"
+  },
+  {
+    "category": "education",
+    "start": "Sep 2022",
+    "end": "May 2025",
+    "organization": "University of Alberta",
+    "title": "BS, Computing Science",
+    "location": "Edmonton, Alberta, Canada",
+    "details": "",
+    "skills": "Python, OOP, Version Control, C, GitHub, Data Structures, Git, Docker, Cybera, REST APIs"
+  },
+  {
+    "category": "experience",
+    "start": "Jul 2022",
+    "end": "Aug 2022",
+    "organization": "STEM Montessori Academy of Canada",
+    "title": "Virtual Summer STEM Facilitator",
+    "location": "Toronto, Ontario, Canada · Remote",
+    "details": "Virtual Coding Instructor for HTML/CSS",
+    "skills": "Markup Languages, HTML, Client Side Scripting, CSS, Teaching"
+  },
+  {
+    "category": "experience",
+    "start": "Nov 2022",
+    "end": "Jun 2023",
+    "organization": "STEM Montessori Academy of Canada",
+    "title": "Online STEM Facilitator",
+    "location": "Toronto, Ontario, Canada · Remote",
+    "details": "Virtual Coding Instructor for HTML/CSS, Python, and Math",
+    "skills": "Mathematics, Markup Languages, HTML, JavaScript, Python, Client Side Scripting, CSS, Teaching"
+  },
+  {
+    "category": "experience",
+    "start": "Jan 2024",
+    "end": "Apr 2024",
+    "organization": "Knead Technologies",
+    "title": "Student Software Developer",
+    "location": "Calgary, Alberta, Canada · Remote",
+    "details": "Full Stack Developer; fixed bugs, tested and developed new features for the recipient portal account",
+    "skills": "PHP, Laravel, TypeScript, React.js, MySQL, Docker, PHPUnit, Cypress, WSL, Sprint Planning, Git, GitHub"
+  }
+]

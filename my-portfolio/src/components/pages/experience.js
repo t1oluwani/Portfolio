@@ -1,4 +1,5 @@
 import '../styling/experience.css';
+import TimelineEvent from '../features/timelineEvent';
 
 const ExperiencePage = () => {
   return (
@@ -11,10 +12,10 @@ const ExperiencePage = () => {
 
       <div class="sectionBody">
         <div class="timeline">
-          {/* Work and School Experiences */}
           <div class="timeline-container">
+            <TimelineEvent />
 
-            <div class="content education">
+            {/* <div class="content education">
               <p>Sep 2017 - Jun 2020</p>
               <h2>Harry Ainlay High School</h2>
               <p>High School Diploma</p>
@@ -69,7 +70,7 @@ const ExperiencePage = () => {
               <p>Calgary, Alberta, Canada · Remote</p>
               <p>Full Stack Developer; fixed bugs, tested and developed new features for the recipient portal account</p>
               <p>Skills: PHP, Laravel, TypeScript, React.js, MySQL, Docker, PHPUnit, Cypress, wsl, Sprint Planning, Git, GitHub</p>
-            </div>
+            </div> */}
 
           </div>
         </div>
