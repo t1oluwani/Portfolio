@@ -13,7 +13,6 @@ const AboutPage = () => {
           </div>
           <div className="sectionBody">
           <img alt="" class="photo" src={myPicture}></img>
-            {/* Full Bio */}
             <div className="aboutinfo">
               <p className="bio">
                 Hi there! My name is Tioluwani Akinloye, but I normally go by Favour. I am an Honors Computing science student at the University of Alberta. I was born and raised in Nigeria, and have always been fascinated by the potential of technology to change people's lives for the better.

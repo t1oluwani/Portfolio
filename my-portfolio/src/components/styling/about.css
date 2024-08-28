@@ -2,20 +2,24 @@
   padding: 0 0 400px 0;
 }
 
+.aboutpage .sectionBody {
+  margin: auto;
+  width: 90%;
+}
+
 .aboutpage img {
   position: relative;
   float: left;
   width: 350px;
   height: auto;
-  margin: 10px 175px;
-  border-radius: 5%;
+  margin: 10px 100px;
+  border-radius: 20px;
   border: 5px solid var(--night-txt-color);
   z-index: 2;
 
   /* box-shadow: 0 0 150px 50px rgb(15, 65, 118); */
-  box-shadow: 0 0 30px 10px rgb(0, 123, 255);
+  /* box-shadow: 0 0 30px 10px rgb(0, 123, 255); */
   transition: ease-in-out 0.3s;
-
 
   /* animation: glowing;
   animation-duration: 3s;
@@ -32,15 +36,28 @@
   padding: 10px 150px;
 }
 
-.aboutinfo p {
+.bio {
+  position: relative;
+  z-index: 1;
+
   font-size: 19px;
-  color: var(--night-txt-color);
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: white;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-bottom: 0;
+  border-radius: 25px;
+  transform: translateY(-10px);
 }
 
 .icons {
   display: flex;
-  justify-content: space-between; 
-  padding: 25px 100px 0px 100px;
+  float: right;
+
+  margin-top: 0;
+  margin-right: 125px;
 }
 
 .icons a {
@@ -70,10 +87,6 @@
   z-index: 1;
 }
 
-.bio {
-  position: relative;
-  z-index: 1;
-}
 
 /* @keyframes glowing {
   0% {

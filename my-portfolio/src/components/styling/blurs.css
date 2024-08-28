@@ -29,6 +29,7 @@
     height: 40vw;
     top: 80vw;
     right: 10vw;
+    display: none;
   }
 
   .skillsBlur {
@@ -36,6 +37,7 @@
     left: 20vw;
     height: 30vw;
     width: 60vw;
+    display: none;
   }
 
   
