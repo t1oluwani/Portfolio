@@ -10,7 +10,7 @@ import ContactPage from './components/pages/contact';
 
 import Blur from './components/features/blurs';
 import GlowCursor from './components/features/glowcursor';
-import NavigationBar from './components/navbar';
+import NavigationBar from './components/features/navbar';
 
 
 

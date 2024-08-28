@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './styling/navbar.css';
-import HamburgerMenu from './features/hamburgermenu';
+import '../styling/navbar.css';
+import HamburgerMenu from '../features/hamburgermenu';
 
 const NavigationBar = () => {
   const [isNavVisible, setIsNavVisible] = useState(true);

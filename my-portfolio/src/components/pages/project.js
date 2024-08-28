@@ -1,7 +1,5 @@
 import '../styling/project.css';
 
-import test from '../../assets/projects/project1.jpg'
-
 const ProjectPage = () => {
   return (
     <section id="projects" class="projectpage">
