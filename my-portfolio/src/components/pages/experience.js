@@ -3,6 +3,10 @@ import TimelineEvent from '../features/timelineEvent';
 import timelineData from '../../assets/experience/timelineData.json'
 
 const ExperiencePage = () => {
+  const sortedTimelineData = timelineData.sort((a, b) => {
+    return new Date(b.end) - new Date(a.end);
+  });
+
   return (
     <section id="experiences" class="experiencepage">
       <div class="sectionHead">
@@ -14,7 +18,7 @@ const ExperiencePage = () => {
       <div class="sectionBody">
         <div class="timeline">
           <div class="timeline-container">
-            {timelineData.map((event, idx) => (
+            {sortedTimelineData.map((event, idx) => (
               <TimelineEvent event={event} key={idx} />
             ))}
           </div>
