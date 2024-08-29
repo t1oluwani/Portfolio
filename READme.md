@@ -3,21 +3,16 @@
 **Proposal:** ....
 
 ## Current Tasks
-- complete skeleton part (html)
-- implement css and style page
-- implement owl carousel
-- have see all option that displays all
-- make full stack (implement web framework)
+- turn torch off bottom left (=o) (o=)
+- fonts
+- general animations
+- readme
+- deploy
+- alter projects to fit better
 
 
 ## Features
-- night(dark blue, light blue) and day (beige and black)
-- name does the wakanda to english glitchy translation thingy
-- Layout: home -> about me -> skills (featured, see all) -> projects (owl carousel) -> experience (vertical timeline) -> contact me
-- socials icon under about me section
-- three line menu brings page down that has [Home, About, Skills, Projects, Experience, and Contact me]
-- projects: view live and git repo
-- 
+...
  
 
 ## How to Install
@@ -27,5 +22,6 @@
 ...
 
 ## Citations
-- Owl Carousel:
-- Hamburger menu turning into x
+- [Owl Carousel:](https://www.youtube.com/watch?v=YQCDUJ6hhNY)
+- [Hamburger menu turning into x](https://www.youtube.com/watch?v=dAIVbLrAb_U)
+- [Experience timeline](https://www.florin-pop.com/blog/2019/04/how-to-create-a-timeline-with-react/)
