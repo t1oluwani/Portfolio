@@ -51,6 +51,23 @@
   padding-bottom: 10px;
 }
 
-.hidden {
-  display: none;
+.nav_visible {
+  opacity: 1;
+  transition: opacity ease-in-out 1s;
 }
+
+.nav_hidden {
+  opacity: 0;
+  transition: opacity ease-in-out 1s;
+}
+
+.side_visible {
+  transform: translateX(0);
+  transition: transform ease-in-out 1s;
+}
+
+.side_hidden {
+  transform: translateX(100%);
+  transition: transform ease-in-out 1s;
+}
+

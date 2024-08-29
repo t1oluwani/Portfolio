@@ -13,7 +13,7 @@ const NavigationBar = () => {
 
   return (
     <div>
-      <div className={`navMenu ${isNavVisible ? '' : 'hidden'}`} id="navMenu">
+      <div className={`navMenu ${isNavVisible ? 'nav_visible' : 'nav_hidden'}`} id="navMenu">
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -24,7 +24,7 @@ const NavigationBar = () => {
         </ul>
       </div>
 
-      <div className={`sideNavMenu ${isSideNavVisible ? '' : 'hidden'}`} id="sideNavMenu">
+      <div className={`sideNavMenu ${isSideNavVisible ? 'side_visible' : 'side_hidden'}`} id="sideNavMenu">
         <ul className="side-nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>

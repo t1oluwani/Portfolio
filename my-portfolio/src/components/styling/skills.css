@@ -1,5 +1,5 @@
 .skillspage {
-  padding: 100px 0 400px 0;
+  padding: 20px 0 300px 0;
 }
 
 .skillspage img {
@@ -73,7 +73,7 @@
   cursor: pointer;
   width: 40px;
   height: 40px;
-  top: 172rem;
+  top: 149rem;
 }
 
 .arrow.left {
