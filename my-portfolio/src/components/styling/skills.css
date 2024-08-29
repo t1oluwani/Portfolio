@@ -112,6 +112,8 @@
   border: none;
   border-radius: 100%;
   background-color: var(--night-txt-color);
+  box-shadow: 0 0 0 2.5px var(--night-txt-color); 
+  outline: 1.5px solid rgb(32, 28, 60);
   margin: 0 5px;
   z-index: 1;
 }
