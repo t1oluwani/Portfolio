@@ -3,10 +3,6 @@
 **Proposal:** ....
 
 ## Current Tasks
-- redo skills page
-- replace about me pic
-- navbar -> sidebar
-- general spacing
 - turn torch off bottom left (=o) (o=)
 - fonts
 - general animations
