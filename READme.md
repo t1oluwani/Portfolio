@@ -3,11 +3,6 @@
 **Proposal:** ....
 
 ## Current Tasks
-- scroll animation when clicking pages
-- turn torch off bottom left (=o) (o=)
-- fonts
-- general animations
-- readme
 - deploy
 - alter projects to fit better
 
