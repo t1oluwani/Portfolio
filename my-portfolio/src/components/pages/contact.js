@@ -17,7 +17,7 @@ const ContactPage = () => {
 
           <div className='emailOption'>
             <h3>You can email me directly:</h3>
-            <a rel="noopener" href="mailto:akinloyetioluwani@gmail.com" target="_blank" class="contactLink">
+            <a rel="noreferrer" href="mailto:akinloyetioluwani@gmail.com" target="_blank" class="contactLink">
               <label class="contactLabel">
                 <img alt="Email Logo" src={Email} />
                 akinloyetioluwani@gmail.com
@@ -25,11 +25,9 @@ const ContactPage = () => {
             </a>
           </div>
 
-          <h1></h1>
-
           <div className='calendlyOption'>
             <h3>Schedule a virtual meeting with me:</h3>
-            <a rel="noopener" href="https://calendly.com/akinloyetioluwani" target="_blank" class="contactLink">
+            <a rel="noreferrer" href="https://calendly.com/akinloyetioluwani" target="_blank" class="contactLink">
               <label class="contactLabel">
                 <img alt="Calendly Logo" src={Calendly} />
                 Schedule via Calendly

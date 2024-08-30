@@ -130,7 +130,7 @@ const ProjectPage = () => {
                 <li>SWAPI (Star Wars API)</li>
               </ul>
               <div class="projectButtons">
-                <a class="viewbtn" href="" target='blank'>View Live &gt;</a>
+                <a class="viewbtn" href="https://t1oluwani.github.io/StarWarsAPI/" target='blank'>View Live &gt;</a>
                 <a class="viewbtn" href="https://github.com/t1oluwani/StarWarsAPI" target='blank'>Github Repo &gt;</a>
               </div>
             </li>

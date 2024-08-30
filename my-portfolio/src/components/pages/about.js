@@ -24,16 +24,11 @@ const AboutPage = () => {
 
               {/* Add social media icons */}
               <ul class="icons">
-                <li><a rel="noopener" href="https://www.linkedin.com/in/tioluwani-akinloye-255a481b7/"
-                  target="_blank" class="fa-brands fa-linkedin"></a></li>
-                <li><a rel="noopener" href="https://github.com/t1oluwani" 
-                  target="_blank" class="fa-brands fa-github"></a></li>
-                <li><a rel="noopener" href="mailto:akinloyetioluwani@gmail.com" 
-                  target="_blank" class="fa-regular fa-envelope"></a></li>
-                <li><a rel="noopener" href="https://www.instagram.com/favour_ak1n"
-                  target="_blank" class="fa-brands fa-instagram"></a></li>
-                <li><a rel="noopener" className="resume" href={myResume}
-                  target="_blank" class="fa-regular fa-file">Resume</a></li>   
+                <li><a href="https://www.linkedin.com/in/tioluwani-akinloye-255a481b7/" target="_blank" rel="noreferrer" class="fa-brands fa-linkedin"> </a></li>
+                <li><a href="https://github.com/t1oluwani" target="_blank" rel="noreferrer" class="fa-brands fa-github"> </a></li>
+                <li><a href="mailto:akinloyetioluwani@gmail.com" target="_blank" rel="noreferrer" class="fa-regular fa-envelope"> </a></li>
+                <li><a href="https://www.instagram.com/favour_ak1n" target="_blank" rel="noreferrer"class="fa-brands fa-instagram"> </a></li>
+                <li><a href={myResume} target="_blank" rel="noreferrer" class="fa-regular fa-file">Resume</a></li>   
                 
               </ul>
             </div>
