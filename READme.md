@@ -1,5 +1,4 @@
 ## Current Tasks
-- Deploy
 - Alter individual projects to fit better, giving them a live site and feasible GUI
 - The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 
