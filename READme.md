@@ -1,5 +1,5 @@
 ## Current Tasks
-- Apply feedback from other people
+- Apply feedback from other people -> (reword bio)
 - Name changing thing (animation)
 - Make mobile ready
 - delete webdev ver
