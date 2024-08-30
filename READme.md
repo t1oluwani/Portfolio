@@ -1,16 +1,7 @@
-## Personal Portfolio
-
-**Proposal:** ....
-
 ## Current Tasks
-- deploy
-- alter projects to fit better
-
-
-## Features
-...## Current Tasks
-- deploy
-- alter projects to fit better
+- Deploy
+- Alter individual projects to fit better, giving them a live site and feasible GUI
+- The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 
 # Tioluwani Akinloye's Portfolio
 
@@ -51,9 +42,7 @@ This portfolio is designed to showcase the skills, projects, and experiences of 
 - **ReactJS**: Utilized for interactive components and managing state within the portfolio.
 - **Font Awesome**: Icon library for social media and other icons.
 
-## Known Issues
 
-- The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 
 ## Citations
 - [Owl Carousel:](https://www.youtube.com/watch?v=YQCDUJ6hhNY)
