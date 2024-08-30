@@ -1,25 +1,10 @@
-## Personal Portfolio
-
-**Proposal:** ....
-
 ## Current Tasks
-- scroll animation when clicking pages
-- turn torch off bottom left (=o) (o=)
-- fonts
-- general animations
-- readme
-- deploy
-- alter projects to fit better
-
-
-## Features
-...## Current Tasks
-- deploy
-- alter projects to fit better
+- Alter individual projects to fit better, giving them a live site and feasible GUI
+- The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 
 # Tioluwani Akinloye's Portfolio
 
-Welcome to Tioluwani Akinloye's portfolio! This document provides an overview of the portfolio website, including its features, technologies, and how to use or customize it.
+Welcome to my portfolio! This document provides an overview of the portfolio website, including its features, technologies.
 
 ## Overview
 
@@ -56,24 +41,10 @@ This portfolio is designed to showcase the skills, projects, and experiences of 
 - **ReactJS**: Utilized for interactive components and managing state within the portfolio.
 - **Font Awesome**: Icon library for social media and other icons.
 
-## Known Issues
 
-- The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 
 ## Citations
 - [Owl Carousel:](https://www.youtube.com/watch?v=YQCDUJ6hhNY)
 - [Hamburger menu turning into x](https://www.youtube.com/watch?v=dAIVbLrAb_U)
 - [Experience timeline](https://www.florin-pop.com/blog/2019/04/how-to-create-a-timeline-with-react/)
-
- 
-
-## How to Install
-...
-
-## How to Use
-...
-
-## Citations
-- [Owl Carousel:](https://www.youtube.com/watch?v=YQCDUJ6hhNY)
-- [Hamburger menu turning into x](https://www.youtube.com/watch?v=dAIVbLrAb_U)
-- [Experience timeline](https://www.florin-pop.com/blog/2019/04/how-to-create-a-timeline-with-react/)
+- [Switch Component](https://www.npmjs.com/package/react-switch)
