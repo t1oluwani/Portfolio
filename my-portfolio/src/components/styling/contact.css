@@ -28,6 +28,14 @@
   background-color: rgba(70, 130, 180, 0.4);
 }
 
+.emailOption {
+  margin-bottom: 40px;
+}
+
+.calendlyOption {
+  margin-top: 40px;
+}
+
 .contactLabel {
   display: flex;
   align-items: center;
