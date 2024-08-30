@@ -5,7 +5,7 @@
 
 # Tioluwani Akinloye's Portfolio
 
-Welcome to Tioluwani Akinloye's portfolio! This document provides an overview of the portfolio website, including its features, technologies, and how to use or customize it.
+Welcome to my portfolio! This document provides an overview of the portfolio website, including its features, technologies.
 
 ## Overview
 
