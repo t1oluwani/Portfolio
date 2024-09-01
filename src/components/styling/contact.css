@@ -2,6 +2,7 @@
 
 .contactpage {
   padding: 20px 0 20px 0;
+  position: relative;
 }
 
 .contactpage img {
@@ -44,16 +45,14 @@
   align-items: center;
   justify-content: center;
   padding-right: 15px;
+  cursor: pointer;
   gap: 5px;
 }
 
 .contactLink {
   color: var(--night-txt-color);
   text-decoration: none;
-}
-
-.contactLink:hover {
-  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* Contact Form Styling */
