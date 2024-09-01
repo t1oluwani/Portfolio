@@ -25,7 +25,7 @@ const StarryNight = () => {
   return (
     <div className='starController'>
       <div className='starSlider'>
-        <label for="starNum" className='starLabel'>
+        <label htmlFor="starNum" className='starLabel'>
           Number of Stars:&nbsp;
           <output></output>
         </label>

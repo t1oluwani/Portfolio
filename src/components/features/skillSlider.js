@@ -1,5 +1,5 @@
 import '../styling/skills.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs'
 
 import {
@@ -9,12 +9,32 @@ import {
 
 
 function SkillSlider() {
+  const [manual, setManual] = useState(false);
   const [slide, setSlide] = useState(0);
+  const handleArrowClick = (direction) => {
+    if (direction === 'left') {
+      setSlide(slide - 1);
+    } else {
+      setSlide(slide + 1);
+    }
+    setManual(true)
+  }
+
+  useEffect(() => {
+    if (!manual) {
+      const interval = setInterval(() => {
+        setSlide((prevSlide) => (prevSlide + 1));
+      }, 500); 
+
+      return () => clearInterval(interval);
+    }
+  }, [manual]);
+
 
   return (
     <div className="skillSlider">
-      <BsArrowLeftCircle className="arrow left" onClick={() => setSlide(slide + 2)} />
-      <BsArrowRightCircle className="arrow right" onClick={() => setSlide(slide + 1)} />
+      <BsArrowLeftCircle className="arrow left" onClick={() => handleArrowClick('left')} />
+      <BsArrowRightCircle className="arrow right" onClick={() => handleArrowClick('right')} />
 
       <div className="skillSlider__container">
 
