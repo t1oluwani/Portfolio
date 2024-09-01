@@ -1,10 +1,11 @@
 ## Current Tasks
-- Apply feedback from other people -> (reword bio)
+- Apply feedback from other people -> (reword bio) (mobile responsive) (auto skill) (contact clickable)
 - Name changing thing (animation)
+- things sliding in animation
 - Make mobile ready
-- delete webdev ver
 - The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 - Alter individual projects to fit better, giving them a live site and feasible GUI
+- add portfolio to project (could have other 2 with loading icon), docker and git to skills
 
 
 # Tioluwani Akinloye's Portfolio
