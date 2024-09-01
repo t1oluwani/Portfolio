@@ -1,5 +1,5 @@
 ## Current Tasks
-- Apply feedback from other people -> (reword bio) (mobile responsive) (auto skill) (contact clickable)
+- Apply feedback from other people -> (reword bio) (mobile responsive)
 - Name changing thing (animation)
 - things sliding in animation
 - Make mobile ready
