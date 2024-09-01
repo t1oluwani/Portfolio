@@ -20,14 +20,24 @@ function SkillSlider() {
     setManual(true)
   }
 
+  // Makes the carousel manual when clicked (automatic off)
   useEffect(() => {
     if (!manual) {
       const interval = setInterval(() => {
         setSlide((prevSlide) => (prevSlide + 1));
-      }, 500); 
+      }, 1500); 
 
       return () => clearInterval(interval);
     }
+  }, [manual]);
+
+  // Turns the carousel back to automatic after 5 seconds of not clicking
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setManual(false);
+    }, 5000);
+
+    return () => clearInterval(interval);
   }, [manual]);
 
 
