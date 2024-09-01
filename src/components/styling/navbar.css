@@ -2,6 +2,7 @@
   overflow: hidden;
   position: absolute;
   right: 425px;
+  z-index: 2;
 }
 
 .sideNavMenu {

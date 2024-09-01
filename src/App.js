@@ -11,6 +11,7 @@ import ContactPage from './components/pages/contact';
 import Blur from './components/features/blurs';
 import GlowCursor from './components/features/glowcursor';
 import NavigationBar from './components/features/navbar';
+import Stars from './components/features/stars';
 
 
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="Portfolio">
       <Blur />
+      <Stars numberOfStars={200} /> 
       <GlowCursor />
       <NavigationBar />
 

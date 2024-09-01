@@ -47,6 +47,9 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  
+  position: relative;
+  z-index: 2;
 }
 
 @keyframes floating {
