@@ -12,7 +12,7 @@ const AboutPage = () => {
             <h2 className="headliner">ABOUT ME</h2>
           </div>
           <div className="sectionBody">
-          <img alt="" class="photo" src={myPicture}></img>
+          <img alt="" className="photo" src={myPicture}></img>
             <div className="aboutinfo">
               <p className="bio">
                 Hi there! My name is Tioluwani Akinloye, but I normally go by Favour. I am an Honors Computing science student at the University of Alberta. I was born and raised in Nigeria, and have always been fascinated by the potential of technology to change people's lives for the better.
@@ -23,12 +23,12 @@ const AboutPage = () => {
               </p>
 
               {/* Add social media icons */}
-              <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/tioluwani-akinloye-255a481b7/" target="_blank" rel="noreferrer" class="fa-brands fa-linkedin"> </a></li>
-                <li><a href="https://github.com/t1oluwani" target="_blank" rel="noreferrer" class="fa-brands fa-github"> </a></li>
-                <li><a href="mailto:akinloyetioluwani@gmail.com" target="_blank" rel="noreferrer" class="fa-regular fa-envelope"> </a></li>
-                <li><a href="https://www.instagram.com/favour_ak1n" target="_blank" rel="noreferrer"class="fa-brands fa-instagram"> </a></li>
-                <li><a href={myResume} target="_blank" rel="noreferrer" class="fa-regular fa-file">Resume</a></li>   
+              <ul className="icons">
+                <li><a href="https://www.linkedin.com/in/tioluwani-akinloye-255a481b7/" target="_blank" rel="noreferrer" className="fa-brands fa-linkedin"> </a></li>
+                <li><a href="https://github.com/t1oluwani" target="_blank" rel="noreferrer" className="fa-brands fa-github"> </a></li>
+                <li><a href="mailto:akinloyetioluwani@gmail.com" target="_blank" rel="noreferrer" className="fa-regular fa-envelope"> </a></li>
+                <li><a href="https://www.instagram.com/favour_ak1n" target="_blank" rel="noreferrer"className="fa-brands fa-instagram"> </a></li>
+                <li><a href={myResume} target="_blank" rel="noreferrer" className="fa-regular fa-file">Resume</a></li>   
                 
               </ul>
             </div>

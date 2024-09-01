@@ -17,25 +17,21 @@ import NavigationBar from './components/features/navbar';
 function App() {
   return (
     <div className="Portfolio">
+      <Blur />
+      <GlowCursor />
+      <NavigationBar />
 
-      <body>
-        <Blur />
-        <GlowCursor />
-        <NavigationBar />
+      <HomePage />
+      <AboutPage />
+      <SkillsPage />
+      <ProjectPage />
+      <ExperiencePage />
+      <ContactPage />
 
-        <HomePage />
-        <AboutPage />
-        <SkillsPage />
-        <ProjectPage />
-        <ExperiencePage />
-        <ContactPage />
-
-        {/* Copyright Footer */}
-        <footer>
-          <p>&copy; TIOLUWANI AKINLOYE 2024</p>
-        </footer>
-
-      </body>
+      {/* Copyright Footer */}
+      <footer>
+        <p>&copy; TIOLUWANI AKINLOYE 2024</p>
+      </footer>
     </div>
   );
 }

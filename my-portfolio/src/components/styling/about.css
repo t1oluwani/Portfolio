@@ -28,10 +28,10 @@
   animation-timing-function: ease-in-out; */
 }
 
-.aboutpage img:hover {
-  /* box-shadow: 0 0 30px 10px rgb(0, 123, 255); */
+/* .aboutpage img:hover {
+  box-shadow: 0 0 30px 10px rgb(0, 123, 255);
   box-shadow: 0 0 150px 50px rgb(15, 65, 118);
-}
+} */
 
 .aboutinfo {
   padding: 10px 150px;

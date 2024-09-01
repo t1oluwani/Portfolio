@@ -3,14 +3,14 @@ import SkillSlider from '../features/skillSlider';
 
 const SkillsPage = () => {
     return (
-        <section id="skills" class="skillspage">  
-            <div class="sectionHead">
+        <section id="skills" className="skillspage">  
+            <div className="sectionHead">
                 {/* Title */}
-                <span class="opener">Take a look at</span>
-                <h2 class="headliner">MY SKILLS</h2>
+                <span className="opener">Take a look at</span>
+                <h2 className="headliner">MY SKILLS</h2>
             </div>
 
-            <div class="sectionBody">
+            <div className="sectionBody">
                 <SkillSlider />
             </div>
         </section>
