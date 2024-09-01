@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 .contactpage {
   padding: 20px 0 300px 0;
 }
@@ -22,7 +24,8 @@
   gap: 30px;
 }
 
-.emailOption, .calendlyOption {
+.emailOption,
+.calendlyOption {
   padding: 20px;
   border-radius: 20px;
   background-color: rgba(70, 130, 180, 0.4);
@@ -48,6 +51,7 @@
   color: var(--night-txt-color);
   text-decoration: none;
 }
+
 .contactLink:hover {
   text-decoration: underline;
 }
@@ -68,14 +72,15 @@
   margin-bottom: 20px;
 }
 
-.contactForm input, .contactForm textarea {
+.contactForm input,
+.contactForm textarea {
   width: 90%;
   padding: 10px;
   margin: 10px 0;
   border: 2px solid lightsteelblue;
   border-radius: 5px;
   font-size: 16px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contactForm button {
@@ -89,4 +94,16 @@
   cursor: pointer;
 
   font-size: 16px;
+}
+
+.contactpage h2,
+.contactpage h3,
+.contactpage a,
+.contactpage button,
+.nameInput::placeholder,
+.phoneInput::placeholder,
+.emailInput::placeholder,
+.subjectInput::placeholder,
+.messageInput::placeholder {
+  font-family: 'Space Grotesk', sans-serif;
 }

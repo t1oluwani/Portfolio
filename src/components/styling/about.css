@@ -70,11 +70,13 @@
   padding: 5px 15px;
   margin: 0 0 0 225px;
   color: var(--night-bg-color);
-  background-color: var(--night-txt-color);  
+  background-color: var(--night-txt-color);
 }
 
-.icons a, .resume {
-  text-decoration: none; /* Removes the underline */
+.icons a,
+.resume {
+  text-decoration: none;
+  /* Removes the underline */
 }
 
 .icons a:hover,
@@ -100,6 +102,3 @@
     box-shadow: 0 0 150px 50px rgb(15, 65, 118); 
   }
 } */
-
-
-

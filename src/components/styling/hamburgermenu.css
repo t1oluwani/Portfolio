@@ -1,46 +1,48 @@
 /* Hamburger Menu drop-down */
 .hamburger_menu {
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .topbar {
-    top: 20px;
-    right: 25px;
-  }
-  
-  .midbar {
-    top: 30px;
-    right: 25px;
-  }
-  
-  .botbar {
-    top: 40px;
-    right: 25px;
-  }
-  
-  .topbar, .midbar, .botbar {
-    position: fixed;
-    z-index: 1;
-    width: 35px;
-    height: 5px;
-    border-radius: 5px;
-    background-color: var(--night-txt-color);
-    margin: 5px 0px;
-    transition: 0.4s;
-  }
-  
-  /* Rotate first bar */
-  .turn .topbar {
-    transform: translate(0, 10px) rotate(45deg);
-  }
-  
-  /* Fade out the second bar */
-  .turn .midbar {
-    opacity: 0;
-  }
-  
-  /* Rotate last bar */
-  .turn .botbar {
-    transform: translate(0, -10px) rotate(-45deg);
-  }
+  display: inline-block;
+  cursor: pointer;
+}
+
+.topbar {
+  top: 20px;
+  right: 25px;
+}
+
+.midbar {
+  top: 30px;
+  right: 25px;
+}
+
+.botbar {
+  top: 40px;
+  right: 25px;
+}
+
+.topbar,
+.midbar,
+.botbar {
+  position: fixed;
+  z-index: 1;
+  width: 35px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--night-txt-color);
+  margin: 5px 0px;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.turn .topbar {
+  transform: translate(0, 10px) rotate(45deg);
+}
+
+/* Fade out the second bar */
+.turn .midbar {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.turn .botbar {
+  transform: translate(0, -10px) rotate(-45deg);
+}

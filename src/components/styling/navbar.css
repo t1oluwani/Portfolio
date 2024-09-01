@@ -13,12 +13,12 @@
   /* right: -100%; */
   right: 0;
   transition: 850ms;
-  display: flex; 
+  display: flex;
   align-items: center;
   z-index: 1;
 }
 
-.nav-links {  
+.nav-links {
   list-style-type: none;
   font-size: 18px;
   display: flex;
@@ -71,4 +71,3 @@
   transform: translateX(100%);
   transition: transform ease-in-out 1s;
 }
-

@@ -3,41 +3,39 @@
     z-index: 1;
   } */
 
-  .blur {
-    position: absolute;
-    
-    width: 50vw;
-    height: 50vw;
-    border-radius: 50%;
-    background: var(--night-glow-color);
-    filter: blur(100px);
-    z-index: 0;
+.blur {
+  position: absolute;
+
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  background: var(--night-glow-color);
+  filter: blur(100px);
+  z-index: 0;
 }
-  
-  .topHomeBlur {
-    top: -15vw;
-    left: -10vw;
-  }
-  
-  .bottomHomeBlur {
-    top: 15vw;
-    right: -15vw;
-  }
 
-  .aboutBlur {
-    width: 40vw;
-    height: 40vw;
-    top: 80vw;
-    right: 10vw;
-    display: none;
-  }
+.topHomeBlur {
+  top: -15vw;
+  left: -10vw;
+}
 
-  .skillsBlur {
-    top: 167vw;
-    left: 20vw;
-    height: 30vw;
-    width: 60vw;
-    display: none;
-  }
+.bottomHomeBlur {
+  top: 15vw;
+  right: -15vw;
+}
 
-  
+.aboutBlur {
+  width: 40vw;
+  height: 40vw;
+  top: 80vw;
+  right: 10vw;
+  display: none;
+}
+
+.skillsBlur {
+  top: 167vw;
+  left: 20vw;
+  height: 30vw;
+  width: 60vw;
+  display: none;
+}

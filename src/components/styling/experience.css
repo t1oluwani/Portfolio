@@ -1,77 +1,84 @@
-
 .experiencepage {
-    padding: 20px 0 300px 0;
-  }
-  
-  .timeline {
-    position: relative;
-    max-width: 990px;
-    margin: 0 auto;
-  }
-  
-  /* .timeline-container {
+  padding: 20px 0 300px 0;
+}
+
+.timeline {
+  position: relative;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+/* .timeline-container {
     display: flex; 
     flex-direction: column;
     justify-content: space-between; 
   } */
-  
-  .content {
-    position: relative;
-    width: 450px;
-    
-    padding: 20px;
-    margin: 25px 0;
-    border-radius: 10px;
 
-    color: white;
+.content {
+  position: relative;
+  width: 450px;
 
-  }
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 10px;
 
-  .content:hover {
-    background-color: rgba(95, 94, 94, 0.35);
-  }
+  color: white;
 
-  .content.education {
-    margin-right: auto; 
-    /* border-left: 8px solid lightseagreen; */
-    border-right: 8px solid lightseagreen;
-  }
-  
-  .content.experience {
-    margin-left: auto; /* Pushes education to the left */
-    /* border-right: 8px solid lightskyblue; */
-    border-left: 8px solid lightskyblue;
-  }
+}
 
-  .content h2, .content h3, .details, .skills, .times, .location, .title {
-    margin: 0;
-    padding-left: 5px;
-  }
+.content:hover {
+  background-color: rgba(95, 94, 94, 0.35);
+}
 
-  .location, .title, .details{
-    padding-bottom: 10px;
-  }
+.content.education {
+  margin-right: auto;
+  /* border-left: 8px solid lightseagreen; */
+  border-right: 8px solid lightseagreen;
+}
 
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .skill {
-    color: var(--night-bg-color);
-    border-radius: 10px;
-    padding: 4px 6px; 
-    font-size: 14px;
-    font-weight: 500;
-    margin-right: 5px; 
-    margin-top: 10px;
-  }
+.content.experience {
+  margin-left: auto;
+  /* Pushes education to the left */
+  /* border-right: 8px solid lightskyblue; */
+  border-left: 8px solid lightskyblue;
+}
 
-  .content.education .skill {
-    background-color: lightseagreen;
-  }
+.content h2,
+.content h3,
+.details,
+.skills,
+.times,
+.location,
+.title {
+  margin: 0;
+  padding-left: 5px;
+}
 
-  .content.experience .skill {
-    background-color: lightskyblue;
-  }
-  
+.location,
+.title,
+.details {
+  padding-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  color: var(--night-bg-color);
+  border-radius: 10px;
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.content.education .skill {
+  background-color: lightseagreen;
+}
+
+.content.experience .skill {
+  background-color: lightskyblue;
+}
