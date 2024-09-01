@@ -1,5 +1,5 @@
 .aboutpage {
-  padding: 20px 0 300px 0;
+  padding: 2vh 0 30vh 0;
 }
 
 .aboutpage .sectionBody {
@@ -102,3 +102,47 @@
     box-shadow: 0 0 150px 50px rgb(15, 65, 118); 
   }
 } */
+
+/* Mobile Responsive */
+@media only screen and (max-width: 900px) {
+  .aboutpage {
+    padding: 2vh 0 20vh 0; 
+  }
+
+  .aboutpage .sectionBody {
+    width: 95%;
+  }
+
+  .aboutpage img {
+    width: 35vh;
+    height: auto;
+    margin: 1vh auto;
+    float: none; 
+    display: block;
+  }
+
+  .aboutinfo {
+    padding: 1vh 3vh; 
+  }
+
+  .bio {
+    font-size: 16px;
+    padding: 1vh 2vh;
+  }
+
+  .icons {
+    float: none; 
+    justify-content: center;
+    padding: 0;
+    margin: 1vh 0;
+  }
+
+  .icons a {
+    font-size: 30px;
+  }
+
+  .aboutpage li {
+    display: block;
+    padding: 1vh;
+  }
+}

@@ -27,7 +27,7 @@
 }
 
 .sectionHead {
-  padding: 0px 200px;
+  padding: 0 20vh;
 }
 
 .opener {
@@ -38,7 +38,7 @@
 .headliner {
   font-size: 40px;
   font-family: 'Ubuntu', sans-serif;
-  margin: 10px 75px 50px;
+  margin: 1vh 7.5vh 5vh;
 }
 
 .hidden {
@@ -67,4 +67,20 @@
 /* Footer */
 footer {
   text-align: center;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 900px) {
+  .sectionHead {
+    padding: 0 5vh;
+  }
+
+  .opener {
+    font-size: 18px;
+  }
+
+  .headliner {
+    font-size: 30px;
+    margin: 1vh 5vh 5vh;
+  }
 }

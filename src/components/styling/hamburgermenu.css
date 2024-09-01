@@ -23,7 +23,8 @@
 .midbar,
 .botbar {
   position: fixed;
-  z-index: 1;
+  cursor: pointer;
+  z-index: 4;
   width: 35px;
   height: 5px;
   border-radius: 5px;

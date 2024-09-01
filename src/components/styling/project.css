@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 .projectpage {
-  padding: 20px 0 300px 0;
+  padding: 2vh 0 30vh 0;
 }
 
 .projects {
@@ -39,15 +39,16 @@
   justify-content: space-evenly;
   margin: 0 auto;
   padding: 0;
-  max-width: 90%;
+  max-width: 80%;
   position: relative;
+  /* gap: 0px; */
 }
 
 .projectItem {
   background-color: rgb(21, 28, 95);
   /* background-color: rgb(7, 40, 56); */
   /* background-color: var(--night-glow-color); */
-  margin: 25px;
+  margin: 0px;
   width: 400px;
   height: 250px;
 
@@ -62,6 +63,7 @@
   box-sizing: border-box;
   font-size: 18px;
   padding: 50px;
+  transform: scale(0.8);
 }
 
 .projectButtons {
@@ -126,7 +128,7 @@
 
 .projectItem.budget:hover {
   background-image: none;
-  transform: scale(1.1);
+  transform: scale(1);
   transition: transform 0.5s;
 }
 
@@ -138,7 +140,7 @@
 
 .projectItem.rest:hover {
   background-image: none;
-  transform: scale(1.1);
+  transform: scale(1);
   transition: transform 0.5s;
 }
 
@@ -149,7 +151,7 @@
 
 .projectItem.sprint:hover {
   background-image: none;
-  transform: scale(1.1);
+  transform: scale(1);
   transition: transform 0.5s;
 }
 
@@ -160,7 +162,7 @@
 
 .projectItem.frogg:hover {
   background-image: none;
-  transform: scale(1.1);
+  transform: scale(1);
   transition: transform 0.5s;
 }
 
@@ -171,7 +173,7 @@
 
 .projectItem.wordgames:hover {
   background-image: none;
-  transform: scale(1.1);
+  transform: scale(1);
   transition: transform 0.5s;
 }
 
@@ -182,6 +184,6 @@
 
 .projectItem.starwars:hover {
   background-image: none;
-  transform: scale(1.1);
+  transform: scale(1);
   transition: transform 0.5s;
 }

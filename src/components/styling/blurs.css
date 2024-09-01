@@ -39,3 +39,21 @@
   width: 60vw;
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .blur {
+    height: 90vw;
+    width: 60vw;
+  }
+
+  .topHomeBlur {
+    top: -5vw;
+    left: 0vw; 
+  }
+
+  .bottomHomeBlur {
+    top: 110vw; 
+    right: 0vw;
+  }
+}

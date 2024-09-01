@@ -1,5 +1,5 @@
 .experiencepage {
-  padding: 20px 0 300px 0;
+  padding: 2vh 0 30vh 0;
 }
 
 .timeline {
@@ -80,4 +80,55 @@
 
 .content.experience .skill {
   background-color: lightskyblue;
+}
+
+@media only screen and (max-width: 900px) {
+  .experiencepage {
+    padding: 2vh 0 20vh 0; 
+  }
+
+  .timeline {
+    max-width: 55%;
+    min-width: 50%;
+    margin: 0 auto; 
+  }
+
+  .content {
+    width: 100%; 
+    padding: 1vh; 
+    margin: 2.5vh 0;
+  }
+
+  .content.education {
+    border-right: none; 
+    border-top: 8px solid lightseagreen;
+    border-bottom: 8px solid lightseagreen;
+  }
+  .content.experience {
+    border-left: none; 
+    border-top: 8px solid lightskyblue;
+    border-bottom: 8px solid lightskyblue; 
+  }
+
+  .content h2,
+  .content h3,
+  .details,
+  .skills,
+  .times,
+  .location,
+  .title {
+    padding-left: 0; 
+    font-size: 16px; 
+  }
+
+  .location,
+  .title,
+  .details {
+    padding-bottom: 8px;
+  }
+
+  .skill {
+    font-size: 12px; 
+    margin-top: 5px; 
+  }
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .skillspage {
-  padding: 20px 0 300px 0;
+  padding: 2vh 0 30vh 0;
 }
 
 .skillspage img {
@@ -76,7 +76,6 @@
   /* box-shadow: 0 0 30px 10px rgb(0, 123, 255); */
 }
 
-
 /* Left and Right Arrows */
 .arrow {
   position: absolute;
@@ -137,3 +136,71 @@
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
 }
+
+/* Mobile Responsive */
+@media only screen and (max-width: 1200px) {
+  .skillspage {
+    padding: 2vh 0 20vh 0;
+  }
+
+  .skillspage img {
+    height: 5vh;
+    width: 5vh; 
+  }
+
+  .skillspage ul {
+    margin: 5vh;
+  }
+
+  .skillSlider__container {
+    height: auto;
+  }
+
+  .skillsCategory {
+    width: 50%;
+    padding: 0 10%;
+  }
+
+  .skillsCategory h3 {
+    font-size: 22px;
+    transform: translateY(15px); 
+  }
+
+  .skillsCategory p {
+    font-size: 16px;
+  }
+
+  .skillsGrid {
+    height: 160vh; 
+    width: auto; 
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+
+  .skillspage li {
+    flex: 1 1 calc(50% - 20px); 
+    display: flex; 
+    justify-content: center;
+    box-sizing: border-box; 
+  }
+
+  /* Arrows */
+  .arrow {
+    width: 30px;
+    height: 30px;
+    top: 10rem;
+  }
+
+  /* Indicators */
+  .indicators {
+    margin-top: 15px;
+    transform: translateY(0);
+  }
+
+  .indicator, .indicating {
+    height: 8px; 
+  }
+}
+

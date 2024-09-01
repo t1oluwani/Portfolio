@@ -25,6 +25,7 @@ const ContactPage = () => {
             </div>
           </a>
 
+          <h1 className='hiddenOR'>OR</h1>
 
           <a rel="noreferrer" href="https://calendly.com/akinloyetioluwani" target="_blank" className="contactLink">
             <div className='calendlyOption'>

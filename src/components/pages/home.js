@@ -10,10 +10,10 @@ const HomePage = () => {
             <h2 className="shortdesc">A MULTIDISCIPLINARY DEVELOPER & DESIGNER</h2>
 
             <p className="minibio">
-              An aspiring full-stack developer with a passion for coding, and a desire to <br />
-              create unique, practical and enjoyable user experiences. Building my <br />
-              way to a career of Artificial Intelligence, Robotics, and Machine <br />
-              Learning. This portfolio displays some of the projects I have worked on, <br />
+              An aspiring full-stack developer with a passion for coding, and a desire to 
+              create unique, practical and enjoyable user experiences. Building my 
+              way to a career of Artificial Intelligence, Robotics, and Machine
+              Learning. This portfolio displays some of the projects I have worked on,
               the languages I am proficient in, and how to reach me.
             </p>
 

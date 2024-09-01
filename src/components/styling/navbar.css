@@ -1,22 +1,25 @@
 .navMenu {
   overflow: hidden;
   position: absolute;
-  right: 425px;
+  right: 50%;
+  transform: translate(50%, 0);
   z-index: 2;
 }
 
 .sideNavMenu {
-  background-color: var(--night-bg-color);
-  width: 23vh;
+  /* background-color: var(--night-bg-color); */
+  background: linear-gradient(to right, var(--night-bg-color) 20%, var(--night-glow-color) 100%);
+
+  width: 22vh;
   height: 100vh;
   position: fixed;
   top: 0;
-  /* right: -100%; */
   right: 0;
   transition: 850ms;
   display: flex;
   align-items: center;
-  z-index: 1;
+  border-radius:  25px 0 0 25px;
+  z-index: 3;
 }
 
 .nav-links {
@@ -71,4 +74,30 @@
 .side_hidden {
   transform: translateX(100%);
   transition: transform ease-in-out 1s;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 1000px) {
+  .navMenu {
+    display: none;
+  }
+
+  .side_hidden {
+    transform: translateX(125%);
+    transition: transform ease-in-out 1s;
+  }
+
+  .sideNavMenu {
+    width: 20vh;
+    height: 35vh;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    border-radius: 25px;
+    background: linear-gradient(to right, var(--night-glow-color) 0%, var(--night-bg-color) 100%);
+  }
+
+  .side-nav-links li a {
+    padding: 10px 0;
+    text-decoration: none;
+  }
 }

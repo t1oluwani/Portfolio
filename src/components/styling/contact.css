@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 .contactpage {
-  padding: 20px 0 20px 0;
+  padding: 2vh 0 2vh 0;
   position: relative;
 }
 
@@ -95,14 +95,81 @@
   font-size: 16px;
 }
 
-.contactpage h2,
-.contactpage h3,
-.contactpage a,
-.contactpage button,
+.sectionBody h2,
+.sectionBody h3,
+.sectionBody a,
+.sectionBody button,
 .nameInput::placeholder,
 .phoneInput::placeholder,
 .emailInput::placeholder,
 .subjectInput::placeholder,
 .messageInput::placeholder {
   font-family: 'Space Grotesk', sans-serif;
+}
+
+.hiddenOR {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .contactpage {
+    padding: 2vh 0; 
+  }
+
+  .contactpage img {
+    width: 40px;
+  }
+
+  .contactpage .sectionBody {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .contactOptions {
+    gap: 0px;
+  }
+
+  .emailOption,
+  .calendlyOption {
+    padding: 15px; 
+    margin: 0; 
+  }
+
+  .hiddenOR {
+    display: block;
+  }
+
+  .contactForm {
+    width: 75%; 
+    padding: 15px;
+    border-radius: 10px; 
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0; 
+    font-size: 14px; 
+  }
+
+  .contactForm button {
+    padding: 8px 16px; 
+    font-size: 14px; 
+  }
+
+  .sectionBody h2 {
+    font-size: 20px;;
+ }
+
+.sectionBody h3,
+.sectionBody a,
+.sectionBody button,
+.nameInput::placeholder,
+.phoneInput::placeholder,
+.emailInput::placeholder,
+.subjectInput::placeholder,
+.messageInput::placeholder {
+    font-size: 14px;
+  }
 }
