@@ -1,0 +1,47 @@
+import '../styling/skills.css';
+
+import {
+  HTML, CSS, JavaScript, Racket, Java, C, Cpp, VsCode, IntelliJ, Python, Django, React, Node,
+  Laravel, Linux, Matlab, PHP, PowerShell, R, TypeScript, Insomnia, Pytorch, Express, Git, Docker
+} from '../../assets/logos';
+
+const CategorySkill = ({ skill }) => {
+  const icon = {
+    'HTML': HTML,
+    'CSS': CSS,
+    'JavaScript': JavaScript,
+    'Racket': Racket,
+    'Java': Java,
+    'C': C,
+    'Cpp': Cpp,
+    'VsCode': VsCode,
+    'IntelliJ': IntelliJ,
+    'Python': Python,
+    'Django': Django,
+    'React': React,
+    'Node': Node,
+    'Laravel': Laravel,
+    'Linux': Linux,
+    'Matlab': Matlab,
+    'PHP': PHP,
+    'PowerShell': PowerShell,
+    'R': R,
+    'TypeScript': TypeScript,
+    'Insomnia': Insomnia,
+    'Pytorch': Pytorch,
+    'Express': Express,
+    'Git': Git,
+    'Docker': Docker
+  }
+
+  return (
+    <li >
+      <div className="itemContainer">
+        <img src={icon[skill.icon]} alt={skill.name} />
+        <p>{skill.name}</p>
+      </div>
+    </li>
+  );
+}
+
+export default CategorySkill;

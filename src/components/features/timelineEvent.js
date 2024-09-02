@@ -1,6 +1,6 @@
 import '../styling/experience.css';
 
-const TimelineEvent = ({event}) => {
+const TimelineEvent = ({ event }) => {
 
   const formatDate = (date) => {
     const options = { year: 'numeric', month: 'short' };
@@ -17,12 +17,12 @@ const TimelineEvent = ({event}) => {
       <p className="location">{event.location}</p>
       <h2 className="organization">{event.organization}</h2>
       <h3 className="title">{event.title}</h3>
-      {event.details && <p className="details">{event.details}</p>}      
+      {event.details && <p className="details">{event.details}</p>}
       <div className="skills">
         {sortedSkills.map((skill, idx) => (
           <span className="skill" key={idx}>{skill}</span>
-          ))}
-        </div>
+        ))}
+      </div>
     </div>
   );
 }

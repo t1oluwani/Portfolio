@@ -6,7 +6,6 @@ const ContactPage = () => {
   return (
     <section id="contactme" className="contactpage">
       <div className="sectionHead">
-        {/* Title */}
         <span className="opener">Feel free to</span>
         <h2 className="headliner">CONTACT ME</h2>
       </div>

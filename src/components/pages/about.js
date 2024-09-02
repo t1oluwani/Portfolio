@@ -8,10 +8,10 @@ const AboutPage = () => {
   return (
     <section id="about" className="aboutpage">
       <div className="sectionHead">
-        {/* Title */}
         <span className="opener">Get to know</span>
         <h2 className="headliner">ABOUT ME</h2>
       </div>
+      
       <div className="sectionBody">
         <img alt="" className="photo" src={myPicture}></img>
         <div className="aboutinfo">

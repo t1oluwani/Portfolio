@@ -27,6 +27,7 @@ import Insomnia from './Insomnia.png';
 import Pytorch from './Pytorch.png';
 import Express from './Expressjs.png';
 import Git from './Git.png';
+import Docker from './Docker.png';
 
 export {
   HTML,
@@ -58,4 +59,5 @@ export {
   Pytorch,
   Express,
   Git,
+  Docker,
 };

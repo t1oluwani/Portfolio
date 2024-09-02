@@ -19,7 +19,7 @@
 
 .projects h3 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 35px;
+  font-size: 28px;
   margin: 0;
 
   /* text-shadow:
@@ -41,16 +41,15 @@
   padding: 0;
   max-width: 80%;
   position: relative;
-  
+
   /* gap: 0px; */
 }
 
 .projectItem {
   background-color: rgb(21, 28, 95);
-  margin: 0px;
-  width: 400px;
-  height: 250px;
-
+  margin: 35px 0; /* reduce to 20px 0 when more projects are added */
+  width: 320px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,9 +58,8 @@
 
   border-radius: 5%;
   box-sizing: border-box;
-  font-size: 18px;
-  padding: 50px;
-  transform: scale(0.8);
+  font-size: 14px;
+  padding: 40px;
 
   animation: wipe-enter 1s ease-in-out;
 
@@ -88,20 +86,19 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 120%;
-  margin: 10px;
+  margin: 8px;
   padding: 0;
 }
 
 .skillList li {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   padding: 0px 5px;
   margin: 3px 5px;
   border: 1px solid white;
 
   color: white;
   border-radius: 12px;
-  transform: scale(1.1);
 
   /* border: 2px solid var(--night-txt-color); */
   /* background-color: white; */
@@ -109,46 +106,27 @@
 }
 
 .projectItem h3,
-.projectItem li {
-  display: block;
-}
-
-.projectItem p,
-.projectItem a {
-  display: none;
-}
-
-.projectItem:hover h3,
-.projectItem:hover li {
-  display: none;
-}
-
+.projectItem li,
 .projectItem:hover p,
 .projectItem:hover a {
   display: block;
 }
 
-.projectItem.budget {
+.projectItem p,
+.projectItem a,
+.projectItem:hover h3,
+.projectItem:hover li {
+  display: none;
+}
+
+.projectItem.budget-app {
   background-image: url('../../assets/thumbnails/project1.png');
   background-size: cover;
 }
 
-.projectItem.budget:hover {
-  background-image: none;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
-
-.projectItem.rest {
+.projectItem.restful-api {
   background-image: url('../../assets/thumbnails/project2.png');
   background-size: cover;
-}
-
-.projectItem.rest:hover {
-  background-image: none;
-  transform: scale(1);
-  transition: transform 0.5s;
 }
 
 .projectItem.sprint {
@@ -156,73 +134,64 @@
   background-size: cover;
 }
 
-.projectItem.sprint:hover {
-  background-image: none;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
-.projectItem.frogg {
+.projectItem.froggsite {
   background-image: url('../../assets/thumbnails/project4.png');
   background-size: cover;
 }
 
-.projectItem.frogg:hover {
-  background-image: none;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
-.projectItem.wordgames {
+.projectItem.word-games {
   background-image: url('../../assets/thumbnails/project5.png');
   background-size: cover;
 }
 
-.projectItem.wordgames:hover {
-  background-image: none;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
-.projectItem.starwars {
+.projectItem.starwars-form {
   background-image: url('../../assets/thumbnails/project6.png');
   background-size: cover;
 }
 
-.projectItem.starwars:hover {
+.projectItem.budget-app:hover,
+.projectItem.restful-api:hover,
+.projectItem.sprint:hover,
+.projectItem.froggsite:hover,
+.projectItem.word-games:hover,
+.projectItem.starwars-form:hover {
   background-image: none;
   transform: scale(1);
   transition: transform 0.5s;
 }
 
+
 /* Animations */
 @keyframes zoomIn {
   from {
-    transform: scale(0.4);
+    transform: scale(0.6);
     opacity: 0;
   }
+
   to {
-    transform: scale(0.8);
+    transform: scale(1);
     opacity: 1;
   }
 }
 
-@keyframes zoomOut { 
+@keyframes zoomOut {
   from {
-    transform: scale(1.2);
+    transform: scale(1.4);
     opacity: 1;
   }
+
   to {
-    transform: scale(0.8);
+    transform: scale(1);
     opacity: 0;
   }
 }
 
 @keyframes wipe-enter {
-	0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(0.8, .025);
-	}
+  0% {
+    transform: scale(0, .025);
+  }
+
+  50% {
+    transform: scale(0.8, .025);
+  }
 }

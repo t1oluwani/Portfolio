@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Languages",
+    "visibleWhenSlide": 0,
+    "skills": [
+      {
+        "name": "HTML",
+        "icon": "HTML"
+      },
+      {
+        "name": "CSS",
+        "icon": "CSS"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "JavaScript"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypeScript"
+      },
+      {
+        "name": "Python",
+        "icon": "Python"
+      },
+      {
+        "name": "Java",
+        "icon": "Java"
+      },
+      {
+        "name": "PHP",
+        "icon": "PHP"
+      },
+      {
+        "name": "C",
+        "icon": "C"
+      },
+      {
+        "name": "C++",
+        "icon": "Cpp"
+      },
+      {
+        "name": "Racket",
+        "icon": "Racket"
+      }
+    ]
+  },
+  {
+    "title": "Tools",
+    "visibleWhenSlide": 1,
+    "skills": [
+      {
+        "name": "VS Code",
+        "icon": "VsCode"
+      },
+      {
+        "name": "IntelliJ IDEA",
+        "icon": "IntelliJ"
+      },
+      {
+        "name": "Linux",
+        "icon": "Linux"
+      },
+      {
+        "name": "Insomnia",
+        "icon": "Insomnia"
+      },
+      {
+        "name": "PowerShell",
+        "icon": "PowerShell"
+      },
+      {
+        "name": "MATLAB",
+        "icon": "Matlab"
+      },
+      {
+        "name": "RStudio",
+        "icon": "R"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "Pytorch"
+      },
+      {
+        "name": "Git",
+        "icon": "Git"
+      },
+      {
+        "name": "Docker",
+        "icon": "Docker"
+      }
+    ]
+  },
+  {
+    "title": "Frameworks",
+    "visibleWhenSlide": 2,
+    "skills": [
+      {
+        "name": "NodeJs",
+        "icon": "Node"
+      },
+      {
+        "name": "Laravel",
+        "icon": "Laravel"
+      },
+      {
+        "name": "Django",
+        "icon": "Django"
+      },
+      {
+        "name": "ReactJS",
+        "icon": "React"
+      },
+      {
+        "name": "ExpressJs",
+        "icon": "Express"
+      }
+    ]
+  }
+]

@@ -10,7 +10,6 @@ const ExperiencePage = () => {
   return (
     <section id="experiences" className="experiencepage">
       <div className="sectionHead">
-        {/* Title  */}
         <span className="opener">Let me take you through my</span>
         <h2 className="headliner">EXPERIENCES</h2>
       </div>

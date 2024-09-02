@@ -1,0 +1,174 @@
+[
+  {
+    "display": true,
+    "identifier": "budget-app",
+    "title": "Budget App",
+    "description": "A budgeting app that allows users to track their expenses and income.",
+    "liveview": "",
+    "sourcecode": "https://github.com/t1oluwani/Budget-App",
+    "skills": [
+      "Python",
+      "OOP",
+      "Version Control",
+      "Intellij",
+      "App Development",
+      "JUnit",
+      "Git",
+      "TDD",
+      "Persistence"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "restful-api",
+    "title": "RESTful API",
+    "description": "This is a deployed RESTful API for managing employee data. It allows you to perform CRUD (Create, Read, Update, Delete) operations on employee records.",
+    "liveview": "http://[2605:fd00:4:1001:f816:3eff:fe13:b269]/employees",
+    "sourcecode": "https://github.com/t1oluwani/restfulAPI",
+    "skills": [
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Mongoose",
+      "CRUD",
+      "Insomnia",
+      "Cybera",
+      "Ubuntu",
+      "API-Deployment"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "sprint",
+    "title": "Sprint",
+    "description": "This is a versatile web application designed to streamline Agile and Scrum managing by facilitating efficient tracking and organization of user stories.",
+    "liveview": "https://kneadteam.github.io/Sprint/",
+    "sourcecode": "https://github.com/KneadTeam/Sprint",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "UI/UX",
+      "Sprint Methodologies",
+      "Agile Methodologies"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "froggsite",
+    "title": "Froggsite",
+    "description": "This website is a fun way to display my web-dev skills with HTML and CSS and my knowledge of applications and client-side scripting with JavaScript.",
+    "liveview": "https://t1oluwani.github.io/Frogg-site/",
+    "sourcecode": "https://github.com/t1oluwani/Frogg-site",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "UI/UX Principles",
+      "Website Development",
+      "DOM Manipulation",
+      "Event-Handling",
+      "Animations",
+      "HTML5 Canvas"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "word-games",
+    "title": "Word Games",
+    "description": "This project features word-guessing games implemented in Python; it offers two popular variants: Hangman and Wordle which use and extend from the same abstract class.",
+    "liveview": "",
+    "sourcecode": "https://github.com/t1oluwani/Word-Games-App",
+    "skills": [
+      "Python",
+      "Polymorphism",
+      "Abstraction",
+      "Object-Oriented-Programming"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "starwars-form",
+    "title": "StarWars Form",
+    "description": "This web application provided experience in creating an API and using a 3rd party API, it allows users to submit and retrieve Star Wars related information.",
+    "liveview": "https://t1oluwani.github.io/StarWarsAPI/",
+    "sourcecode": "https://github.com/t1oluwani/StarWarsAPI",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Mongoose",
+      "CRUD",
+      "Insomnia",
+      "SWAPI (Star Wars API)"
+    ]
+  },
+  {
+    "display": false,
+    "identifier": "portfolio",
+    "title": "Portfolio",
+    "description": "This is my personal portfolio website, showcasing my projects and skills, built from scratch no libraries.",
+    "liveview": "",
+    "sourcecode": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "UI/UX",
+      "Version Control",
+      "Netlify Deployment",
+      "Responsive Design",
+      "JSON Obects"
+    ]
+  },
+  {
+    "display": false,
+    "identifier": "bearmaps",
+    "title": "BearMaps",
+    "description": "...",
+    "liveview": "",
+    "sourcecode": "",
+    "skills": [
+      "..."
+    ]
+  },
+  {
+    "display": false,
+    "identifier": "fitness-tracker",
+    "title": "Fitness Tracker (Mobile)",
+    "description": "...",
+    "liveview": "",
+    "sourcecode": "",
+    "skills": [
+      "..."
+    ]
+  },
+  {
+    "display": false,
+    "identifier": "ml-project",
+    "title": "ML Project",
+    "description": "...",
+    "liveview": "",
+    "sourcecode": "",
+    "skills": [
+      "..."
+    ]
+  },
+  {
+    "display": false,
+    "identifier": "ai-project",
+    "title": "AI Project",
+    "description": "...",
+    "liveview": "",
+    "sourcecode": "",
+    "skills": [
+      "..."
+    ]
+  }
+]
