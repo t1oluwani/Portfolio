@@ -1,10 +1,10 @@
 ## Current Tasks
+- Make so when you click elsewhere + click on a link in navbar, navbar dissappears
 - The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 - Changes skills from manual logo to githubuser content, same thing use for github profile
 - Animation trigger when you slide down (ref afua deborah)
-- Name changing thing (animation)
+- Name changing thing (animation) (ref afua deborah)
 - Alter individual projects to fit better, giving them a live site and feasible GUI
-
 
 # Tioluwani Akinloye's Portfolio
 
