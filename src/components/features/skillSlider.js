@@ -11,7 +11,6 @@ import {
 function SkillSlider() {
   const [manual, setManual] = useState(false);
   const [slide, setSlide] = useState(0);
-  console.log('Slide:', slide)
   const handleArrowClick = (direction) => {
     if (direction === 'left') {
       setSlide(slide + 2);
