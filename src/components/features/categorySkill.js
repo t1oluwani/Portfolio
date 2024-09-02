@@ -35,12 +35,14 @@ const CategorySkill = ({ skill }) => {
   }
 
   return (
-    <li >
-      <div className="itemContainer">
-        <img src={icons[skill.icon]} alt={skill.name} />
-        <p>{skill.name}</p>
-      </div>
-    </li>
+    <>
+      <li>
+        <div className="itemContainer">
+          <img src={icons[skill.icon]} alt={skill.name} />
+          <p>{skill.name}</p>
+        </div>
+      </li>
+    </>
   );
 }
 

@@ -87,7 +87,7 @@
   .minibio {
     font-size: 16px;
     width: auto;
-    /* padding: 1vh 2vh 1vh 0; */
+    padding: 1vh 2vh 1vh 0;
   }
 
   .homepage button {
@@ -98,5 +98,19 @@
   .homebubble {
     padding: 50px;
     animation-duration: 2s; 
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 35px; 
+  }
+
+  .shortdesc {
+    font-size: 21px;
+  }
+
+  .minibio {
+    font-size: 15px;
   }
 }

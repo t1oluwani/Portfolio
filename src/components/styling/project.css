@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .projectpage {
   padding: 2vh 0 30vh 0;
@@ -27,6 +28,12 @@
     1px -1px 0 var(--night-txt-color),
     -1px 1px 0 var(--night-txt-color),
     1px 1px 0 var(--night-txt-color);  */
+}
+
+.projects p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  margin: 0;
 }
 
 .projects a:visited {
@@ -156,7 +163,7 @@
 .projectItem.word-games:hover,
 .projectItem.starwars-form:hover {
   background-image: none;
-  transform: scale(1);
+  transform: scale(1.15);
   transition: transform 0.5s;
 }
 

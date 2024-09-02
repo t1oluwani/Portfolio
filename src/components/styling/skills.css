@@ -200,7 +200,7 @@
   }
 
   .skillsGrid {
-    height: 160vh; 
+    height: auto; 
     width: auto; 
     padding: 0; 
     display: flex; 
@@ -240,6 +240,11 @@
   .indicator, .indicating {
     height: 8px; 
   }
+
+  .skillspage img {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -252,6 +257,17 @@
     right: 9%; 
     transform: translateY(-50%) translateX(-10%);
   }
+
+  .skillspage img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .skillspage p {
+    margin: 9px;
+    font-size: 10px;
+  }
+
 }
 
 

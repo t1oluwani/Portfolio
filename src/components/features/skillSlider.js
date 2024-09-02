@@ -45,15 +45,21 @@ function SkillSlider() {
         <BsArrowLeftCircle className="arrow left" onClick={() => handleArrowClick('left')} />
 
         {skillData.map((category, idx) => {
-          const sortedSkills = category.skills.sort((a, b) => {
-            return a.name.localeCompare(b.name);
-          })
+          const sortedSkills = (metric) => {
+            return category.skills.sort((a, b) => {
+              if (metric === 'len') {
+                return a.name.length - b.name.length;
+              } else if (metric === 'alpha') {
+                return a.name.localeCompare(b.name);
+              }
+            });
+          };
 
           return (
             <div key={idx} className={(slide % 3) === category.visibleWhenSlide ? 'skillsCategory' : 'skillsCategory hidden'}>
               <h3>{category.title}</h3>
               <ul className="skillsGrid">
-                {sortedSkills.map((skill, idx) => {
+                {sortedSkills("len").map((skill, idx) => {
                   return (
                     <CategorySkill key={idx} skill={skill} />
                   )
