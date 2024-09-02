@@ -162,9 +162,9 @@
     font-size: 20px;;
  }
 
-.sectionBody h3,
-.sectionBody a,
-.sectionBody button,
+.contactOptions h3,
+.contactOptions a,
+.contactForm button,
 .nameInput::placeholder,
 .phoneInput::placeholder,
 .emailInput::placeholder,

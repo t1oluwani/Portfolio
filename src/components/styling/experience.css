@@ -88,9 +88,9 @@
   }
 
   .timeline {
-    max-width: 55%;
-    min-width: 50%;
-    margin: 0 auto; 
+    max-width: 75%;
+    /* min-width: 55%; */
+    margin: 0 auto;
   }
 
   .content {
