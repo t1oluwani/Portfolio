@@ -43,12 +43,13 @@ function SkillSlider() {
 
   return (
     <div className="skillSlider">
-      <BsArrowLeftCircle className="arrow left" onClick={() => handleArrowClick('left')} />
-      <BsArrowRightCircle className="arrow right" onClick={() => handleArrowClick('right')} />
 
       <div className="skillSlider__container">
 
+        <BsArrowLeftCircle className="arrow left" onClick={() => handleArrowClick('left')} />
+
         <div className={(slide % 3) === 0 ? 'skillsCategory' : 'skillsCategory hidden'}>
+
           <h3>Languages</h3>
           <ul className="skillsGrid">
             {/* HTML */}
@@ -121,13 +122,6 @@ function SkillSlider() {
                 <p>Racket</p>
               </div>
             </li>
-            {/* JSON */}
-            {/* <li>
-                        <div className="itemContainer">
-                            <img alt="JSON" src={JSON}/>
-                            <p>JSON</p>
-                        </div>
-                    </li> */}
           </ul>
         </div>
 
@@ -242,6 +236,8 @@ function SkillSlider() {
             </li>
           </ul>
         </div>
+
+        <BsArrowRightCircle className="arrow right" onClick={() => handleArrowClick('right')} />
 
         <span className='indicators'>
           <button className={(slide % 3) === 0 ? "indicating" : "indicator"} onClick={() => setSlide(0)}></button>
