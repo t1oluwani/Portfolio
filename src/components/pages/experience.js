@@ -1,6 +1,6 @@
 import '../styling/experience.css';
 import TimelineEvent from '../features/timelineEvent';
-import timelineData from '../../assets/experience/timelineData.json'
+import timelineData from '../../assets/data/timelineData.json'
 
 const ExperiencePage = () => {
   const sortedTimelineData = timelineData.sort((a, b) => {
