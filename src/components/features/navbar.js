@@ -7,11 +7,11 @@ const NavigationBar = () => {
   const [isSideNavVisible, setIsSideNavVisible] = useState(false);
   const [isTurned, setIsTurned] = useState(false);
 
-  const handleToggleNav = () => {
-    setIsTurned(!isTurned);
-    setIsNavVisible(!isNavVisible);
-    setIsSideNavVisible(!isSideNavVisible);
-  };
+  const handleToggleNav = useCallback(() => {
+    setIsTurned((prev) => !prev);
+    setIsNavVisible((prev) => !prev);
+    setIsSideNavVisible((prev) => !prev);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
