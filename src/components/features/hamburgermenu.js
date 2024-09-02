@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import '../styling/hamburgermenu.css'; 
 
 const HamburgerMenu = ({ onToggleNav, isTurned }) => {
-  // const [isTurned, setIsTurned] = useState(false);
-
   const handleClick = () => {
-    // setIsTurned(!isTurned);
     onToggleNav();
   };
 
