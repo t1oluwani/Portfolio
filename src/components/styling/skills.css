@@ -9,8 +9,7 @@
   width: 50px;
   padding: 10px;
   box-shadow: 0 0 5px 2px rgb(0, 225, 255);
-  border-radius: 35%;
-}
+  border-radius: 35%;}
 
 .skillspage ul {
   margin: 100px;
@@ -37,6 +36,8 @@
   height: 500px;
   padding: 25px;
 
+  animation: slideInLeft 1.5s ease-in-out;
+
   /* box-shadow: 0 0 10px 3px rgb(0, 123, 255); */
   /* box-shadow: 0 0 10px 3px rgb(0, 225, 255); */
 
@@ -62,7 +63,6 @@
   background-color: rgb(21, 22, 55);
   z-index: 2;
 
-
   /* background-color: var(--night-bg-color); */
   /* background-color: rgba(255, 255, 255, 0.07); */
   /* box-shadow: 0 0 30px 10px rgb(0, 123, 255); */
@@ -75,6 +75,8 @@
   justify-content: space-between;
   align-items: center;
   height: 300px;
+
+  animation: FadeIn 1s ease-in-out;
   
   /* box-shadow: 0 0 30px 10px rgb(0, 123, 255); */
 }
@@ -141,6 +143,27 @@
 .skillsCategory p {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
+}
+
+/* Fade In Animation */
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 /* Mobile Responsive */

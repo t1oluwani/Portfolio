@@ -5,7 +5,6 @@
 }
 
 .projects {
-  /* color: var(--night-txt-color); */
   color: white;
 }
 
@@ -22,6 +21,7 @@
   font-family: 'Space Grotesk', sans-serif;
   font-size: 35px;
   margin: 0;
+
   /* text-shadow:
     -1px -1px 0 var(--night-txt-color),  
     1px -1px 0 var(--night-txt-color),
@@ -41,13 +41,12 @@
   padding: 0;
   max-width: 80%;
   position: relative;
+  
   /* gap: 0px; */
 }
 
 .projectItem {
   background-color: rgb(21, 28, 95);
-  /* background-color: rgb(7, 40, 56); */
-  /* background-color: var(--night-glow-color); */
   margin: 0px;
   width: 400px;
   height: 250px;
@@ -59,11 +58,16 @@
   text-align: center;
 
   border-radius: 5%;
-  /* border-radius: 50px; */
   box-sizing: border-box;
   font-size: 18px;
   padding: 50px;
   transform: scale(0.8);
+
+  animation: wipe-enter 1s ease-in-out;
+
+  /* border-radius: 50px; */
+  /* background-color: rgb(7, 40, 56); */
+  /* background-color: var(--night-glow-color); */
 }
 
 .projectButtons {
@@ -93,12 +97,15 @@
   font-weight: 500;
   padding: 0px 5px;
   margin: 3px 5px;
-  /* border: 2px solid var(--night-txt-color); */
   border: 1px solid white;
-  /* background-color: white; */
-  /* color: var(--night-txt-color); */
+
   color: white;
   border-radius: 12px;
+  transform: scale(1.1);
+
+  /* border: 2px solid var(--night-txt-color); */
+  /* background-color: white; */
+  /* color: var(--night-txt-color); */
 }
 
 .projectItem h3,
@@ -186,4 +193,36 @@
   background-image: none;
   transform: scale(1);
   transition: transform 0.5s;
+}
+
+/* Animations */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  to {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomOut { 
+  from {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(0.8, .025);
+	}
 }

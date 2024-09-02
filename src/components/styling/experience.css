@@ -31,15 +31,21 @@
 
 .content.education {
   margin-right: auto;
-  /* border-left: 8px solid lightseagreen; */
   border-right: 8px solid lightseagreen;
+
+  animation: slideInRight 1s ease-in-out;
+
+  /* border-left: 8px solid lightseagreen; */
 }
 
 .content.experience {
   margin-left: auto;
-  /* Pushes education to the left */
-  /* border-right: 8px solid lightskyblue; */
   border-left: 8px solid lightskyblue;
+
+  animation: slideInLeft 1s ease-in-out;
+
+  /* border-right: 8px solid lightskyblue; */
+
 }
 
 .content h2,
@@ -80,6 +86,29 @@
 
 .content.experience .skill {
   background-color: lightskyblue;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 900px) {

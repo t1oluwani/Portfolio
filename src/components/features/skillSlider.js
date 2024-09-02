@@ -25,7 +25,7 @@ function SkillSlider() {
     if (!manual) {
       const interval = setInterval(() => {
         setSlide((prevSlide) => (prevSlide + 1));
-      }, 1500); 
+      }, 2000); 
 
       return () => clearInterval(interval);
     }
