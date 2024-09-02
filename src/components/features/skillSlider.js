@@ -52,8 +52,10 @@ function SkillSlider() {
               } else if (metric === 'alpha') {
                 return a.name.localeCompare(b.name);
               }
+              return 0;
             });
           };
+          
 
           return (
             <div key={idx} className={(slide % 3) === category.visibleWhenSlide ? 'skillsCategory' : 'skillsCategory hidden'}>
