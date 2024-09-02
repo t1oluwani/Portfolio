@@ -6,7 +6,7 @@ import {
 } from '../../assets/logos';
 
 const CategorySkill = ({ skill }) => {
-  const icon = {
+  const icons = {
     'HTML': HTML,
     'CSS': CSS,
     'JavaScript': JavaScript,
@@ -37,7 +37,7 @@ const CategorySkill = ({ skill }) => {
   return (
     <li >
       <div className="itemContainer">
-        <img src={icon[skill.icon]} alt={skill.name} />
+        <img src={icons[skill.icon]} alt={skill.name} />
         <p>{skill.name}</p>
       </div>
     </li>
