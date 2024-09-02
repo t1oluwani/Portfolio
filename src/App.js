@@ -15,7 +15,7 @@ import StarryNight from './components/features/starryNight';
 
 function App() {
   return (
-    <div className="Portfolio">
+    <div className="Portfolio" id='Portfolio'>
       <Blur />
       <StarryNight />
       <GlowCursor />

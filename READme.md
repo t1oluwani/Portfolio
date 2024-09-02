@@ -1,5 +1,4 @@
 ## Current Tasks
-- Make so when you click elsewhere + click on a link in navbar, navbar dissappears
 - The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 - Changes skills from manual logo to githubuser content, same thing use for github profile
 - Animation trigger when you slide down (ref afua deborah)
