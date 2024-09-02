@@ -1,11 +1,9 @@
 ## Current Tasks
-- Apply feedback from other people -> (reword bio) (mobile responsive)
-- Name changing thing (animation)
-- things sliding in animation
-- Make mobile ready
 - The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
+- Changes skills from manual logo to githubuser content, same thing use for github profile
+- Animation trigger when you slide down (ref afua deborah)
+- Name changing thing (animation)
 - Alter individual projects to fit better, giving them a live site and feasible GUI
-- add portfolio to project (could have other 2 with loading icon), docker and git to skills
 
 
 # Tioluwani Akinloye's Portfolio
