@@ -2,10 +2,6 @@ import '../styling/project.css';
 
 const ProjectEntry = ({ project }) => {
 
-  const sortedSkills = project.skills.sort((a, b) => {
-    return a.length - b.length;
-  });
-
   return (
     <>
       {project.display && <li className={`projectItem ${project.identifier}`}>
