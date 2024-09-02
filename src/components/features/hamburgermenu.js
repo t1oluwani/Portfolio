@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import '../styling/hamburgermenu.css'; 
 
 const HamburgerMenu = ({ onToggleNav, isTurned }) => {
