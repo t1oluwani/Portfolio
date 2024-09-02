@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styling/navbar.css';
 import HamburgerMenu from './hamburgermenu';
 
@@ -37,7 +37,7 @@ const NavigationBar = () => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [isSideNavVisible]);
+  }, [isSideNavVisible, handleToggleNav]);
   
 
 
