@@ -48,7 +48,11 @@
 }
 
 .starNum::-moz-range-thumb:hover {
-  /* border: 5px solid transparent; */
+  box-shadow: 0 0 10px 5px yellow;
+}
+
+.starNum:active::-webkit-slider-thumb {
+  border-radius: 50%; 
   box-shadow: 0 0 10px 5px yellow;
 }
 

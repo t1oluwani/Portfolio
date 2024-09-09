@@ -99,10 +99,10 @@
   font-size: 16px;
 }
 
-.sectionBody h2,
-.sectionBody h3,
-.sectionBody a,
-.sectionBody button,
+.contactForm h2,
+.contactOptions h3,
+.contactOptions a,
+.contactForm button,
 .nameInput::placeholder,
 .phoneInput::placeholder,
 .emailInput::placeholder,
