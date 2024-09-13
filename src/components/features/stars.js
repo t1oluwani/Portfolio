@@ -17,7 +17,7 @@ const Stars = ({ numberOfStars }) => {
       star.style.height = `${size}px`;
 
       // Randomize position
-      star.style.top = `${Math.random() * ((9 * window.innerHeight) - 275)}px`;
+      star.style.top = `${Math.random() * ((8 * window.innerHeight) - 1)}px`;
       star.style.left = `${Math.random() * window.innerWidth}px`;
 
       container.appendChild(star);
