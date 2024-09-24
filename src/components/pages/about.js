@@ -28,7 +28,7 @@ const AboutPage = () => {
             <li><a href="https://www.linkedin.com/in/tioluwani-akinloye-255a481b7/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a></li>
             <li><a href="https://github.com/t1oluwani" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a></li>
             <li><a href="mailto:akinloyetioluwani@gmail.com" target="_blank" rel="noreferrer"><i className="fa-regular fa-envelope"></i></a></li>
-            <li><a href="https://www.instagram.com/favour_ak1n" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/fav_ak1n" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
             <li><a href={myResume} target="_blank" rel="noreferrer"><i className="fa-regular fa-file"></i>Resume</a></li>
           </ul>
 
