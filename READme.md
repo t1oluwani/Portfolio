@@ -1,7 +1,5 @@
 ## Current Tasks
-- update projects
 - Animation trigger when you slide down (ref afua deborah)
-- Changes skills from manual logo to githubuser content, same thing use for github profile
 - The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 - Name changing thing (animation) (ref afua deborah)
 - Alter individual projects to fit better, giving them a live site and feasible GUI

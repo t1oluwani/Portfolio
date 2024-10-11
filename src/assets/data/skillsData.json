@@ -114,6 +114,14 @@
       {
         "name": "ExpressJs",
         "icon": "Express"
+      },
+      {
+        "name": "FastAPI",
+        "icon": "FastAPI"
+      },
+      {
+        "name": "FirebaseDB",
+        "icon": "Firebase"
       }
     ]
   }

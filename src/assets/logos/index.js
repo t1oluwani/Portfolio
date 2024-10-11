@@ -28,6 +28,8 @@ import Pytorch from './Pytorch.png';
 import Express from './Expressjs.png';
 import Git from './Git.png';
 import Docker from './Docker.png';
+import FastAPI from './FastAPI.png';
+import Firebase from './Firebase.png';
 
 export {
   HTML,
@@ -60,4 +62,6 @@ export {
   Express,
   Git,
   Docker,
+  FastAPI,
+  Firebase
 };

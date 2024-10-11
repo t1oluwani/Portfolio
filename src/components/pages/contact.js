@@ -1,8 +1,27 @@
 import '../styling/contact.css';
-
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 import { Calendly, Email } from '../../assets/logos';
 
 const ContactPage = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+    emailjs.sendForm('service_28d7l5p', 'template_jmkrpqa', form.current, 'YsiHejfW6E68ylFCL')
+      .then((result) => {
+          console.log(result.text);
+          console.log(form.current);
+          alert('Message Sent Successfully!');
+      }, (error) => {
+          console.log(error.text);
+          alert('Failed to send message. Please try again later.');
+      });
+    
+    e.target.reset();
+  };
+
   return (
     <section id="contactme" className="contactpage">
       <div className="sectionHead">
@@ -36,19 +55,18 @@ const ContactPage = () => {
             </div>
           </a>
 
-
         </div>
 
         <h1>OR</h1>
 
         <div className='contactForm'>
           <h2>Fill this Contact Form</h2>
-          <form id="contactForm" action="#" method="post">
-            <input type="text" id="nameInput" className="nameInput" required placeholder="Input Name*" />
-            <input type="tel" id="phoneInput" className="phoneInput" required placeholder="Input Number*" />
-            <input type="email" id="emailInput" className="emailInput" required placeholder="Input Email*" />
-            <input type="text" id="subjectInput" className="subjectInput" required placeholder="Input Subject*" />
-            <textarea rows="7" id="messageInput" className="messageInput" required placeholder="Input Message*"></textarea>
+          <form id="contactForm" ref={form} onSubmit={sendEmail}>
+            <input type="text"  id="nameInput"    name="name"    className="nameInput"    required placeholder="Input Name*" />
+            <input type="tel"   id="phoneInput"   name="phone"   className="phoneInput"   required placeholder="Input Number*" />
+            <input type="email" id="emailInput"   name="email"   className="emailInput"   required placeholder="Input Email*" />
+            <input type="text"  id="subjectInput" name="subject" className="subjectInput" required placeholder="Input Subject*" />
+            <textarea rows="7"  id="messageInput" name="message" className="messageInput" required placeholder="Input Message*"></textarea>
             <button type='submit'>Reach Out</button>
           </form>
         </div>

@@ -36,8 +36,6 @@ function SkillSlider() {
     return () => clearInterval(interval);
   }, [manual]);
 
-
-
   return (
     <div className="skillSlider">
       <div className="skillSlider__container">

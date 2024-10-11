@@ -1,8 +1,8 @@
 import '../styling/skills.css';
 
 import {
-  HTML, CSS, JavaScript, Racket, Java, C, Cpp, VsCode, IntelliJ, Python, Django, React, Node,
-  Laravel, Linux, Matlab, PHP, PowerShell, R, TypeScript, Insomnia, Pytorch, Express, Git, Docker
+  HTML, CSS, JavaScript, Racket, Java, C, Cpp, VsCode, IntelliJ, Python, Django, React, Node, Laravel, 
+  Linux, Matlab, PHP, PowerShell, R, TypeScript, Insomnia, Pytorch, Express, Git, Docker, FastAPI, Firebase
 } from '../../assets/logos';
 
 const CategorySkill = ({ skill }) => {
@@ -31,7 +31,9 @@ const CategorySkill = ({ skill }) => {
     'Pytorch': Pytorch,
     'Express': Express,
     'Git': Git,
-    'Docker': Docker
+    'Docker': Docker,
+    'FastAPI': FastAPI,
+    'Firebase': Firebase
   }
 
   return (
