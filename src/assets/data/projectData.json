@@ -1,21 +1,20 @@
 [
   {
     "display": true,
-    "identifier": "budget-app",
-    "title": "Budget App",
-    "description": "This application uses Object Oriented Programming in Java to help provide an overview of an individual's money flow and to assist them in managing it by setting budgets.",
+    "identifier": "study-ai",
+    "title": "StudyAI",
+    "description": "StudyAI lets users upload videos or YouTube links, with an interactive transcript and AI chatbot that comprehends the videos for Q&A, summaries, and quizzes.",
     "liveview": "",
-    "sourcecode": "https://github.com/t1oluwani/Budget-App",
+    "sourcecode": "https://github.com/t1oluwani/StudyAI",
     "skills": [
-      "Python",
-      "OOP",
-      "Version Control",
-      "Intellij",
-      "App Development",
-      "JUnit",
-      "Git",
-      "TDD",
-      "Persistence"
+      "ReactJS",
+      "FastAPI",
+      "Firebase",
+      "OpenAI API",
+      "AI Chatbot",
+      "Video Processing",
+      "Transcription",
+      "Responsive Design"
     ]
   },
   {
@@ -51,8 +50,67 @@
       "Python",
       "JavaScript",
       "UI/UX",
-      "Sprint Methodologies",
-      "Agile Methodologies"
+      "Scrum Methodology",
+      "Sprint Planning",
+      "Agile Principles"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "budget-app",
+    "title": "Budget App",
+    "description": "This application uses Object Oriented Programming in Java to help provide an overview of an individual's money flow and to assist them in managing it by setting budgets.",
+    "liveview": "",
+    "sourcecode": "https://github.com/t1oluwani/Budget-App",
+    "skills": [
+      "Python",
+      "OOP",
+      "Version Control",
+      "Intellij",
+      "App Development",
+      "JUnit",
+      "Git",
+      "TDD",
+      "Persistence"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "portfolio",
+    "title": "Portfolio",
+    "description": "This is my personal portfolio website, showcasing my projects, skills, and experiences. Includes many features, but built from scratch no libraries.",
+    "liveview": "/",
+    "sourcecode": "https://github.com/t1oluwani/Portfolio",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "UI/UX",
+      "Version Control",
+      "Netlify Deployment",
+      "Responsive Design",
+      "JSON Objects"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "starwars-form",
+    "title": "StarWars Form",
+    "description": "This web application provided experience in creating an API and using a 3rd party API, it allows users to submit and retrieve Star Wars related information.",
+    "liveview": "https://t1oluwani.github.io/StarWarsAPI/",
+    "sourcecode": "https://github.com/t1oluwani/StarWarsAPI",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Mongoose",
+      "CRUD",
+      "Insomnia",
+      "SWAPI (Star Wars API)"
     ]
   },
   {
@@ -85,46 +143,9 @@
       "Python",
       "Polymorphism",
       "Abstraction",
+      "Control Flow",
+      "Terminal UI",
       "Object-Oriented-Programming"
-    ]
-  },
-  {
-    "display": true,
-    "identifier": "starwars-form",
-    "title": "StarWars Form",
-    "description": "This web application provided experience in creating an API and using a 3rd party API, it allows users to submit and retrieve Star Wars related information.",
-    "liveview": "https://t1oluwani.github.io/StarWarsAPI/",
-    "sourcecode": "https://github.com/t1oluwani/StarWarsAPI",
-    "skills": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB",
-      "Mongoose",
-      "CRUD",
-      "Insomnia",
-      "SWAPI (Star Wars API)"
-    ]
-  },
-  {
-    "display": false,
-    "identifier": "portfolio",
-    "title": "Portfolio",
-    "description": "This is my personal portfolio website, showcasing my projects and skills, built from scratch no libraries.",
-    "liveview": "",
-    "sourcecode": "",
-    "skills": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS",
-      "UI/UX",
-      "Version Control",
-      "Netlify Deployment",
-      "Responsive Design",
-      "JSON Obects"
     ]
   },
   {
@@ -153,17 +174,6 @@
     "display": false,
     "identifier": "ml-project",
     "title": "ML Project",
-    "description": "...",
-    "liveview": "",
-    "sourcecode": "",
-    "skills": [
-      "..."
-    ]
-  },
-  {
-    "display": false,
-    "identifier": "ai-project",
-    "title": "AI Project",
     "description": "...",
     "liveview": "",
     "sourcecode": "",
