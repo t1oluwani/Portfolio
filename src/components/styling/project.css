@@ -127,32 +127,42 @@
 }
 
 .projectItem.budget-app {
-  background-image: url('../../assets/thumbnails/project1.png');
+  background-image: url('../../assets/thumbnails/budget-app.png');
   background-size: cover;
 }
 
 .projectItem.restful-api {
-  background-image: url('../../assets/thumbnails/project2.png');
+  background-image: url('../../assets/thumbnails/restful-api.png');
   background-size: cover;
 }
 
 .projectItem.sprint {
-  background-image: url('../../assets/thumbnails/project3.png');
+  background-image: url('../../assets/thumbnails/sprint.png');
   background-size: cover;
 }
 
 .projectItem.froggsite {
-  background-image: url('../../assets/thumbnails/project4.png');
+  background-image: url('../../assets/thumbnails/froggsite.png');
   background-size: cover;
 }
 
 .projectItem.word-games {
-  background-image: url('../../assets/thumbnails/project5.png');
+  background-image: url('../../assets/thumbnails/word-games.png');
   background-size: cover;
 }
 
 .projectItem.starwars-form {
-  background-image: url('../../assets/thumbnails/project6.png');
+  background-image: url('../../assets/thumbnails/starwars-form.png');
+  background-size: cover;
+}
+
+.projectItem.study-ai {
+  background-image: url('../../assets/thumbnails/study-ai.png');
+  background-size: cover;
+}
+
+.projectItem.portfolio {
+  background-image: url('../../assets/thumbnails/portfolio.png');
   background-size: cover;
 }
 
@@ -161,7 +171,9 @@
 .projectItem.sprint:hover,
 .projectItem.froggsite:hover,
 .projectItem.word-games:hover,
-.projectItem.starwars-form:hover {
+.projectItem.starwars-form:hover,
+.projectItem.study-ai:hover,
+.projectItem.portfolio:hover {
   background-image: none;
   transform: scale(1.15);
   transition: transform 0.5s;
