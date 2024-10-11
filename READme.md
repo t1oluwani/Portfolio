@@ -1,7 +1,8 @@
 ## Current Tasks
-- The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
-- Changes skills from manual logo to githubuser content, same thing use for github profile
+- update projects
 - Animation trigger when you slide down (ref afua deborah)
+- Changes skills from manual logo to githubuser content, same thing use for github profile
+- The contact form does not currently have a backend action configured; integration with a backend service is required to process form submissions.
 - Name changing thing (animation) (ref afua deborah)
 - Alter individual projects to fit better, giving them a live site and feasible GUI
 
@@ -14,6 +15,9 @@ Welcome to my portfolio! This document provides an overview of the portfolio web
 This portfolio is designed to showcase the skills, projects, and experiences of Tioluwani Akinloye, a multidisciplinary developer and designer. The website utilizes React.js HTML and CSS, with react libraries for responsive design and Font Awesome for icons.
 
 ## Features
+
+- Glow Cursor
+- Background Stars
 
 ### Sections
 
