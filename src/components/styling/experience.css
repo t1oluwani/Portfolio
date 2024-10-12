@@ -33,16 +33,12 @@
   margin-right: auto;
   border-right: 8px solid lightseagreen;
 
-  animation: slideInRight 1s ease-in-out;
-
   /* border-left: 8px solid lightseagreen; */
 }
 
 .content.experience {
   margin-left: auto;
   border-left: 8px solid lightskyblue;
-
-  animation: slideInLeft 1s ease-in-out;
 
   /* border-right: 8px solid lightskyblue; */
 
@@ -88,7 +84,15 @@
   background-color: lightskyblue;
 }
 
-/* Animations */
+/* Animation Handling */
+.slideLAnimation {
+  animation: slideInLeft 1s ease-in-out;
+}
+.slideRAnimation {
+  animation: slideInRight 1s ease-in-out;
+}
+
+/* KeyFrames for Animations */
 @keyframes slideInLeft {
   from {
     transform: translateX(-100%);

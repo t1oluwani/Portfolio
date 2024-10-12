@@ -1,6 +1,10 @@
 import '../styling/experience.css';
 
-const TimelineEvent = ({ event }) => {
+const TimelineEvent = ({ event, isVisible }) => {
+  const slideAnimation =
+    event.category === "education" ? (isVisible ? 'slideLAnimation' : '') 
+    : event.category === "experience" ? (isVisible ? 'slideRAnimation' : '') 
+    : '';
 
   const formatDate = (date) => {
     const options = { year: 'numeric', month: 'short' };
@@ -12,7 +16,7 @@ const TimelineEvent = ({ event }) => {
   });
 
   return (
-    <div className={`content ${event.category}`}>
+    <div className={`content ${event.category} ${slideAnimation}`}>
       <p className="times">{formatDate(event.start)} - {formatDate(event.end)}</p>
       <p className="location">{event.location}</p>
       <h2 className="organization">{event.organization}</h2>

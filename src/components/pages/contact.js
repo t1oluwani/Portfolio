@@ -23,7 +23,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section id="contactme" className="contactpage">
+    <section id="contactme" className="contactpage" >
       <div className="sectionHead">
         <span className="opener">Feel free to</span>
         <h2 className="headliner">CONTACT ME</h2>

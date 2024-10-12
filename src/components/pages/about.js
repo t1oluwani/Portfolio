@@ -6,7 +6,7 @@ import myPicture from '../../assets/picsofme/option2.jpg';
 import myResume from '../../assets/resume/Tioluwani_Akinloye_Resume.pdf';
 
 const AboutPage = () => {
-  const sectionRef = useRef(null);
+  const sectionRef = useRef();
   const [isVisible, setIsVisible] = useState(false);
   const slideLAnimation = isVisible ? 'slideLAnimation' : '';
   const slideRAnimation = isVisible ? 'slideRAnimation' : '';
