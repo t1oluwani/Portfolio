@@ -18,7 +18,7 @@ const ExperiencePage = () => {
         const entry = entries[0];
         setIsVisible(entry.isIntersecting);
       },
-      { threshold: 0.1 } // Trigger when 10% of the section is visible
+      { threshold: 0.05 } // Trigger when 5% of the section is visible
     );
 
     if (sectionRef.current) {
