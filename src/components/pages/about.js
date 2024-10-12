@@ -31,8 +31,6 @@ const AboutPage = () => {
     };
   }, []);
 
-  console.log(isVisible);
-
   return (
     <section id="about" className="aboutpage" ref={sectionRef}>
       <div className="sectionHead">

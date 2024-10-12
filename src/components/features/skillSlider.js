@@ -4,9 +4,13 @@ import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs'
 import CategorySkill from './categorySkill.js'
 import skillData from '../../assets/data/skillsData.json'
 
-function SkillSlider() {
-  const [manual, setManual] = useState(false);
+function SkillSlider( { isVisible } ) {
   const [slide, setSlide] = useState(0);
+  const [manual, setManual] = useState(false);
+  
+  const fadeInAnimation = isVisible ? 'fadeInAnimation' : '';
+  const slideInAnimation = isVisible ? 'slideInAnimation' : '';
+
   const handleArrowClick = (direction) => {
     if (direction === 'left') {
       setSlide(slide + 2);
@@ -38,7 +42,7 @@ function SkillSlider() {
 
   return (
     <div className="skillSlider">
-      <div className="skillSlider__container">
+      <div className={`skillSlider__container ${slideInAnimation}`}>
 
         <BsArrowLeftCircle className="arrow left" onClick={() => handleArrowClick('left')} />
 
@@ -58,7 +62,7 @@ function SkillSlider() {
           return (
             <div key={idx} className={(slide % 3) === category.visibleWhenSlide ? 'skillsCategory' : 'skillsCategory hidden'}>
               <h3>{category.title}</h3>
-              <ul className="skillsGrid">
+              <ul className={`skillsGrid ${fadeInAnimation}`}>
                 {sortedSkills("len").map((skill, idx) => {
                   return (
                     <CategorySkill key={idx} skill={skill} />
