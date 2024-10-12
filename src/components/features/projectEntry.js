@@ -1,8 +1,8 @@
 import '../styling/project.css';
 
 const ProjectEntry = ({ project, hasBeenSeen }) => {
-  const zoomInAnimation = hasBeenSeen ? 'zoomInAnimation' : '';
-  const zoomOutAnimation = hasBeenSeen ? 'zoomOutAnimation' : '';
+  // const zoomInAnimation = hasBeenSeen ? 'zoomInAnimation' : '';
+  // const zoomOutAnimation = hasBeenSeen ? 'zoomOutAnimation' : '';
   const wipeEnterAnimation = hasBeenSeen ? 'wipeEnterAnimation' : '';
 
   console.log("ProjectEntry HasBeenSeen: ", hasBeenSeen);

@@ -21,16 +21,18 @@ const ProjectPage = () => {
       { threshold: 0.2 } // Trigger when 20% of the section is visible
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentRef = sectionRef.current; // Store the current ref in a variable to avoid eslint warnings
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef); // Use the stored variable
       }
     };
-  }, []);
+  }, [hasBeenSeen]);
 
   return (
     <section id="projects" className="projectpage" ref={sectionRef}>

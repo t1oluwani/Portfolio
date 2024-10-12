@@ -24,16 +24,18 @@ const ContactPage = () => {
       { threshold: 0.1 } // Trigger when 10% of the section is visible
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentRef = sectionRef.current; // Store the current ref in a variable to avoid eslint warnings
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef); // Use the stored variable
       }
     };
-  }, []);
+  }, [hasBeenSeen]);
 
   const sendEmail = (e) => {
     e.preventDefault();

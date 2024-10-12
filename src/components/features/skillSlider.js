@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs'
 import CategorySkill from './categorySkill.js'
 import skillData from '../../assets/data/skillsData.json'
-import { C } from '../../assets/logos/index.js'
 
 function SkillSlider( { hasBeenSeen } ) {
   const [slide, setSlide] = useState(0);
