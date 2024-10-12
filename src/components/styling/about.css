@@ -19,8 +19,6 @@
   transition: ease-in-out 0.3s;
   z-index: 2;
 
-  animation: slideInLeft 1s ease-in-out;
-
   /* box-shadow: 0 0 150px 50px rgb(15, 65, 118); */
   /* box-shadow: 0 0 30px 10px rgb(0, 123, 255); */
   /* animation: glowing;
@@ -52,8 +50,6 @@
   margin-bottom: 0;
   border-radius: 25px;
   transform: translateY(-5px);
-
-  animation: slideInLeft 1s ease-in-out;
 }
 
 .icons {
@@ -62,8 +58,6 @@
 
   margin-top: 0;
   margin-right: 125px;
-
-  animation: slideInRight 1s ease-in-out;
 }
 
 .icons a {
@@ -96,6 +90,14 @@
 }
 
 /* Keyframes for sliding in from the left */
+.slideLAnimation {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.slideRAnimation {
+  animation: slideInRight 1s ease-in-out;
+}
+
 @keyframes slideInLeft {
   from {
     transform: translateX(-100%);
