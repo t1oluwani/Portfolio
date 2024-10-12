@@ -112,15 +112,15 @@
 }
 
 /* Animation Handling */
-.slideLAnimation {
-  animation: slideInLeft 2s ease-in-out;
+.slideFLAnimation {
+  animation: slideInFarLeft 2s ease-in-out;
 }
-.slideRAnimation {
-  animation: slideInRight 2s ease-in-out;
+.slideFRAnimation {
+  animation: slideInFarRight 2s ease-in-out;
 }
 
 /* Keyframes for sliding in from the left */
-@keyframes slideInLeft {
+@keyframes slideInFarLeft {
   from {
     transform: translateX(-200%);
   }
@@ -130,7 +130,7 @@
   }
 }
 /* Keyframes for sliding in from the right */
-@keyframes slideInRight {
+@keyframes slideInFarRight {
   from {
     transform: translateX(400%);
   }

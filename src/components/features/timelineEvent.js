@@ -1,10 +1,12 @@
 import '../styling/experience.css';
 
-const TimelineEvent = ({ event, isVisible }) => {
+const TimelineEvent = ({ event, hasBeenSeen }) => {
   const slideAnimation =
-    event.category === "education" ? (isVisible ? 'slideLAnimation' : '') 
-    : event.category === "experience" ? (isVisible ? 'slideRAnimation' : '') 
+    event.category === "education" ? (hasBeenSeen ? 'slideMLAnimation' : '') 
+    : event.category === "experience" ? (hasBeenSeen ? 'slideMRAnimation' : '') 
     : '';
+    
+  console.log("TimelineEvent HasBeenSeen: ", hasBeenSeen);
 
   const formatDate = (date) => {
     const options = { year: 'numeric', month: 'short' };

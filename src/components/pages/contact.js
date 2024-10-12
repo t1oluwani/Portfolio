@@ -7,15 +7,19 @@ import { Calendly, Email } from '../../assets/logos';
 const ContactPage = () => {
   const form = useRef();
   const sectionRef = useRef();
-  const [isVisible, setIsVisible] = useState(false);
-  const slideLAnimation = isVisible ? 'slideLAnimation' : '';
-  const slideRAnimation = isVisible ? 'slideRAnimation' : '';
+  const [hasBeenSeen, setHasBeenSeen] = useState(false);
+  const slideFLAnimation = hasBeenSeen ? 'slideFLAnimation' : '';
+  const slideFRAnimation = hasBeenSeen ? 'slideFRAnimation' : '';
+
+  console.log("ContactPage HasBeenSeen: ", hasBeenSeen);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        setIsVisible(entry.isIntersecting);
+        if (entry.isIntersecting && !hasBeenSeen) {
+          setHasBeenSeen(true);
+        }
       },
       { threshold: 0.1 } // Trigger when 10% of the section is visible
     );
@@ -59,7 +63,7 @@ const ContactPage = () => {
         <div className='contactOptions'>
 
           <a rel="noreferrer" href="mailto:akinloyetioluwani@gmail.com" target="_blank" className="contactLink">
-            <div className={`emailOption ${slideRAnimation}`}>
+            <div className={`emailOption ${slideFRAnimation}`}>
               <h3>You can email me directly:</h3>
               <label className="contactLabel">
                 <img alt="Email Logo" src={Email} />
@@ -71,7 +75,7 @@ const ContactPage = () => {
           <h1 className='hiddenOR'>OR</h1>
 
           <a rel="noreferrer" href="https://calendly.com/akinloyetioluwani" target="_blank" className="contactLink">
-            <div className={`calendlyOption ${slideRAnimation}`}>
+            <div className={`calendlyOption ${slideFRAnimation}`}>
               <h3>Schedule a virtual meeting with me:</h3>
               <label className="contactLabel">
                 <img alt="Calendly Logo" src={Calendly} />
@@ -84,7 +88,7 @@ const ContactPage = () => {
 
         <h1>OR</h1>
 
-        <div className={`contactForm ${slideLAnimation}`}>
+        <div className={`contactForm ${slideFLAnimation}`}>
           <h2>Fill this Contact Form</h2>
           <form id="contactForm" ref={form} onSubmit={sendEmail}>
             <input type="text"  id="nameInput"    name="name"    className="nameInput"    required placeholder="Input Name*" />

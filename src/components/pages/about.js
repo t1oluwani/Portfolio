@@ -7,15 +7,19 @@ import myResume from '../../assets/resume/Tioluwani_Akinloye_Resume.pdf';
 
 const AboutPage = () => {
   const sectionRef = useRef();
-  const [isVisible, setIsVisible] = useState(false);
-  const slideLAnimation = isVisible ? 'slideLAnimation' : '';
-  const slideRAnimation = isVisible ? 'slideRAnimation' : '';
+  const [hasBeenSeen, setHasBeenSeen] = useState(false);
+  const slideLAnimation = hasBeenSeen ? 'slideLAnimation' : '';
+  const slideRAnimation = hasBeenSeen ? 'slideRAnimation' : '';
+
+  console.log("AboutPage HasBeenSeen: ", hasBeenSeen);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        setIsVisible(entry.isIntersecting);
+        if (entry.isIntersecting && !hasBeenSeen) {
+          setHasBeenSeen(true);
+        }
       },
       { threshold: 0.05 } // Trigger when 5% of the section is visible
     );

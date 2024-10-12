@@ -85,17 +85,17 @@
 }
 
 /* Animation Handling */
-.slideLAnimation {
-  animation: slideInLeft 1s ease-in-out;
+.slideMLAnimation {
+  animation: slideInMediumLeft 1.5s ease-in-out;
 }
-.slideRAnimation {
-  animation: slideInRight 1s ease-in-out;
+.slideMRAnimation {
+  animation: slideInMediumRight 1.5s ease-in-out;
 }
 
 /* KeyFrames for Animations */
-@keyframes slideInLeft {
+@keyframes slideInMediumLeft {
   from {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
     opacity: 0;
   }
   to {
@@ -104,9 +104,9 @@
   }
 }
 
-@keyframes slideInRight {
+@keyframes slideInMediumRight {
   from {
-    transform: translateX(100%);
+    transform: translateX(150%);
     opacity: 0;
   }
   to {

@@ -3,13 +3,16 @@ import { useState, useEffect } from 'react'
 import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs'
 import CategorySkill from './categorySkill.js'
 import skillData from '../../assets/data/skillsData.json'
+import { C } from '../../assets/logos/index.js'
 
-function SkillSlider( { isVisible } ) {
+function SkillSlider( { hasBeenSeen } ) {
   const [slide, setSlide] = useState(0);
   const [manual, setManual] = useState(false);
   
-  const fadeInAnimation = isVisible ? 'fadeInAnimation' : '';
-  const slideInAnimation = isVisible ? 'slideInAnimation' : '';
+  const fadeInAnimation = hasBeenSeen ? 'fadeInAnimation' : '';
+  const slideInAnimation = hasBeenSeen ? 'slideInAnimation' : '';
+
+  console.log("SkillSlider HasBeenSeen: ", hasBeenSeen);
 
   const handleArrowClick = (direction) => {
     if (direction === 'left') {

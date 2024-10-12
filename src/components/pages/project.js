@@ -6,13 +6,17 @@ import projectData from '../../assets/data/projectData.json'
 
 const ProjectPage = () => {
   const sectionRef = useRef();
-  const [isVisible, setIsVisible] = useState(false);
+  const [hasBeenSeen, setHasBeenSeen] = useState(false);
+
+  console.log("ProjectPage HasBeenSeen: ", hasBeenSeen);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        setIsVisible(entry.isIntersecting);
+        if (entry.isIntersecting && !hasBeenSeen) {
+          setHasBeenSeen(true);
+        }
       },
       { threshold: 0.2 } // Trigger when 20% of the section is visible
     );
@@ -39,7 +43,7 @@ const ProjectPage = () => {
         <div className="projects">
           <ul className="projectList">
             {projectData.map((project, idx) => (
-              <ProjectEntry project={project} key={idx} isVisible={isVisible}/>
+              <ProjectEntry project={project} key={idx} hasBeenSeen={hasBeenSeen}/>
             ))}
           </ul>
         </div>

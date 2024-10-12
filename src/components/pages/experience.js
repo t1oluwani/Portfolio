@@ -6,7 +6,9 @@ import timelineData from '../../assets/data/timelineData.json'
 
 const ExperiencePage = () => {
   const sectionRef = useRef();
-  const [isVisible, setIsVisible] = useState(false);
+  const [hasBeenSeen, setHasBeenSeen] = useState(false);
+
+  console.log("ExperiencePage HasBeenSeen: ", hasBeenSeen);
 
   const sortedTimelineData = timelineData.sort((a, b) => {
     return new Date(b.end) - new Date(a.end);
@@ -16,7 +18,9 @@ const ExperiencePage = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        setIsVisible(entry.isIntersecting);
+        if (entry.isIntersecting && !hasBeenSeen) {
+          setHasBeenSeen(true);
+        }
       },
       { threshold: 0.05 } // Trigger when 5% of the section is visible
     );
@@ -43,7 +47,7 @@ const ExperiencePage = () => {
         <div className="timeline">
           <div className="timeline-container">
             {sortedTimelineData.map((event, idx) => (
-              <TimelineEvent event={event} key={idx} isVisible={isVisible} />
+              <TimelineEvent event={event} key={idx} hasBeenSeen={hasBeenSeen} />
             ))}
           </div>
         </div>

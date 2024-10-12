@@ -5,13 +5,17 @@ import SkillSlider from '../features/skillSlider';
 
 const SkillsPage = () => {
   const sectionRef = useRef();
-  const [isVisible, setIsVisible] = useState(false);
+  const [hasBeenSeen, setHasBeenSeen] = useState(false);
+
+  console.log("SkillsPage HasBeenSeen: ", hasBeenSeen);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        setIsVisible(entry.isIntersecting);
+        if (entry.isIntersecting && !hasBeenSeen) {
+          setHasBeenSeen(true);
+        }
       },
       { threshold: 0.1 } // Trigger when 10% of the section is visible
     );
@@ -35,7 +39,7 @@ const SkillsPage = () => {
       </div>
 
       <div className="sectionBody">
-        <SkillSlider isVisible={isVisible}/>
+        <SkillSlider hasBeenSeen={hasBeenSeen}/>
       </div>
     </section>
   )
