@@ -30,8 +30,6 @@
   padding: 20px;
   border-radius: 20px;
   background-color: rgba(70, 130, 180, 0.4);
-
-  animation: slideInRight 2s ease-in-out;
 }
 
 .emailOption {
@@ -65,8 +63,6 @@
 
   border-radius: 20px;
   background-color: rgba(126, 160, 189, 0.7);
-
-  animation: slideInLeft 2s ease-in-out;
 }
 
 .contactForm h2 {
@@ -115,8 +111,15 @@
   display: none;
 }
 
-/* Animations */
+/* Animation Handling */
+.slideLAnimation {
+  animation: slideInLeft 2s ease-in-out;
+}
+.slideRAnimation {
+  animation: slideInRight 2s ease-in-out;
+}
 
+/* Keyframes for sliding in from the left */
 @keyframes slideInLeft {
   from {
     transform: translateX(-200%);
@@ -126,7 +129,7 @@
     transform: translateX(0);
   }
 }
-
+/* Keyframes for sliding in from the right */
 @keyframes slideInRight {
   from {
     transform: translateX(400%);
@@ -165,20 +168,10 @@
     display: block;
   }
 
-  .emailOption {
-    animation: slideInLeft 1s ease-in-out;
-  }
-
-  .calendlyOption {
-    animation: slideInRight 1s ease-in-out;
-  }
-
   .contactForm {
     width: 75%;
     padding: 15px;
     border-radius: 10px;
-
-    animation: slideInLeft 1s ease-in-out;
   }
 
   .contactForm input,

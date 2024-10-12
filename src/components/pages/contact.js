@@ -1,10 +1,35 @@
 import '../styling/contact.css';
-import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { useRef, useState, useEffect } from 'react';
+
 import { Calendly, Email } from '../../assets/logos';
 
 const ContactPage = () => {
   const form = useRef();
+  const sectionRef = useRef();
+  const [isVisible, setIsVisible] = useState(false);
+  const slideLAnimation = isVisible ? 'slideLAnimation' : '';
+  const slideRAnimation = isVisible ? 'slideRAnimation' : '';
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.1 } // Trigger when 10% of the section is visible
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,7 +48,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section id="contactme" className="contactpage" >
+    <section id="contactme" className="contactpage" ref={sectionRef} >
       <div className="sectionHead">
         <span className="opener">Feel free to</span>
         <h2 className="headliner">CONTACT ME</h2>
@@ -34,7 +59,7 @@ const ContactPage = () => {
         <div className='contactOptions'>
 
           <a rel="noreferrer" href="mailto:akinloyetioluwani@gmail.com" target="_blank" className="contactLink">
-            <div className='emailOption'>
+            <div className={`emailOption ${slideRAnimation}`}>
               <h3>You can email me directly:</h3>
               <label className="contactLabel">
                 <img alt="Email Logo" src={Email} />
@@ -46,7 +71,7 @@ const ContactPage = () => {
           <h1 className='hiddenOR'>OR</h1>
 
           <a rel="noreferrer" href="https://calendly.com/akinloyetioluwani" target="_blank" className="contactLink">
-            <div className='calendlyOption'>
+            <div className={`calendlyOption ${slideRAnimation}`}>
               <h3>Schedule a virtual meeting with me:</h3>
               <label className="contactLabel">
                 <img alt="Calendly Logo" src={Calendly} />
@@ -59,7 +84,7 @@ const ContactPage = () => {
 
         <h1>OR</h1>
 
-        <div className='contactForm'>
+        <div className={`contactForm ${slideLAnimation}`}>
           <h2>Fill this Contact Form</h2>
           <form id="contactForm" ref={form} onSubmit={sendEmail}>
             <input type="text"  id="nameInput"    name="name"    className="nameInput"    required placeholder="Input Name*" />
