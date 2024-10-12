@@ -68,8 +68,6 @@
   font-size: 14px;
   padding: 40px;
 
-  animation: wipe-enter 1s ease-in-out;
-
   /* border-radius: 50px; */
   /* background-color: rgb(7, 40, 56); */
   /* background-color: var(--night-glow-color); */
@@ -179,8 +177,18 @@
   transition: transform 0.5s;
 }
 
+/* Animation Handling */
+.zoomInAnimation {
+  animation: zoomIn 1s ease-in-out;
+}
+.zoomOutAnimation {
+  animation: zoomOut 1s ease-in-out;
+}
+.wipe-enterAnimation {
+  animation: wipe-enter 1s ease-in-out;
+}
 
-/* Animations */
+/* Keyframes for Animations */
 @keyframes zoomIn {
   from {
     transform: scale(0.6);
@@ -192,7 +200,6 @@
     opacity: 1;
   }
 }
-
 @keyframes zoomOut {
   from {
     transform: scale(1.4);
@@ -204,7 +211,6 @@
     opacity: 0;
   }
 }
-
 @keyframes wipe-enter {
   0% {
     transform: scale(0, .025);
