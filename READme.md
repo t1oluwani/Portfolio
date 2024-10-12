@@ -1,5 +1,4 @@
 ## Current Tasks
-- Animation trigger when you slide down (ref afua deborah)
 - Name changing thing (animation) (ref afua deborah)
 - Alter individual projects to fit better, giving them a live site and feasible GUI
 

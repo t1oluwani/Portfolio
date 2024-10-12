@@ -1,11 +1,11 @@
 import '../styling/project.css';
-
 import React, { useEffect, useRef, useState } from 'react';
+
 import ProjectEntry from '../features/projectEntry';
 import projectData from '../../assets/data/projectData.json'
 
 const ProjectPage = () => {
-  const sectionRef = useRef(null);
+  const sectionRef = useRef();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

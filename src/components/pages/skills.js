@@ -1,10 +1,10 @@
 import '../styling/skills.css';
-
 import { useRef, useState, useEffect } from 'react';
+
 import SkillSlider from '../features/skillSlider';
 
 const SkillsPage = () => {
-  const sectionRef = useRef(null);
+  const sectionRef = useRef();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

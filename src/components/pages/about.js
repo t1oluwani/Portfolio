@@ -1,7 +1,7 @@
 import '../styling/about.css';
+import { useState, useEffect, useRef } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import { useState, useEffect, useRef } from 'react';
 import myPicture from '../../assets/picsofme/option2.jpg';
 import myResume from '../../assets/resume/Tioluwani_Akinloye_Resume.pdf';
 
