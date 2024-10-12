@@ -39,7 +39,7 @@ const ProjectPage = () => {
         <div className="projects">
           <ul className="projectList">
             {projectData.map((project, idx) => (
-              <ProjectEntry project={project} key={idx} />
+              <ProjectEntry project={project} key={idx} isVisible={isVisible}/>
             ))}
           </ul>
         </div>

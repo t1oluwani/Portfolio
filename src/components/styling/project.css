@@ -184,7 +184,7 @@
 .zoomOutAnimation {
   animation: zoomOut 1s ease-in-out;
 }
-.wipe-enterAnimation {
+.wipeEnterAnimation {
   animation: wipe-enter 1s ease-in-out;
 }
 

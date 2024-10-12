@@ -1,10 +1,13 @@
 import '../styling/project.css';
 
-const ProjectEntry = ({ project }) => {
+const ProjectEntry = ({ project, isVisible }) => {
+  const zoomInAnimation = isVisible ? 'zoomInAnimation' : '';
+  const zoomOutAnimation = isVisible ? 'zoomOutAnimation' : '';
+  const wipeEnterAnimation = isVisible ? 'wipeEnterAnimation' : '';
 
   return (
     <>
-      {project.display && <li className={`projectItem ${project.identifier}`}>
+      {project.display && <li className={`projectItem ${project.identifier} ${wipeEnterAnimation}`}>
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <ul className="skillList">

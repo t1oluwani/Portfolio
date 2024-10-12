@@ -1,7 +1,7 @@
 import '../styling/skills.css';
-import SkillSlider from '../features/skillSlider';
 
 import { useRef, useState, useEffect } from 'react';
+import SkillSlider from '../features/skillSlider';
 
 const SkillsPage = () => {
   const sectionRef = useRef(null);
