@@ -4,7 +4,7 @@
     "identifier": "study-ai",
     "title": "StudyAI",
     "description": "StudyAI lets users upload videos or YouTube links, with an interactive transcript and AI chatbot that comprehends the videos for Q&A, summaries, and quizzes.",
-    "liveview": "",
+    "liveview": "https://vimeo.com/1019093746?share=copy",
     "sourcecode": "https://github.com/t1oluwani/StudyAI",
     "skills": [
       "ReactJS",
