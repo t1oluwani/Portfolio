@@ -92,7 +92,7 @@
     ]
   },
   {
-    "title": "Frameworks",
+    "title": "Frameworks + Databases",
     "visibleWhenSlide": 2,
     "skills": [
       {
@@ -122,6 +122,10 @@
       {
         "name": "FirebaseDB",
         "icon": "Firebase"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "MongoDB"
       }
     ]
   }

@@ -30,6 +30,7 @@ import Git from './Git.png';
 import Docker from './Docker.png';
 import FastAPI from './FastAPI.png';
 import Firebase from './Firebase.png';
+import MongoDB from './MongoDB.png';
 
 export {
   HTML,
@@ -63,5 +64,6 @@ export {
   Git,
   Docker,
   FastAPI,
-  Firebase
+  Firebase,
+  MongoDB
 };
