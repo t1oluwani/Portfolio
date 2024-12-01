@@ -2,7 +2,7 @@ import '../styling/about.css';
 import { useState, useEffect, useRef } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import myPicture from '../../assets/picsofme/option2.jpg';
+import myPicture from '../../assets/picsofme/option3.jpg';
 import myResume from '../../assets/resume/Tioluwani_Akinloye_Resume.pdf';
 
 const AboutPage = () => {
