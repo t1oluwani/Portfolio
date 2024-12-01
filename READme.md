@@ -1,7 +1,3 @@
-## Current Tasks
-- Name changing thing (animation) (ref afua deborah)
-- Alter individual projects to fit better, giving them a live site and feasible GUI
-
 # Tioluwani Akinloye's Portfolio
 
 Welcome to my portfolio! This document provides an overview of the portfolio website, including its features, technologies.
@@ -36,15 +32,12 @@ This portfolio is designed to showcase the skills, projects, and experiences of 
 - **Contact Me**:
   - Provides multiple ways to get in touch including email, a Calendly link for scheduling meetings, and a contact form for direct communication.
 
-
 ## Technologies Used
 
 - **HTML**: Provides the structure of the portfolio.
 - **CSS**: Used for styling, with an external stylesheet (`styles.css`) to customize the look and feel.
 - **ReactJS**: Utilized for interactive components and managing state within the portfolio.
 - **Font Awesome**: Icon library for social media and other icons.
-
-
 
 ## Citations
 - [Owl Carousel:](https://www.youtube.com/watch?v=YQCDUJ6hhNY)
