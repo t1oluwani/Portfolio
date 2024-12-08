@@ -19,6 +19,26 @@
   },
   {
     "display": true,
+    "identifier": "smartvision",
+    "title": "SmartVision",
+    "description": "Leverages canvas API and machine learning models for handwriting recognition. Includes logistic regression, CNNs and FNNs to classify and identify canvas number drawings.",
+    "liveview": "",
+    "sourcecode": "https://github.com/t1oluwani/SmartVision",
+    "skills": [
+      "Vue.js",
+      "Flask",
+      "Canvas API",
+      "CNNs",
+      "FNNs",
+      "Logistic Regression",
+      "Image Classification",
+      "UI/UX Design",
+      "PyTorch",
+      "Torchvision"
+    ]
+  },
+  {
+    "display": true,
     "identifier": "restful-api",
     "title": "RESTful API",
     "description": "This is a deployed RESTful API for managing employee data. It allows you to perform CRUD (Create, Read, Update, Delete) operations on employee records.",
@@ -35,24 +55,6 @@
       "Cybera",
       "Ubuntu",
       "API-Deployment"
-    ]
-  },
-  {
-    "display": true,
-    "identifier": "sprint",
-    "title": "Sprint",
-    "description": "This is a versatile web application designed to streamline Agile and Scrum managing by facilitating efficient tracking and organization of user stories.",
-    "liveview": "https://kneadteam.github.io/Sprint/",
-    "sourcecode": "https://github.com/KneadTeam/Sprint",
-    "skills": [
-      "HTML",
-      "CSS",
-      "Python",
-      "JavaScript",
-      "UI/UX",
-      "Scrum Methodology",
-      "Sprint Planning",
-      "Agile Principles"
     ]
   },
   {
@@ -146,6 +148,24 @@
       "Control Flow",
       "Terminal UI",
       "Object-Oriented-Programming"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "sprint",
+    "title": "Sprint",
+    "description": "This is a versatile web application designed to streamline Agile and Scrum managing by facilitating efficient tracking and organization of user stories.",
+    "liveview": "https://kneadteam.github.io/Sprint/",
+    "sourcecode": "https://github.com/KneadTeam/Sprint",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "UI/UX",
+      "Scrum Methodology",
+      "Sprint Planning",
+      "Agile Principles"
     ]
   },
   {
