@@ -92,6 +92,10 @@
       {
         "name": "Cypress",
         "icon": "Cypress"
+      },
+      {
+        "name": "Postman",
+        "icon": "Postman"
       }
     ]
   },
