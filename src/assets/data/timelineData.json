@@ -37,6 +37,7 @@
       "Racket",
       "GitHub",
       "Java",
+      "Algorithms",
       "Data Structures",
       "Git",
       "C++"
@@ -60,7 +61,9 @@
       "Git",
       "Docker",
       "Cybera",
-      "REST APIs"
+      "REST APIs",
+      "Deployment",
+      "PyTorch"
     ]
   },
   {
@@ -94,7 +97,7 @@
       "PHP",
       "Laravel",
       "TypeScript",
-      "React.js",
+      "React.ts",
       "MySQL",
       "Docker",
       "PHPUnit",

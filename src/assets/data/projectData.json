@@ -21,7 +21,7 @@
     "display": true,
     "identifier": "smartvision",
     "title": "SmartVision",
-    "description": "Leverages canvas API and machine learning models for handwriting recognition. Includes logistic regression, CNNs and FNNs to classify and identify canvas number drawings.",
+    "description": "Leverages canvas API and machine learning models for handwriting recognition. Includes logistic regression, CNNs and FNNs to classify and identify number drawings.",
     "liveview": "",
     "sourcecode": "https://github.com/t1oluwani/SmartVision",
     "skills": [
