@@ -6,6 +6,7 @@ import projectData from '../../assets/data/projectData.json'
 
 const ProjectPage = () => {
   const sectionRef = useRef();
+  const [showAllProjects, setShowAllProjects] = useState(false);
   const [hasBeenSeen, setHasBeenSeen] = useState(false);
 
   console.log("ProjectPage HasBeenSeen: ", hasBeenSeen);
@@ -34,6 +35,8 @@ const ProjectPage = () => {
     };
   }, [hasBeenSeen]);
 
+  const displayedProjects = showAllProjects ? projectData : projectData.slice(0, 6); // Initially display only 6 projects
+
   return (
     <section id="projects" className="projectpage" ref={sectionRef}>
       <div className="sectionHead">
@@ -44,7 +47,7 @@ const ProjectPage = () => {
       <div className="sectionBody">
         <div className="projects">
           <ul className="projectList">
-            {projectData.map((project, idx) => (
+            {displayedProjects.map((project, idx) => (
               <ProjectEntry project={project} key={idx} hasBeenSeen={hasBeenSeen}/>
             ))}
           </ul>
