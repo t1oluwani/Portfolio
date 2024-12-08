@@ -169,14 +169,7 @@
   background-size: cover;
 }
 
-.projectItem.budget-app:hover,
-.projectItem.restful-api:hover,
-.projectItem.sprint:hover,
-.projectItem.froggsite:hover,
-.projectItem.word-games:hover,
-.projectItem.starwars-form:hover,
-.projectItem.study-ai:hover,
-.projectItem.portfolio:hover {
+.projectItem:hover {
   background-image: none;
   transform: scale(1.15);
   transition: transform 0.5s;
