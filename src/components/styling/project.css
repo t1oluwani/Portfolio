@@ -164,6 +164,11 @@
   background-size: cover;
 }
 
+.projectItem.smartvision {
+  background-image: url('../../assets/thumbnails/smartvision.png');
+  background-size: cover;
+}
+
 .projectItem.budget-app:hover,
 .projectItem.restful-api:hover,
 .projectItem.sprint:hover,
