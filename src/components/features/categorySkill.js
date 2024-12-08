@@ -2,7 +2,8 @@ import '../styling/skills.css';
 
 import {
   HTML, CSS, JavaScript, Racket, Java, C, Cpp, VsCode, IntelliJ, Python, Django, React, Node, Laravel, Linux, 
-  Matlab, PHP, PowerShell, R, TypeScript, Insomnia, Pytorch, Express, Git, Docker, FastAPI, Firebase, MongoDB
+  Matlab, PHP, PowerShell, R, TypeScript, Insomnia, Pytorch, Express, Git, Docker, FastAPI, Firebase, MongoDB,
+  Cypress, Flask, Postman, Vue,
 } from '../../assets/logos';
 
 const CategorySkill = ({ skill }) => {
@@ -34,7 +35,11 @@ const CategorySkill = ({ skill }) => {
     'Docker': Docker,
     'FastAPI': FastAPI,
     'Firebase': Firebase,
-    'MongoDB' : MongoDB
+    'MongoDB' : MongoDB,
+    'Cypress': Cypress,
+    'Flask': Flask,
+    'Postman': Postman,
+    'Vue': Vue,
   }
 
   return (

@@ -31,6 +31,10 @@ import Docker from './Docker.png';
 import FastAPI from './FastAPI.png';
 import Firebase from './Firebase.png';
 import MongoDB from './MongoDB.png';
+import Cypress from './Cypress.png';
+import Flask from './Flask.png';
+import Postman from './Postman.png';
+import Vue from './Vue.png';
 
 export {
   HTML,
@@ -65,5 +69,9 @@ export {
   Docker,
   FastAPI,
   Firebase,
-  MongoDB
+  MongoDB,
+  Cypress,
+  Flask,
+  Postman,
+  Vue,
 };
