@@ -12,14 +12,14 @@
   border-radius: 35%;}
 
 .skillspage ul {
-  margin: 100px;
+  margin: 75px;
 }
 
 .skillspage li {
   flex: 20%;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
   box-sizing: border-box;
 }
 
@@ -33,8 +33,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 25px;
-
+ 
   /* box-shadow: 0 0 10px 3px rgb(0, 123, 255); */
   /* box-shadow: 0 0 10px 3px rgb(0, 225, 255); */
 
@@ -49,6 +48,7 @@
 }
 
 .skillsCategory h3 {
+  margin-top: 10px;
   text-align: center;
   font-size: 25px;
   transform: translateY(25px);
@@ -272,6 +272,8 @@
 
   .skillsCategory {
     width: 100%;
+    max-height: auto;
+    height: auto; 
   }
 
 }
