@@ -5,6 +5,13 @@
   padding: 2vh 0 30vh 0;
 }
 
+.projectpage .sectionBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .projects {
   color: white;
 }
@@ -173,6 +180,27 @@
   background-image: none;
   transform: scale(1.15);
   transition: transform 0.5s;
+}
+
+/* SeeMore/SeeLess Button */
+
+.seeMorL {
+  cursor: pointer;
+  margin-top: 25px;
+  padding: 10px 15px;
+
+  font-size: 18px;
+  font-family: 'Space Grotesk', sans-serif;
+  color: lightblue;
+  background-color: inherit;
+  border-radius: 15px;
+  border: 2px solid lightblue;
+
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.seeMorL:hover {
+  transform: scale(1.05);
 }
 
 /* Animation Handling */

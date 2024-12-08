@@ -52,8 +52,8 @@ const ProjectPage = () => {
             ))}
           </ul>
         </div>
-        <button className="showMore" onClick={() => setShowAllProjects(!showAllProjects)}>
-          {showAllProjects ? 'Show Less' : 'Show More'}
+        <button className="seeMorL" onClick={() => setShowAllProjects(!showAllProjects)}>
+          {showAllProjects ? 'Show Less Projects' : 'Show More Projects'}
         </button>
       </div>
     </section>
