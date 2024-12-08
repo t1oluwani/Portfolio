@@ -88,6 +88,10 @@
       {
         "name": "Docker",
         "icon": "Docker"
+      },
+      {
+        "name": "Cypress",
+        "icon": "Cypress"
       }
     ]
   },
@@ -126,6 +130,14 @@
       {
         "name": "MongoDB",
         "icon": "MongoDB"
+      },
+      {
+        "name": "Flask",
+        "icon": "Flask"
+      },
+      {
+        "name": "VueJs",
+        "icon": "VueJs"
       }
     ]
   }
