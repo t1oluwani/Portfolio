@@ -1,7 +1,7 @@
 [
   {
     "category": "education",
-    "start": "2017-09-01",
+    "start": "2017-09-02",
     "end": "2020-06-30",
     "organization": "Harry Ainlay Composite High School",
     "title": "High School and IB Diploma (Honours)",
@@ -22,7 +22,7 @@
   },
   {
     "category": "education",
-    "start": "2020-09-01",
+    "start": "2020-09-02",
     "end": "2022-04-30",
     "organization": "The University of British Columbia",
     "title": "BS, Combined Major in Science",
@@ -45,7 +45,7 @@
   },
   {
     "category": "education",
-    "start": "2022-09-01",
+    "start": "2022-09-02",
     "end": "2025-04-31",
     "organization": "University of Alberta",
     "title": "Honors BS, Computing Science",
@@ -87,7 +87,7 @@
   },
   {
     "category": "experience",
-    "start": "2024-01-01",
+    "start": "2024-01-02",
     "end": "2024-04-30",
     "organization": "Knead Technologies",
     "title": "Student Software Developer",
@@ -110,7 +110,7 @@
   },
   {
     "category": "experience",
-    "start": "2025-02-01",
+    "start": "2025-02-02",
     "end": null,
     "organization": "ScaleupMap",
     "title": "Full Stack Developer",
