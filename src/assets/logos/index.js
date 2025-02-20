@@ -35,6 +35,10 @@ import Cypress from './Cypress.png';
 import Flask from './Flask.png';
 import Postman from './Postman.png';
 import Vue from './Vue.png';
+import Golang from './Golang.png';
+import Postgre from './Postgre.png';
+import DBeaver from './DBeaver.png';
+import PgAdmin from './PgAdmin.png';
 
 export {
   HTML,
@@ -74,4 +78,8 @@ export {
   Flask,
   Postman,
   Vue,
+  Golang,
+  Postgre,
+  DBeaver,
+  PgAdmin
 };

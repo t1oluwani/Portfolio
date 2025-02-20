@@ -3,7 +3,7 @@ import '../styling/skills.css';
 import {
   HTML, CSS, JavaScript, Racket, Java, C, Cpp, VsCode, IntelliJ, Python, Django, React, Node, Laravel, Linux, 
   Matlab, PHP, PowerShell, R, TypeScript, Insomnia, Pytorch, Express, Git, Docker, FastAPI, Firebase, MongoDB,
-  Cypress, Flask, Postman, Vue,
+  Cypress, Flask, Postman, Vue, Golang, Postgre, DBeaver, PgAdmin
 } from '../../assets/logos';
 
 const CategorySkill = ({ skill }) => {
@@ -40,6 +40,10 @@ const CategorySkill = ({ skill }) => {
     'Flask': Flask,
     'Postman': Postman,
     'Vue': Vue,
+    'Golang': Golang,
+    'Postgre': Postgre,
+    'DBeaver': DBeaver,
+    'PgAdmin': PgAdmin
   }
 
   return (

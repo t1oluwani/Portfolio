@@ -42,6 +42,10 @@
       {
         "name": "Racket",
         "icon": "Racket"
+      },
+      {
+        "name": "Go",
+        "icon": "Golang"
       }
     ]
   },
@@ -96,6 +100,14 @@
       {
         "name": "Postman",
         "icon": "Postman"
+      },
+      {
+        "name": "DBeaver",
+        "icon": "DBeaver"
+      },
+      {
+        "name": "PgAdmin",
+        "icon": "PgAdmin"
       }
     ]
   },
@@ -142,6 +154,10 @@
       {
         "name": "VueJs",
         "icon": "Vue"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "Postgre"
       }
     ]
   }
