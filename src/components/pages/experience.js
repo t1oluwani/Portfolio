@@ -10,8 +10,10 @@ const ExperiencePage = () => {
 
   console.log("ExperiencePage HasBeenSeen: ", hasBeenSeen);
 
-  const sortedTimelineData = timelineData.sort((a, b) => {
-    return new Date(b.end) - new Date(a.end);
+  const sortedTimelineData = timelineData.slice().sort((a, b) => {
+    const dateA = a.end ? new Date(a.end) : new Date(); // If null, treat as present day
+    const dateB = b.end ? new Date(b.end) : new Date();
+    return dateB - dateA; // Descending order (most recent first)
   });
 
   useEffect(() => {
