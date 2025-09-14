@@ -4,7 +4,7 @@ import Stars from './stars';
 
 const StarryNight = () => {
 
-  const [starNum, setStarNum] = useState(0);
+  const [starNum, setStarNum] = useState(500);
 
   const handleRangeChange = (event) => {
     setStarNum(event.target.value);
