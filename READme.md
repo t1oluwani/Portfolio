@@ -6,11 +6,6 @@ Welcome to my portfolio! This document provides an overview of the portfolio web
 
 This portfolio is designed to showcase the skills, projects, and experiences of Tioluwani Akinloye, a multidisciplinary developer and designer. The website utilizes React.js HTML and CSS, with react libraries for responsive design and Font Awesome for icons.
 
-## TODOs
-
-[ ] Change ScaleupMap location to be consistent with the rest
-[ ] Change default number of stars to be 500
-
 ## Features
 
 - Glow Cursor
