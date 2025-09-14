@@ -115,16 +115,16 @@
     "organization": "ScaleupMap",
     "title": "Full Stack Developer",
     "location": "Edmonton AB, Canada · Remote",
-    "details": "As a Full Stack Developer at ScaleupMap, I transform designs into fully functional code across both frontend and backend. I develop the frontend using React and Next.js, while handling backend development with Go and Python, and managing data with PostgreSQL. I collaborate with cross-functional teams to ensure seamless integration of features.",
+    "details": "As a Full Stack Developer at ScaleupMap, I transform designs into fully functional code across frontend and backend. I develop the frontend using React and Next.js, handle backend development with Go and Python, manage data with PostgreSQL through DBeaver, and work on creating AI services, agents, and chatbots leveraging Google Gemini.",
     "skills": [
       "Go (Programming Language)",
       "Python",
-      "JavaScript",
+      "GCP",
       "React.js",
       "Next.js",
       "PostgreSQL",
       "GitHub",
-      "Shortcut"
+      "Gemini"
     ]
   }
 ]
