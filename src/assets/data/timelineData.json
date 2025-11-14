@@ -131,8 +131,8 @@
     "category": "experience",
     "start": "2024-07-10",
     "end": "2024-12-15",
-    "organization": "Independent Research – Prof. George S. Cembrowski",
-    "title": "Research Assistant – Clinical AI & Technical Consulting",
+    "organization": "Independent Research - Prof. George S. Cembrowski",
+    "title": "Research Assistant - Clinical AI & Technical Consulting",
     "location": "Edmonton AB, Canada",
     "details": "Authored an 8-page consultation report evaluating commercial software, computer-vision frameworks, model-training feasibility, and PHI-safe video-analysis workflows. Defined MVP and ideal-product requirements (inversion counting, cap-color tube identification, face blurring). Coordinated and attended meetings with external experts to refine project scope and technical direction.",
     "skills": [
@@ -150,8 +150,8 @@
     "category": "experience",
     "start": "2024-10-18",
     "end": null,
-    "organization": "Independent Research – Prof. George S. Cembrowski",
-    "title": "Research Assistant – Clinical Informatics & LLM Analysis",
+    "organization": "Independent Research - Prof. George S. Cembrowski",
+    "title": "Research Assistant - Clinical Informatics & LLM Analysis",
     "location": "Edmonton AB, Canada",
     "details": "Performed large-scale literature synthesis on seasonal and diurnal variation across hematology, chemistry, and coagulation analytes. Produced a ~90-page analyte-by-analyte report comparing interpretations from three LLMs (ChatGPT, DeepSeek, Claude) with complete academic references.",
     "skills": [
