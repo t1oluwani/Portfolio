@@ -6,6 +6,8 @@ Welcome to my portfolio! This document provides an overview of the portfolio web
 
 This portfolio is designed to showcase the skills, projects, and experiences of Tioluwani Akinloye, a multidisciplinary developer and designer. The website utilizes React.js HTML and CSS, with react libraries for responsive design and Font Awesome for icons.
 
+Deployed on Netlify: https://tioluwaniportfolio.netlify.app/
+
 ## Features
 
 - Glow Cursor
