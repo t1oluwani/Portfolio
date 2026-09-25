@@ -111,7 +111,7 @@
   {
     "category": "experience",
     "start": "2025-02-02",
-    "end": null,
+    "end": "2026-06-02",
     "organization": "ScaleupMap",
     "title": "Full Stack Developer",
     "location": "Edmonton AB, Canada · Remote",
@@ -163,6 +163,57 @@
       "Prompt Engineering",
       "Research Analysis",
       "Scientific Referencing"
+    ]
+  },
+  {
+    "category": "experience",
+    "start": "2026-09-02",
+    "end": null,
+    "organization": "Simon Fraser University",
+    "title": "Research Assistant (RA)",
+    "location": "Burnaby BC, Canada · Hybrid",
+    "details": "For Project 15004: Experimental Study with Virtual Humanoid/Robot Model Development. Developing simple virtual models, such as joint-link systems for humanoid and robot applications; exploring open-source software design and development environments through applied tutorials; designing and evaluating user interaction methods with the developed models.",
+    "skills": [
+      "Robotics",
+      "Simulation",
+      "Joint-Link Systems",
+      "Open-Source Development",
+      "User Interaction Design",
+      "Software Architecture"
+    ]
+  },
+  {
+    "category": "experience",
+    "start": "2026-09-02",
+    "end": null,
+    "organization": "Simon Fraser University",
+    "title": "Teaching Assistant (TA)",
+    "location": "Burnaby BC, Canada · Hybrid",
+    "details": "For CMPT 125 Section D100: Introduction to Computing Science and Programming I. Lead weekly lab sessions covering core programming concepts; hold office hours to support undergraduate students; provide one-on-one debugging and coding assistance; grade assignments and exams; answer student questions on course forums.",
+    "skills": [
+      "Teaching",
+      "Python",
+      "Programming Fundamentals",
+      "Debugging",
+      "Mentorship",
+      "Grading",
+      "Student Support"
+    ]
+  },
+  {
+    "category": "education",
+    "start": "2026-09-02",
+    "end": null,
+    "organization": "Simon Fraser University",
+    "title": "Master of Visual Computing (Expected 2028)",
+    "location": "Burnaby BC, Canada",
+    "details": "",
+    "skills": [
+      "Machine Learning",
+      "Distributed Cloud Systems",
+      "Computer Vision",
+      "Python",
+      "PyTorch"
     ]
   }
 ]

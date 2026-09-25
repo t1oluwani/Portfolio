@@ -169,6 +169,44 @@
     ]
   },
   {
+    "display": true,
+    "identifier": "networking-startup",
+    "title": "Startup (Networking App)",
+    "description": "A mobile app startup I founded and led as technical lead, using LLMs and data contextualization to help users build their professional network.",    
+    "liveview": "",
+    "sourcecode": "",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "FastAPI",
+      "Supabase",
+      "Gemini API",
+      "GCP",
+      "Figma",
+      "System Architecture",
+      "UML Diagrams",
+      "Product Management"
+    ]
+  },
+  {
+    "display": true,
+    "identifier": "battlezone",
+    "title": "Battlezone (Atari)",
+    "description": "A recreation of the classic Atari Battlezone game, with dynamic AI-controlled enemy tanks capable of pathfinding and combat behaviour.",
+    "liveview": "",
+    "sourcecode": "",
+    "skills": [
+      "C++",
+      "OpenGL",
+      "3D Rendering",
+      "AI Pathfinding",
+      "AI Behavior",
+      "Collision Detection",
+      "Game Development",
+      "Performance Optimization"
+    ]
+  },
+  {
     "display": false,
     "identifier": "bearmaps",
     "title": "BearMaps",
